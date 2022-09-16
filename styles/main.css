@@ -1,0 +1,33 @@
+body {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 800px;
+}
+
+header {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+header img {
+    border: 1px solid white;
+}
+
+header,
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 0.5rem;
+}
