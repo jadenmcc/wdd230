@@ -1,9 +1,3 @@
-// Formatting for time display.
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-
-// Access DOM object for inserting the date.
-document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
-
 // Create instance of date object.
 const todaysdate = new Date();
 
@@ -13,3 +7,7 @@ let copyrightYear = todaysdate.getFullYear();
 let footer = document.querySelector("footer");
 let span = footer.querySelector("span");
 span.insertAdjacentText("beforeend", copyrightYear);
+
+// LAST MODIFIED DATE - For inserting the date the page was last modified.
+let oLastModif = new Date(document.lastModified);
+document.getElementById("lastmodified").textContent = oLastModif;
