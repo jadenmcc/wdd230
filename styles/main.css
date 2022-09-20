@@ -32,3 +32,15 @@ footer {
 footer {
     padding: 0.5rem 1.5rem;
 }
+
+h1 {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
