@@ -20,10 +20,6 @@ header {
     justify-items: center;
 }
 
-header img {
-    border: 1px solid white;
-}
-
 header,
 footer {
     background-color: green;
@@ -39,13 +35,14 @@ h1 {
     font-family: 'Bungee Spice', sans-serif;
 }
 
-h2 {
+h2,
+h3,
+h4 {
     font-family: 'Cairo', sans-serif;
     color: white;
 }
 
-p,
-ul {
+p {
     font-family: 'Roboto Condensed', sans-serif;
     color: #e8eaed;
 }
@@ -54,6 +51,25 @@ a {
     color: #C44900;
 }
 
-#home-assignments-container {
-    padding: 0 1.5rem;
+#card-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.card {
+    margin: 1rem 1rem;
+    border: 1px solid #e8eaed;
+}
+
+.card h4,
+.card p,
+.card img {
+    padding: 0 1em 0 1em;
+}
+
+.card h3 {
+    background-color: #00800083;
+    margin: 0;
+    padding: 1em;
+    font-size: 1rem;
 }

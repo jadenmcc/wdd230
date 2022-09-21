@@ -1,0 +1,14 @@
+Jet (Charcoal)
+#303030
+
+Ao English (Green)
+#008000
+
+Mahogany (Orange)
+#c44900
+
+Black Coral (Gray Blue)
+#4F5D75
+
+Cultured (Gray Blue White)
+#E8EAED
