@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        padding: 1.5rem;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    ul {
+        font-size: 1rem;
+    }
+
+}
