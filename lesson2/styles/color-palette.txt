@@ -5,7 +5,8 @@ Ao English (Green)
 #008000
 
 Mahogany (Orange)
-#c44900
+#c44900 <-- FAILS CONTRAST TEST AGAINST BACKGROUND!
+#FFB185 <-- PASSES.
 
 Black Coral (Gray Blue)
 #4F5D75
