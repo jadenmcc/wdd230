@@ -33,6 +33,12 @@ footer {
 
 h1 {
     font-family: 'Bungee Spice', sans-serif;
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0rem 1rem 1.25rem 1rem;
 }
 
 h2,
@@ -53,7 +59,7 @@ a {
 
 #card-container {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 100%;
 }
 
 .card {
@@ -62,25 +68,38 @@ a {
     border: 1px solid #e8eaed;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-    /* grid-template-rows: 1fr 1fr 1fr 10fr 8fr; */
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    /* grid-template-rows: auto auto auto auto auto; */
 }
 
 .card h3,
 .card h4,
 .card p {
     margin: 0;
-    padding: 0 1rem 0 1rem;
+    /* padding: 0 1rem 0 1rem; */
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .card h3 {
     background-color: #4F5D75;
-    font-size: 1rem;
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+}
+
+.card h4 {
+    font-size: 1.75rem;
+    color: #e8eaed;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.card p {
+    font-size: 1.45rem;
+    padding: .25rem 1rem 1rem 1rem;
 }
 
 .card img {
     max-width: 100%;
     height: auto;
     justify-self: stretch;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 1.5rem 0.5rem 1.75rem 0.5rem;
 }
