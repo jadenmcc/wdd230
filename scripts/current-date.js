@@ -10,4 +10,4 @@ span.insertAdjacentText("beforeend", copyrightYear);
 
 // LAST MODIFIED DATE - For inserting the date the page was last modified.
 let oLastModif = new Date(document.lastModified);
-document.getElementById("lastmodified").textContent = oLastModif;
+document.getElementById("last-modified").textContent = oLastModif;
