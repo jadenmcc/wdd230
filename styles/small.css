@@ -21,13 +21,13 @@ header {
 }
 
 header img {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
 }
 
 header,
 footer {
-    background-color: green;
-    color: #e8eaed;
+    background-color: #007000;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -41,17 +41,17 @@ h1 {
 
 h2 {
     font-family: 'Cairo', sans-serif;
-    color: white;
+    color: #FFFFFF;
 }
 
 p,
 ul {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #e8eaed;
+    color: #FFFFFF;
 }
 
 a {
-    color: #C44900;
+    color: #FFB185;
 }
 
 #home-assignments-container {
