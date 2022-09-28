@@ -1,3 +1,0 @@
-Purple: #5c587d
-
-Yellow: #f0ab30
