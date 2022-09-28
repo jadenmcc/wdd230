@@ -11,6 +11,24 @@ footer {
     max-width: 800px;
 }
 
+h1 {
+    color: #ffffff;
+    background: #132947;
+}
+
+h2 {
+    color: #fcba03;
+    background: #234577;
+}
+
+h3 {
+    color: #000000;
+}
+
+p {
+    color: #333333;
+}
+
 table {
     border-collapse: collapse;
 }
