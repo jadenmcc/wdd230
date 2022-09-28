@@ -11,6 +11,7 @@ footer {
     max-width: 800px;
 }
 
+/* === FLEX VERSION === */
 header {
     display: flex;
     flex-direction: row;
@@ -21,14 +22,17 @@ header {
 header img {
     flex-shrink: 1;
     max-width: 8rem;
-    margin: .5rem;
+    margin: .25rem;
+    padding: .25rem;
 }
 
 header h1 {
     flex-shrink: 1;
+    text-align: center;
     color: #333333;
     background: #ffffff;
-    margin: .5rem;
+    margin: .25rem;
+    padding: .25rem;
 }
 
 nav {
@@ -37,6 +41,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
     color: #f9fafa;
     background: #234577;
 }
@@ -51,7 +56,7 @@ nav div {
     margin: 1rem 2rem;
 }
 
-main {
+main div {
     margin: 1rem 1rem;
 }
 
@@ -61,11 +66,20 @@ footer p {
     background: #132947;
 }
 
+footer {
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    background: #132947;
+    background: #333333;
+    padding-left: .5rem;
 }
 
 h2 {
@@ -73,6 +87,7 @@ h2 {
     font-weight: 400;
     color: #fcba03;
     background: #234577;
+    padding-left: .5rem;
 }
 
 h3 {
@@ -103,7 +118,20 @@ th {
     background: #6a6a6a;
 }
 
-/* === TABLE COLOR & SAMPLE TEXT COLUMNS by cell === */
+
+/* ================ HOME PAGE ================ */
+.home-page-purpose-text {
+    font-size: 1.5rem;
+    background: rgba(35, 69, 119, 0.2);
+    padding: .5rem;
+}
+
+.home-page-purpose-heading {
+    padding-left: 1rem;
+}
+
+/* ================ TYPOGRAPHY PAGE ================ */
+/* +++ TABLE COLOR & SAMPLE TEXT COLUMNS by cell +++ */
 /* Site Header - Color, Sample Text */
 table tr:nth-child(2) td:nth-child(4),
 table tr:nth-child(2) td:nth-child(5) {
@@ -151,7 +179,7 @@ table tr:nth-child(8) td:nth-child(5) {
     color: #333333;
 }
 
-/* === TABLE SAMPLE TEXT COLUMN by cell === */
+/* +++ TABLE SAMPLE TEXT COLUMN by cell +++ */
 /* Site Header - Color, Sample Text */
 table tr:nth-child(2) td:nth-child(5) {
     font-size: 40px;
@@ -187,11 +215,71 @@ table tr:nth-child(8) td:nth-child(5) {
     font-size: 16px;
 }
 
+
+/* +++ h5 headings - Sample Typ. Cont'd. +++ */
 .typography-page-sample-text-heading {
     font-size: 1.5rem;
 }
 
-.home-page-purpose-text {
-    font-size: 1.5rem;
-    background: rgba(35, 69, 119, 0.2);
+/* +++ Sample Typography Continued +++ */
+.typography-page-sample-text-header {
+    color: #333333;
+    background: #ffffff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-nav {
+    color: #f9fafa;
+    background: #234577;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-footer {
+    color: #ffffff;
+    background: #132947;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-h1 {
+    color: #ffffff;
+    background: #333333;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-h2 {
+    color: #fcba03;
+    background: #234577;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-h3 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-p {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+    padding-left: .5rem;
+}
+.typography-page-sample-text-p-colored {
+    color: #ffffff;
+    background: #333333;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    padding-left: .5rem;
 }
