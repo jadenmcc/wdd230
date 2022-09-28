@@ -1,0 +1,197 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 800px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    flex-shrink: 1;
+    max-width: 8rem;
+    margin: .5rem;
+}
+
+header h1 {
+    flex-shrink: 1;
+    color: #333333;
+    background: #ffffff;
+    margin: .5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9fafa;
+    background: #234577;
+}
+
+nav div,
+nav a {
+    color: #f9fafa;
+    background: #234577;
+}
+
+nav div {
+    margin: 1rem 2rem;
+}
+
+main {
+    margin: 1rem 1rem;
+}
+
+footer,
+footer p {
+    color: #ffffff;
+    background: #132947;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: #132947;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fcba03;
+    background: #234577;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000000;
+    /* padding: 0 0 .25rem 0; */
+    padding: .5rem;
+    text-align: left;
+}
+
+th {
+    color: white;
+    background: #6a6a6a;
+}
+
+/* === TABLE COLOR & SAMPLE TEXT COLUMNS by cell === */
+/* Site Header - Color, Sample Text */
+table tr:nth-child(2) td:nth-child(4),
+table tr:nth-child(2) td:nth-child(5) {
+    color: #333333;
+    background: #ffffff;
+}
+
+/* Primary Navigation - Color, Sample Text */
+table tr:nth-child(3) td:nth-child(4),
+table tr:nth-child(3) td:nth-child(5) {
+    color: #f9fafa;
+    background: #234577;
+}
+
+/* Footer Navigation - Color, Sample Text */
+table tr:nth-child(4) td:nth-child(4),
+table tr:nth-child(4) td:nth-child(5) {
+    color: #ffffff;
+    background: #132947;
+}
+
+/* <h1> - Color, Sample Text */
+table tr:nth-child(5) td:nth-child(4),
+table tr:nth-child(5) td:nth-child(5) {
+    color: #ffffff;
+    background: #333333;
+}
+
+/* <h2> - Color, Sample Text */
+table tr:nth-child(6) td:nth-child(4),
+table tr:nth-child(6) td:nth-child(5) {
+    color: #fcba03;
+    background: #234577;
+}
+
+/* <h3> - Color, Sample Text */
+table tr:nth-child(7) td:nth-child(4),
+table tr:nth-child(7) td:nth-child(5) {
+    color: #000000;
+}
+
+/* <p> - Color, Sample Text */
+table tr:nth-child(8) td:nth-child(4),
+table tr:nth-child(8) td:nth-child(5) {
+    color: #333333;
+}
+
+/* === TABLE SAMPLE TEXT COLUMN by cell === */
+/* Site Header - Color, Sample Text */
+table tr:nth-child(2) td:nth-child(5) {
+    font-size: 40px;
+}
+
+/* Primary Navigation - Sample Text */
+table tr:nth-child(3) td:nth-child(5) {
+    font-size: 30px;
+}
+
+/* Footer Navigation - Sample Text */
+table tr:nth-child(4) td:nth-child(5) {
+    font-size: 20px;
+}
+
+/* <h1> - Sample Text */
+table tr:nth-child(5) td:nth-child(5) {
+    font-size: 30px;
+}
+
+/* <h2> - Sample Text */
+table tr:nth-child(6) td:nth-child(5) {
+    font-size: 25px;
+}
+
+/* <h3> - Sample Text */
+table tr:nth-child(7) td:nth-child(5) {
+    font-size: 20px;
+}
+
+/* <p> - Sample Text */
+table tr:nth-child(8) td:nth-child(5) {
+    font-size: 16px;
+}
+
+.typography-page-sample-text-heading {
+    font-size: 1.5rem;
+}
+
+.home-page-purpose-text {
+    font-size: 1.5rem;
+    background: rgba(35, 69, 119, 0.2);
+}
