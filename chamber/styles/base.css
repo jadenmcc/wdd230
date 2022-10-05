@@ -1,0 +1,12 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 800px;
+}
