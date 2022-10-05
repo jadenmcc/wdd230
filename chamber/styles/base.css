@@ -10,3 +10,59 @@ footer {
     margin: 1.25rem auto;
     max-width: 800px;
 }
+
+header {
+    color: #333333;
+    background: #ffffff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    color: #f9fafa;
+    background: #234577;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+footer,
+footer p,
+footer div p {
+    color: #ffffff;
+    background: #132947;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: #ffffff;
+    background: #333333;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: #fcba03;
+    background: #234577;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+}
