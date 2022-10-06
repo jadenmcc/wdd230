@@ -12,6 +12,9 @@ footer {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
     color: #333333;
     background: #ffffff;
     font-size: 40px;
@@ -19,12 +22,44 @@ header {
     font-weight: 700;
 }
 
+.container-logo-name {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
     color: #f9fafa;
     background: #234577;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+}
+
+nav ul.container-nav-socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav button {
+    background: transparent;
+    border: none;
+    color: #f9fafa;
+}
+
+nav a:link,
+nav a:visited {
+    color: #ffffff;
 }
 
 footer,
@@ -35,6 +70,11 @@ footer div p {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+}
+
+footer a:link,
+footer a:visited {
+    color: #ffffff;
 }
 
 h1 {
@@ -65,4 +105,16 @@ p {
     font-size: 16px;
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
+}
+
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
 }

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davis County Chamber of Commerce</title>
-    <meta name="description" content="Home page for 
-        the WDD-230 Term Project by Jaden McCarrey
-        at Brigham Young University-Idaho.">
+    <meta name="description" content="Home page for the Davis County
+        Chamber of Commerce - the WDD-230 Term Project by
+        Jaden McCarrey at Brigham Young University-Idaho.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -15,23 +15,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/currentDate.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
-        <h1>Davis County Chamber of Commerce</h1>
-        <p>[insert dynamic current date here: ex. Wednesday, 24 July 2020]</p>
+        <div class="container-logo-name">
+            <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+            <h1>Davis County Chamber of Commerce</h1>
+        </div>
         <nav>
-            <button>[hamburger button] (menu must start with hamburger in small and medium; visible in the large)</button>
-            <ul>
+            <ul class="container-nav-links">
                 <li><a href="">Link1</a></li>
                 <li><a href="">Link2</a></li>
                 <li><a href="">Link3</a></li>
                 <li><a href="">Link4</a></li>
-                <li><a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/DavisChamberUT" target="_blank">Twitter</a></li>
             </ul>
+            <ul class="container-nav-socials">
+                <li><a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a></li>
+                <li><a href="https://twitter.com/DavisChamberUT" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a></li>              
+            </ul>
+            <button><span>&#9776;</span><span>X</span></button>
         </nav>
+        <p id="currentDate"></p>
     </header>
     <main>
         <p>See instruction reference links for main placeholder content examples</p>
@@ -51,10 +56,10 @@
             <p>450 South Simmons Way Suite #220</p>
             <p>Kaysville, Utah 84037</p>
             <p>801-593-2200</p>
+            <p>&#x1F4CD; <a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Location Map</a></p>
         </div>
-        <p><a href="">📍 Location Map</a></p>
         <p><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
-        <p>Last Updated: <span id="last-modified"></span> [insert dynamic last modification date here]</p>
+        <p><span id="last-modified"></span></p>
     </footer>
     
 </body>
