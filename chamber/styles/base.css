@@ -261,21 +261,22 @@ footer div p.footer-contact-info.map {
 }
 
 footer div.footer-divider {
-    margin-top: 1vw;
+    margin: 2vw auto;
     border-bottom: 1px solid rgba(255,255,255,.5);
     width: 80%;
 }
 
-footer div.footer-container-fineprint {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5vw auto;
-    max-width: 300px;
+footer p.fineprint {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    margin: 2vw 2vw;
+    text-align: center;
 }
 
-footer div.footer-container-fineprint * {
+footer p.date-last-modified {
+    grid-column: 1/6;
+    grid-row: 4/5;
+    margin: 2vw 2vw 5vw 2vw;
     text-align: center;
-    margin: 1vw auto;
 }
 
