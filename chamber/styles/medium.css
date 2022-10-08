@@ -1,7 +1,37 @@
 /* MEDIUM */
 @media only screen and (min-width: 48rem) {
-    body {
-        /* background-color: yellow; */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    div.hero-image {
+        grid-column: 1/6;
+    }
+
+    div.news {
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+
+    div.company-spotlight {
+        grid-column: 1/6;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.join {
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+
+    div.event {
+        grid-column: 1/4;
+    }
+
+    div.weather {
+        grid-column: 4/6;
     }
 
 } /*end medium */

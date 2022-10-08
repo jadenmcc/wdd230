@@ -16,50 +16,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="scripts/currentDate.js" defer></script>
+    <script src="scripts/menuResponsive.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="container-logo-name">
+        <div class="header-phone-socials-container">
+            <section>
+                <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+            </section>
+            <section class="header-socials-subcontainer">
+                <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+            </section>
+        </div>
+        <div class="header-title-nav-container">
             <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
-            <h1>Davis County Chamber of Commerce</h1>
+            <h1>Davis Chamber of Commerce</h1>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
         </div>
         <nav>
-            <ul class="container-nav-links">
+            <ul id="primaryNav">
                 <li><a href="">Link1</a></li>
                 <li><a href="">Link2</a></li>
                 <li><a href="">Link3</a></li>
                 <li><a href="">Link4</a></li>
             </ul>
-            <ul class="container-nav-socials">
-                <li><a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a></li>
-                <li><a href="https://twitter.com/DavisChamberUT" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a></li>              
-            </ul>
-            <button><span>&#9776;</span><span>X</span></button>
         </nav>
-        <p id="currentDate"></p>
+        <div class="header-currentdate-container">
+            <p id="currentDate"></p>
+        </div>
     </header>
     <main>
-        <p>See instruction reference links for main placeholder content examples</p>
         <div class="placeholder-container hero-image"><p>Hero with site name and call to action</p></div>
         <div class="placeholder-container event"><p>Event</p></div>
         <div class="placeholder-container weather"><p>Weather</p></div>
         <div class="placeholder-container news"><p>News Release</p></div>
         <div class="placeholder-container join"><p>Join</p></div>
-        <div class="placeholder-container company-spotlight company-1"><p>Spotlight 1</p></div>
-        <div class="placeholder-container company-spotlight company-2"><p>Spotlight 2</p></div>        
-        <div class="placeholder-container company-spotlight company-3"><p>Spotlight 3</p></div>
+        <div class="placeholder-container company-spotlight">
+            <p class="company-card company-1">Spotlight 1</p>
+            <p class="company-card company-2">Spotlight 2</p>
+            <p class="company-card company-3">Spotlight 3</p>
+        </div>
     </main>
     <footer>
         <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
         <div class="contact-info-container">
-            <p>Davis Chamber of Commerce</p>
-            <p>450 South Simmons Way Suite #220</p>
-            <p>Kaysville, Utah 84037</p>
-            <p>801-593-2200</p>
-            <p>&#x1F4CD; <a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Location Map</a></p>
+            <h3>Davis Chamber of Commerce</h3>
+            <p class="footer-contact-info street">450 South Simmons Way Suite #220</p>
+            <p class="footer-contact-info city-state-zip">Kaysville, Utah 84037</p>
+            <p class="footer-contact-info phone">801-593-2200</p>
+            <p class="footer-contact-info map">&#x1F4CD; <a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Location Map</a></p>
         </div>
-        <p><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
-        <p><span id="last-modified"></span></p>
+        <div class="footer-divider"></div>
+        <!-- <p class="fineprint"><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
+        <p class="date-last-modified"><span id="last-modified"></span></p> -->
+        <div class="footer-container-fineprint">
+            <p class="fineprint"><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
+            <p class="date-last-modified"><span id="last-modified"></span></p>
+        </div>
     </footer>
     
 </body>

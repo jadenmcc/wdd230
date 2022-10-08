@@ -1,0 +1,609 @@
+====== HTML
+=== HEADER #1
+    <header>
+            <div class="header-container-contactinfo-socials">
+                <section>
+                    <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+                </section>
+                <section>
+                    <ul>
+                        <li><a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a></li>
+                        <li><a href="https://twitter.com/DavisChamberUT" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="header-container-branding-nav">
+                <section>
+                    <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+                    <h1>Davis County Chamber of Commerce</h1>
+                </section>
+                <nav>
+                    <ul class="container-nav-links">
+                        <li><a href="">Link1</a></li>
+                        <li><a href="">Link2</a></li>
+                        <li><a href="">Link3</a></li>
+                        <li><a href="">Link4</a></li>
+                    </ul>
+                    <button><span>&#9776;</span><span>X</span></button>
+                </nav>
+                <section>
+                    <p id="currentDate"></p>
+                </section>
+            </div>
+        </header>
+
+=== HEADER #2
+    <header>
+            <div class="header-container-contactinfo-socials">
+                <section>
+                    <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+                </section>
+                <section class="header-container-socials">
+                    <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                    <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+                </section>
+            </div>
+            <div class="header-container-branding-nav">
+                <section>
+                    <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+                    <h1>Davis County Chamber of Commerce</h1>
+                </section>
+                <nav>
+                    <ul class="container-nav-links">
+                        <li><a href="">Link1</a></li>
+                        <li><a href="">Link2</a></li>
+                        <li><a href="">Link3</a></li>
+                        <li><a href="">Link4</a></li>
+                    </ul>
+                    <button><span>&#9776;</span><span>X</span></button>
+                </nav>
+            </div>
+            <div>
+                <p id="currentDate"></p>
+            </div>
+        </header>
+
+=== HEADER #3
+    <header>
+            <div class="header-container-contactinfo-socials">
+                <section>
+                    <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+                </section>
+                <section class="header-container-socials">
+                    <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                    <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+                </section>
+            </div>
+            <div class="header-container-branding-nav">
+                <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+                <h1>Davis County Chamber of Commerce</h1>
+                <nav>
+                    <ul class="container-nav-links">
+                        <li><a href="">Link1</a></li>
+                        <li><a href="">Link2</a></li>
+                        <li><a href="">Link3</a></li>
+                        <li><a href="">Link4</a></li>
+                    </ul>
+                    <button><span>&#9776;</span><span>X</span></button>
+                </nav>
+            </div>
+            <div class="header-container-currentdate">
+                <p id="currentDate"></p>
+            </div>
+        </header>
+
+=== HEADER #4
+    <header>
+            <div class="header-container-contactinfo-socials">
+                <section>
+                    <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+                </section>
+                <section class="header-container-socials">
+                    <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                    <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+                </section>
+            </div>
+            <div class="header-container-branding-nav">
+                <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+                <h1>Davis County Chamber of Commerce</h1>
+                <nav>
+                    <ul id="primaryNav" class="container-nav-links">
+                        <li><a href="">Link1</a></li>
+                        <li><a href="">Link2</a></li>
+                        <li><a href="">Link3</a></li>
+                        <li><a href="">Link4</a></li>
+                    </ul>
+                    <button id="hamburgerBtn"><span>&#9776;</span></button>
+                </nav>
+            </div>
+            <div class="header-container-currentdate">
+                <p id="currentDate"></p>
+            </div>
+        </header>
+
+=== HEADER #5
+<header>
+        <div class="header-phone-socials-container">
+            <section>
+                <p>(801) 593-2200 | info@davischamberofcommerce.org</p>
+            </section>
+            <section class="header-socials-subcontainer">
+                <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+            </section>
+        </div>
+        <div class="header-title-nav-container">
+            <img src="/wdd230/chamber/images/WDD230-Chamber-of-Commerce-Icon-Logo-blue-gray-version-2022-09-27.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+            <h1>Davis County Chamber of Commerce</h1>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+        </div>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="">Link1</a></li>
+                <li><a href="">Link2</a></li>
+                <li><a href="">Link3</a></li>
+                <li><a href="">Link4</a></li>
+            </ul>
+        </nav>
+        <div class="header-currentdate-container">
+            <p id="currentDate"></p>
+        </div>
+    </header>
+
+====== CSS
+=== HEADER #4
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        background: #4e4e4e;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        max-width: 900px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        color: #333333;
+        background: #ffffff;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    header ul {
+        list-style: none;
+    }
+
+    header .header-container-contactinfo-socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333333;
+        width: 100%;
+    }
+
+    .header-container-socials img {
+        max-width: 2rem;
+    }
+
+    .header-container-contactinfo-socials p {
+        color: #ffffff;
+    }
+
+    header .header-container-branding-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #132947;
+        width: 100%;
+    }
+
+    .header-container-branding-nav img {
+        max-width: 6rem;
+        object-fit: contain;
+    }
+
+    .header-container-branding-nav h1 {
+        /* font-size: 3vw; */
+        font-size: max(3vw, 16px);
+        line-height: 1.25;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: #f9fafa;
+        background: #132947;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    nav ul {
+        display: none;
+        order: 2;
+    }
+
+    nav ul.open {
+        display: block;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    nav button {
+        align-self: flex-end;
+        order: 1;
+        background: transparent;
+        border: none;
+        color: #f9fafa;
+    }
+
+    nav a:link,
+    nav a:visited {
+        color: #ffffff;
+    }
+
+    header .header-container-currentdate {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #333333;
+        width: 100%;
+    }
+
+    header .header-container-currentdate p {
+        color: #ffffff;
+    }
+
+    footer,
+    footer p,
+    footer div p {
+        color: #ffffff;
+        background: #132947;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    footer a:link,
+    footer a:visited {
+        color: #ffffff;
+    }
+
+    h1 {
+        color: #ffffff;
+        background: #333333;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    h2 {
+        color: #fcba03;
+        background: #234577;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    h3 {
+        color: #000000;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    p {
+        color: #333333;
+        font-size: 16px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: normal;
+    }
+
+
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: underline;
+    }
+
+
+=== HEADER #5 CSS
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #4e4e4e;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        max-width: 900px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        color: #333333;
+        /* background-color: #132947; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    header ul {
+        list-style: none;
+    }
+
+    header div.header-phone-socials-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333333;
+        width: 100%;
+    }
+
+    .header-phone-socials-container section p {
+        color: #ffffff;
+        /* width: 80%;
+        text-align: center; */
+        font-size: 3vw;
+    }
+
+    .header-socials-subcontainer img {
+        max-width: 5vw;
+        margin: auto .5vw 2vw .5vw;
+    }
+
+    header div.header-title-nav-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #132947;
+        width: 100%;
+        min-height: 20vw;
+    }
+
+    .header-title-nav-container img {
+        max-width: 6rem;
+        object-fit: contain;
+    }
+
+    .header-title-nav-container h1 {
+        /* font-size: 3vw; */
+        font-size: max(4vw, 12px);
+        line-height: 1.25;
+    }
+
+    nav {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        width: 100%;
+        margin: 0 auto;
+        background-color: #234577;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.open {
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* align-content: stretch; */
+        /* justify-content: stretch; */
+        list-style-type: none;
+        /* width: 100%; */
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        flex-grow: 1;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        border: .5px solid #d0d4da;
+        /* width: 100%; */
+        color: #f9fafa;
+        background-color: #42546c;
+    }
+
+
+
+    nav ul li a {
+        display: block;
+        /* flex-grow: 1; */
+        margin: 0;
+        padding: 2vw;
+    }
+
+    nav button {
+        align-self: flex-end;
+        background-color: transparent;
+        border: none;
+        color: #f9fafa;
+    }
+
+    nav a:link,
+    nav a:visited {
+        color: #ffffff;
+    }
+
+    header .header-currentdate-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #333333;
+        width: 100%;
+    }
+
+    header .header-currentdate-container p {
+        color: #ffffff;
+        /* font-size: 3.5vw; */
+        margin: 1vw;
+    }
+
+    h1 {
+        color: #ffffff;
+        background-color: #333333;
+        /* font-size: 30px; */
+        font-size: min(7vw, 30px);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    h2 {
+        color: #fcba03;
+        background-color: #234577;
+        /* font-size: 25px; */
+        font-size: min(6vw, 25px);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    h3 {
+        color: #000000;
+        /* font-size: 20px; */
+        font-size: min(5vw, 20px);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    p {
+        color: #333333;
+        /* font-size: 16px; */
+        font-size: min(4vw, 16px);
+        font-family: 'Cabin', sans-serif;
+        font-weight: normal;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: underline;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main div {
+        display: flexbox;
+        flex-direction: column;
+        margin: 1vw;
+        border: 1px solid white;
+    }
+
+    main div p {
+        color: #ffffff;
+        margin: 2vw;
+        height: 25vw;
+    }
+
+    main div .company-card {
+        padding: 2vw;
+        margin: 2vw;
+        border: 1px solid gray;
+        height: 25vw;
+    }
+
+    footer,
+    footer p,
+    footer div p {
+        color: #ffffff;
+        background-color: #132947;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 3vw; */
+        /* width: 100%; */
+    }
+
+    footer a:link,
+    footer a:visited {
+        color: #ffffff;
+    }
+
+    footer img {
+        margin: 5vw auto 2vw auto;
+        max-width: 6rem;
+        object-fit: contain;
+    }
+
+    footer div.contact-info-container {
+        margin: auto auto 2vw auto;
+    }
+
+    footer div.contact-info-container * {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer div.contact-info-container h3 {
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    footer div p.footer-contact-info.phone {
+        margin: 2.5vw auto 2vw auto;
+        text-align: center;
+    }
+
+    footer div p.footer-contact-info.map {
+        margin: 2vw auto 2.5vw auto;
+        text-align: center;
+    }
+
+    footer div.footer-divider {
+        margin-top: 1vw;
+        border-bottom: 1px solid rgba(255,255,255,.5);
+        width: 80%;
+    }
+
+    footer div.footer-container-fineprint {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vw auto;
+        max-width: 300px;
+    }
+
+    footer div.footer-container-fineprint * {
+        text-align: center;
+        margin: 1vw auto;
+    }

@@ -1,7 +1,179 @@
 /* LARGE */
 @media only screen and (min-width: 64rem) {
-    body {
-        /* background-color: green; */
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: .5fr 2fr .5fr;
     }
 
+    header div.header-phone-socials-container {
+        grid-column: 1/6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr; */
+    }
+
+    
+
+    header div.header-title-nav-container {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .header-title-nav-container img {
+        grid-column: 1/2;
+        max-width: 5vw;
+    }
+
+    .header-title-nav-container h1 {
+        grid-column: 2/4;
+        font-size: min(3vw, 18px);
+    }
+
+    .header-title-nav-container button {
+        display: none;
+    }
+
+    header nav {
+        grid-column: 3/6;
+    }
+    
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 0;
+    }
+
+    nav ul li {
+        /* margin: 0;
+        padding: 0; */
+    }
+    
+    nav ul li a {
+        /* margin: 0;
+        padding: 0; */
+    }
+
+    div.header-currentdate-container {
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    div.hero-image {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    div.news {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    div.company-spotlight {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    div.join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    div.event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    div.weather {
+        grid-column: 1/2;
+        grid-row: 2/3
+    }
+
+    main div .company-card.company-3 {
+        display: block;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr .125fr .5fr;
+        justify-items: center;
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    footer img {
+        padding: 0;
+        margin: 0;
+        max-width: 8rem;
+    }
+
+    footer div.contact-info-container {
+        grid-column: 2/6;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    footer div.contact-info-container h3,
+    footer div.contact-info-container .street,
+    footer div.contact-info-container .city-state-zip {
+        grid-column: 1/2;
+    }
+
+    footer div p.footer-contact-info.phone {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer div p.footer-contact-info.map {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer div.footer-divider {
+        grid-column: 1/6;
+        grid-row: 2/3;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer div.footer-container-fineprint {
+        grid-column: 1/6;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer div.footer-container-fineprint p.fineprint,
+    footer div.footer-container-fineprint p.date-last-modified {
+        text-align: initial;
+        padding: 0;
+        margin: 0;
+        /* font-size: 1vw; */
+        /* min-width: 250px; */
+    }
 } /*end large */
