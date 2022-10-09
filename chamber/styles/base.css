@@ -188,7 +188,7 @@ main div {
     flex-direction: column;
     margin: 1vw;
     border: 1px solid white;
-    background-color: gray;
+    background-color: #575757;
 }
 
 main div p {
