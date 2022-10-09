@@ -35,7 +35,7 @@ header div.header-phone-socials-container {
     width: 100%;
 }
 
-.header-phone-socials-container section p {
+.header-phone-socials-container div.container-header-contact-info p {
     color: #ffffff;
     /* width: 80%;
     text-align: center; */
