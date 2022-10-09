@@ -248,6 +248,7 @@ footer div.contact-info-container * {
 footer div.contact-info-container h2 {
     color: #ffffff;
     background-color: transparent;
+    font-size: min(5vw, 20px);
     font-weight: 700;
 }
 

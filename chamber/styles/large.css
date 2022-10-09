@@ -199,6 +199,10 @@
         grid-column: 1/2;
     }
 
+    div.contact-info-container h2 {
+        font-size: min(5vw, 20px);
+    }
+
     footer div p.footer-contact-info.phone {
         grid-column: 2/3;
         grid-row: 2/3;
