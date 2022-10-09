@@ -193,7 +193,7 @@
         width: 100%;
     }
 
-    footer div.contact-info-container h3,
+    footer div.contact-info-container h2,
     footer div.contact-info-container .street,
     footer div.contact-info-container .city-state-zip {
         grid-column: 1/2;

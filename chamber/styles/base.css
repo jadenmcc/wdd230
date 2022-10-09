@@ -245,8 +245,9 @@ footer div.contact-info-container * {
     margin: 0;
 }
 
-footer div.contact-info-container h3 {
+footer div.contact-info-container h2 {
     color: #ffffff;
+    background-color: transparent;
     font-weight: 700;
 }
 
