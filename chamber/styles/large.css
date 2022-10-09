@@ -63,6 +63,7 @@
         padding: 0;
         margin: 1vw;
         max-width: 8vw;
+        /* height: 100%; */
     }
 
     .header-title-nav-container h1 {
@@ -87,7 +88,8 @@
         height: 100%;
     }
     
-    nav ul {
+    nav ul,
+    nav ul.open {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 10px;
