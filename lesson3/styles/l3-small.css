@@ -327,7 +327,7 @@ div.persona-card {
 }
 
 .persona-card table td {
-    padding: 1vw 1vw;
+    padding: 1vw 1.5vw;
     vertical-align: top;
 }
 
@@ -350,18 +350,19 @@ div.persona-card {
 }
 
 p.persona-subtitle {
-    margin: 3vw auto;
+    margin: 3vw auto 1vw auto;
     padding: 2vw auto;
     font-weight: 700;
     color: #ffffff;
 }
 
 p.persona-text {
-    margin: 3vw auto;
+    margin: 1vw auto 3vw auto;
     padding: 1vw auto;
     color: #ffffff;
 }
 
 .motives-subcontainer hr {
+    margin: 5vw auto;
     width: 50%;
 }
