@@ -128,45 +128,15 @@ header .header-currentdate-container {
     width: 100%;
 }
 
-header .header-currentdate-container p {
+p.header-currentdate {
     color: #ffffff;
-    /* font-size: 3.5vw; */
     margin: 1vw;
-}
-
-h1 {
-    color: #ffffff;
-    background-color: #333333;
-    /* font-size: 30px; */
-    font-size: min(7vw, 30px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-h2 {
-    color: #fcba03;
-    background-color: #234577;
-    /* font-size: 25px; */
-    font-size: min(6vw, 25px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-h3 {
-    color: #000000;
-    /* font-size: 20px; */
-    font-size: min(5vw, 20px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-p {
-    color: #333333;
-    /* font-size: 16px; */
-    font-size: min(4vw, 16px);
+    font-size: min(3.5vw, 16px);
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
 }
+
+
 
 a:link,
 a:visited {
@@ -178,14 +148,17 @@ a:active {
     text-decoration: underline;
 }
 
+/* ====================== MAIN ======================*/
 main {
     display: flex;
     flex-direction: column;
 }
 
+
 main div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1vw;
     border: 1px solid white;
     background-color: #575757;
@@ -194,20 +167,179 @@ main div {
 main div p {
     color: #ffffff;
     margin: 2vw;
-    height: 25vw;
+    /* height: 25vw; */
+}
+
+/* ------------------ ALL CARDS ------------------*/
+.card-container {
+    box-shadow: #FCBA03;
+}
+
+.card-heading {
+    font-size: 6.25vw;
+    font-weight: 700;
+    color: #FCBA03; /* LARGE text safe */
+    /* color: #FDD977; NORMAL text safe */
+    background-color: #234577;
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-subheading {
+    font-size: 5.75vw;
+    text-align: center;
+}
+
+p.card-normal-p {
+    font-size: 4.5vw;
+    margin: 4vw;
+}
+
+.card-container button {
+    margin: 2vw;
+    width: 50%;
+    height: 10vw;
+    color: #ffffff;
+    background-color: orange;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* ////////// end ALL CARDS */
+
+/* ++++++++ HERO CARD +++++++++ */
+
+.hero-img {
+    position: relative;
+}
+
+/* ////////// end HERO CARD */
+
+/* ++++++++ EVENT CARD +++++++++ */
+
+/* ////////// end EVENT CARD */
+
+/* ++++++++ WEATHER CARD +++++++++ */
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.weather p.card-heading {
+    grid-column: 1/3;
+    margin: 2vw 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.weather img {
+    width: 40vw;
+}
+
+p.temperature {
+    font-size: 10vw;
+}
+
+.weather span {
+    font-family: 'Cabin', sans-serif;
+}
+
+.forecast {
+    grid-column: 1/3;
+    justify-self: end;
+    margin-right: 5vw;
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.weather hr {
+    grid-column: 1/3;
+    width: 90%;
+}
+
+.weather table {
+    grid-column: 1/3;
+    margin: 2vw auto;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+
+.weather table tbody {
+    /* margin: auto 10vw; */
+}
+
+.weather table td {
+    margin: auto 5vw;
+    text-align: center;
+}
+
+/* ////////// end WEATHER CARD */
+
+/* ++++++++ NEWS CARD +++++++++ */
+
+/* ////////// end NEWS CARD */
+
+/* ++++++++ JOIN CARD +++++++++ */
+.join {
+    display: none;
+}
+/* ////////// end JOIN CARD */
+
+/* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
+
+main div.company-spotlight {
+    /* min-width: 100%; */
 }
 
 main div .company-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 2vw;
     margin: 2vw;
     border: 1px solid #ffffff;
-    height: 25vw;
+    min-height: 100%;
 }
 
 main div .company-card.company-3 {
     display: none;
 }
 
+.company-card p.card-heading {
+    width: 100%;
+}
+
+.company-card img {
+    /* max-width: 20vw; */
+}
+
+p.company-tagline {
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+}
+
+.company-card hr {
+    width: 90%;
+}
+
+p.spotlight-fineprint {
+    font-size: 5vw;
+    width: 80%;
+    text-align: center;
+    min-height: 100%;
+}
+/* ////////// end COMPANY SPOTLIGHT CARD */
+
+/* ///////////////////////////////////////// end MAIN */
+
+
+/* ====================== FOOTER ======================*/
 footer,
 footer p,
 footer div p {
@@ -282,3 +414,36 @@ footer p.date-last-modified {
     text-align: center;
 }
 
+h1 {
+    color: #ffffff;
+    background-color: #333333;
+    /* font-size: 30px; */
+    font-size: min(7vw, 30px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: #fcba03;
+    background-color: #234577;
+    /* font-size: 25px; */
+    font-size: min(6vw, 25px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #000000;
+    /* font-size: 20px; */
+    font-size: min(5vw, 20px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+p {
+    color: #333333;
+    /* font-size: 16px; */
+    /* font-size: min(4vw, 16px); */
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+}
