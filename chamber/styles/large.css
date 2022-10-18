@@ -308,6 +308,14 @@
     .forecast {
         font-size: 1rem;
     }
+
+    main div:nth-child(3) hr {
+        margin: .5rem;
+    }
+
+    main div:nth-child(3) td {
+        padding: .1rem .7rem;
+    }
     /* ////////// end WEATHER CARD */
 
     /* ///////////////////////////////////////// end MAIN */

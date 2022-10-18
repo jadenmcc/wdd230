@@ -307,6 +307,8 @@ main div:nth-child(3) table {
     margin: 1vw 1vw 3vw 1vw;
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
+    justify-self: stretch;
+    text-align: center;
 }
 /* ////////// end WEATHER CARD */
 

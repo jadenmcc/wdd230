@@ -201,6 +201,10 @@
     main div:nth-child(3) table {
         margin: auto;
     }
+
+    main div:nth-child(3) td {
+        padding: .1rem .75rem;
+    }
     /* ////////// end WEATHER CARD */
 
     /* ///////////////////////////////////////// end MAIN */
