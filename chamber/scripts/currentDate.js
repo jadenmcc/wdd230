@@ -25,3 +25,19 @@ span.insertAdjacentText('beforeend', copyrightYear);
 // document.getElementById('last-modified').textContent = dateLastModified.toLocaleString('en-US');
 
 document.querySelector('#last-modified').textContent = `Last Updated: ${document.lastModified}`;
+
+// === MEETING BANNER ===
+
+const dayOfTheWeek = todaysDate.getDay();
+
+const meetingBanner = document.getElementById('meetingBanner');
+
+// Next two lines are for testing the banner condition:
+// const fakeDate = new Date('October 19, 2022 23:15:30');
+// const dayOfTheWeek = fakeDate.getDay();
+
+if (dayOfTheWeek != 1 && dayOfTheWeek != 2) {
+    meetingBanner.style.display = "none";
+} else {
+    meetingBanner.style.display = "block";
+};

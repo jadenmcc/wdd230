@@ -12,131 +12,52 @@ footer {
     max-width: 900px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    color: #333333;
-    /* background-color: #132947; */
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-header ul {
-    list-style: none;
-}
-
-header div.header-phone-socials-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333333;
-    width: 100%;
-}
-
-.header-phone-socials-container div.container-header-contact-info p {
-    color: #ffffff;
-    /* width: 80%;
-    text-align: center; */
-    font-size: 3vw;
-}
-
-.header-socials-subcontainer img {
-    max-width: 5vw;
-    margin: auto .5vw 2vw .5vw;
-}
-
-header div.header-title-nav-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    background-color: #132947;
-    width: 100%;
-    min-height: 20vw;
-}
-
-.header-title-nav-container img {
-    margin-left: 3vw;
-    max-width: 25vw;
-    object-fit: contain;
-}
-
-.header-title-nav-container h1 {
-    grid-column: 2/5;
-    margin-left: 3vw;
-    font-size: max(4vw, 12px);
-    line-height: 1.25;
-    background-color: transparent;
-}
-
-.header-title-nav-container button {
-    grid-column: 6/7;
-    border: none;
-    font-size: 6vw;
-    background-color: transparent;
-    color: #f9fafa;
-}
-
-nav {
-    width: 100%;
-    /* height: 100%; */
-    margin: 0 auto;
-    background-color: #132947;
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    color: #FCBA03;
+    background-color: #132947;
 }
 
-nav ul {
-    display: none;
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: white;
 }
 
-nav ul.open {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    border: .5px solid #d0d4da;
-    color: #f9fafa;
-    background-color: #42546c;
-    width: 100%;
-}
-
-nav ul li a {
-    display: block;
-    margin: 0;
-    padding: 2vw;
-    text-align: center;
-}
-
-nav a:link,
-nav a:visited {
-    color: #ffffff;
-}
-
-header .header-currentdate-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #333333;
-    width: 100%;
-}
-
-p.header-currentdate {
-    color: #ffffff;
-    margin: 1vw;
-    font-size: min(3.5vw, 16px);
+p {
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
+    color: white;
 }
 
+/* ====================== BANNER ======================*/
+.banner {
+    margin: 0 auto;
+    max-width: 900px;
+}
 
+.banner p {
+    margin: 0;
+    padding: .5rem 0;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #FCBA03;
+}
+
+/* ====================== HEADER ======================*/
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: #132947;
+}
 
 a:link,
 a:visited {
@@ -148,192 +69,275 @@ a:active {
     text-decoration: underline;
 }
 
-/* ====================== MAIN ======================*/
-main {
+/* ++++++++ CONTACT +++++++++ */
+header div:nth-child(1) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.25vw;
+    background-color: #1b1b1b;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
 }
 
+header div:nth-child(1) section {
+    font-size: 2.5vw;
+    color: white;
+    letter-spacing: .75px;
+}
 
+header div:nth-child(1) a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div:nth-child(1) img {
+    max-width: 5vw;
+    align-self: center;
+}
+/* ////////// end CONTACT */
+
+/* ++++++++ NAV BAR +++++++++ */
+header div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div:nth-child(2) img {
+    margin: 5vw 3vw;
+    max-width: 50vw;
+    object-fit: contain;
+}
+
+header div:nth-child(2) div {
+    align-self: center;
+}
+
+header div:nth-child(2) div button {
+    margin: 5vw 3vw;
+    border: none;
+    font-size: 6vw;
+    color: white;
+    background-color: transparent;
+}
+/* ////////// end NAV BAR */
+
+/* ++++++++ NAV +++++++++ */
+nav {
+    display: none;
+}
+
+nav ul {
+    display: none;
+    padding-left: 0;
+}
+
+nav.open {
+    display: block;
+    margin: 0;
+}
+
+nav ul.open {
+    display: block;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+}
+
+nav ul li {
+    margin: 0;
+    border-top: 1px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+nav ul li a {
+    display: block;
+    padding: 3vw 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* ////////// end NAV */
+
+/* ++++++++ CURRENT DATE +++++++++ */
+header section:nth-child(4) {
+    padding: .5vw;
+    color: white;
+    background-color: #1b1b1b;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+}
+/* ////////// end CURRENT DATE */
+
+/* ///////////////////////////////////////// end HEADER */
+
+/* ====================== MAIN ======================*/
+
+
+/* ------------------ ALL CARDS ------------------*/
 main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vw;
-    border: 1px solid white;
-    background-color: #575757;
-}
-
-main div p {
-    color: #ffffff;
-    margin: 2vw;
-    /* height: 25vw; */
-}
-
-/* ------------------ ALL CARDS ------------------*/
-.card-container {
-    box-shadow: #FCBA03;
-}
-
-.card-heading {
-    font-size: 6.25vw;
-    font-weight: 700;
-    color: #FCBA03; /* LARGE text safe */
-    /* color: #FDD977; NORMAL text safe */
-    background-color: #234577;
-    text-align: center;
-    vertical-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.card-subheading {
-    font-size: 5.75vw;
-    text-align: center;
-}
-
-p.card-normal-p {
-    font-size: 4.5vw;
     margin: 4vw;
+    border: 1px solid black;
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.card-container button {
-    margin: 2vw;
-    width: 50%;
-    height: 10vw;
-    color: #ffffff;
-    background-color: orange;
-    font-family: 'Cabin', sans-serif;
+main div button {
+    padding: 1.5vw 5vw;
+    margin: 4vw;
+    border: none;
+    font-size: 1.25rem;
+    background-color: #FCBA03;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
+main div h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto auto auto;
+    line-height: 2.25;
+}
+
+main div h3 {
+    text-align: center;
+    margin: 5vw 3vw;
+}
 /* ////////// end ALL CARDS */
 
 /* ++++++++ HERO CARD +++++++++ */
-
-.hero-img {
+div.hero-card {
     position: relative;
 }
 
+.hero-card h2 {
+    position: absolute;
+    top: 5vw;
+    margin: auto;
+    line-height: normal;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+}
+
+.hero-card img {
+    max-width: 100%;
+}
+
+.hero-card button {
+    position: absolute;
+    top: 25vw;
+}
 /* ////////// end HERO CARD */
 
 /* ++++++++ EVENT CARD +++++++++ */
-
+main div:nth-child(2) p {
+    margin: 4vw 3vw;
+    text-align: justify;
+}
 /* ////////// end EVENT CARD */
 
 /* ++++++++ WEATHER CARD +++++++++ */
-.weather {
+main div:nth-child(3) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    align-items: center;
-    max-width: 100%;
 }
 
-.weather p.card-heading {
+main div:nth-child(3) h2 {
     grid-column: 1/3;
-    margin: 2vw 0;
+    justify-self: center;
+}
+
+main div:nth-child(3) img {
     max-width: 100%;
-    height: auto;
+    width: 35vw;
 }
 
-.weather img {
-    width: 40vw;
-}
-
-p.temperature {
-    font-size: 10vw;
-}
-
-.weather span {
-    font-family: 'Cabin', sans-serif;
+.temperature {
+    font-size: 15vw;
+    color: white;
+    margin: 1vw;
 }
 
 .forecast {
     grid-column: 1/3;
     justify-self: end;
-    margin-right: 5vw;
-    font-size: 6vw;
-    font-weight: 700;
+    margin: 0 5vw 0 0;
+    font-size: 7vw;
+    color: white;
 }
 
-.weather hr {
+main div:nth-child(3) hr {
     grid-column: 1/3;
     width: 90%;
 }
 
-.weather table {
+main div:nth-child(3) table {
     grid-column: 1/3;
-    margin: 2vw auto;
-    width: 100%;
-    color: #ffffff;
+    color: white;
+    margin: 1vw 1vw 3vw 1vw;
     font-family: 'Cabin', sans-serif;
+    font-weight: normal;
 }
-
-.weather table tbody {
-    /* margin: auto 10vw; */
-}
-
-.weather table td {
-    margin: auto 5vw;
-    text-align: center;
-}
-
 /* ////////// end WEATHER CARD */
 
 /* ++++++++ NEWS CARD +++++++++ */
+main div:nth-child(4) p {
+    margin: 4vw 3vw;
+    text-align: justify;
+}
 
 /* ////////// end NEWS CARD */
 
 /* ++++++++ JOIN CARD +++++++++ */
-.join {
+main div:nth-child(5) {
     display: none;
 }
 /* ////////// end JOIN CARD */
 
 /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
-
-main div.company-spotlight {
-    /* min-width: 100%; */
-}
-
-main div .company-card {
+main div:nth-child(6) div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2vw;
-    margin: 2vw;
-    border: 1px solid #ffffff;
-    min-height: 100%;
+    /* text-align: center; */
 }
 
-main div .company-card.company-3 {
-    display: none;
-}
-
-.company-card p.card-heading {
-    width: 100%;
-}
-
-.company-card img {
-    /* max-width: 20vw; */
-}
-
-p.company-tagline {
-    font-size: 5vw;
-    width: 100%;
+main div:nth-child(6) div h3 {
     text-align: center;
+    color: white;
 }
 
-.company-card hr {
+main div:nth-child(6) div hr {
     width: 90%;
 }
 
-p.spotlight-fineprint {
-    font-size: 5vw;
-    width: 80%;
+main div:nth-child(6) div p {
+    margin: 5vw 15vw;
     text-align: center;
-    min-height: 100%;
+    color: white;
 }
+
+main div:nth-child(6) div:nth-child(3) {
+    display: none;
+}
+
 /* ////////// end COMPANY SPOTLIGHT CARD */
 
 /* ///////////////////////////////////////// end MAIN */
@@ -412,38 +416,4 @@ footer p.date-last-modified {
     grid-row: 4/5;
     margin: 2vw 2vw 5vw 2vw;
     text-align: center;
-}
-
-h1 {
-    color: #ffffff;
-    background-color: #333333;
-    /* font-size: 30px; */
-    font-size: min(7vw, 30px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-h2 {
-    color: #fcba03;
-    background-color: #234577;
-    /* font-size: 25px; */
-    font-size: min(6vw, 25px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-h3 {
-    color: #000000;
-    /* font-size: 20px; */
-    font-size: min(5vw, 20px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-p {
-    color: #333333;
-    /* font-size: 16px; */
-    /* font-size: min(4vw, 16px); */
-    font-family: 'Cabin', sans-serif;
-    font-weight: normal;
 }

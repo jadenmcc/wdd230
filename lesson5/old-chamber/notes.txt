@@ -1,0 +1,21 @@
+====== COLOR SCHEME
+=== ALTERNATE
+This is from MDN.
+
+Background
+dark: #1b1b1b
+gray: #4e4e4e
+black: #000
+
+Accents
+red: #ff6d91
+blue: 8cb4ffb3
+yellow: #afa100
+green: #00b755
+
+=== COOLORS
+dark gray: 333333
+dark blue: 132947
+yellow: FCA311
+light gray: D2D7DF
+off white: FBFBF2

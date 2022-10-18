@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davis County Chamber of Commerce</title>
+    <meta name="description" content="Home page for the Davis County
+        Chamber of Commerce - the WDD-230 Term Project by
+        Jaden McCarrey at Brigham Young University-Idaho.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/currentDate.js" defer></script>
+    <script src="scripts/menuResponsive.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-phone-socials-container">
+            <div class="container-header-contact-info">
+                <p class="header-contact-info">(801) 593-2200 | info@davischamberofcommerce.org</p>
+            </div>
+            <div class="header-socials-subcontainer">
+                <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+                <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+            </div>
+        </div>
+        <div class="header-title-nav-container">
+            <img src="/wdd230/chamber/images/wdd230-chamber-of-commerce-icon-logo-blue-gray-version.png" alt="DCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+            <h1>Davis Chamber of Commerce</h1>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+        </div>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+                <li><a href="">Link 4</a></li>
+            </ul>
+        </nav>
+        <div class="header-currentdate-container">
+            <p class="header-currentdate" id="currentDate"></p>
+        </div>
+    </header>
+    <main>
+        <div class="card-container hero-banner">
+            <p class="hero-heading">Uniting the Business Community</p>
+            <img class="hero-img" src="images/wdd230-chamber-home-page-headers.jpg" alt="Business opening ceremony with Davic Chamber members.">
+            <button class="hero-button">JOIN TODAY</button>
+        </div>
+        <div class="card-container event">
+            <p class="card-heading">Special Chamber Event</p>
+            <p class="card-subheading">2022 Annual Business Awards Banquet</p>
+            <p class="card-normal-p">You're invited to this year's Business Awards Banquet on 
+                Thursday, September 29th, 2022 at the ...
+            </p>
+            <button>READ MORE</button>
+        </div>
+        <div class="card-container weather">
+            <p class="card-heading">Weather</p>
+            <img src="images/weather-icon-white.png" alt="Weather icon. Credit Muammar Khalid https://thenounproject.com/browse/icons/term/weather/">
+            <p class="temperature">51<span>&#8457;</span></p>
+            <p class="forecast">Partly Sunny</p>
+            <hr>
+            <table>
+                <tr>
+                    <td>Wind Speed:</td>
+                    <td>3.9 mp/h</td>
+                </tr>
+                <tr>
+                    <td>Wind Chill:</td>
+                    <td>N/A</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-container news">
+            <p class="card-heading">News Release</p>
+            <p class="card-subheading">Layton High Teen Center Ribbon Cutting</p>
+            <p class="card-normal-p">
+                We welcomed Davis County’s 4th Teen Center today - 
+                this time at Layton High School. What an incredible 
+                accomplishment! Thanks ...
+            </p>
+            <button>READ MORE</button>
+        </div>
+        <div class="card-container join">
+            <button>JOIN NOW</button>
+            <p>
+                There is power in connections! Join the Davis County 
+                Chamber of Commerce today and reap the rewards of being 
+                part of the biggest and best business organization in 
+                Davis County.
+            </p>
+        </div>
+        <div class="card-container company-spotlight">
+            <div class="company-card company-1">
+                <p class="card-heading">Thankful Transport</p>
+                <img src="images/thankful-transport-logo-180x180.png" alt="Thankful Transport company logo.">
+                <p class="company-tagline">"We get it there for you!"</p>
+                <hr>
+                <p class="spotlight-fineprint">hello@thankfultransport.com | +801-345-5807 | <a href="">Website</a></p>
+            </div>
+            <div class="company-card company-2">
+                <p class="card-heading">Code Primera</p>
+                <img src="images/code-primera-logo-180x180.png" alt="company logo.">
+                <p class="company-tagline">An after-school coding instructional program.</p>
+                <hr>
+                <p class="spotlight-fineprint">contact@codeprimera.com | +385-919-6866 | <a href="">Website</a></p>
+            </div>
+            <div class="company-card company-3">
+                <p class="card-heading">Build A Treefort</p>
+                <img src="images/build-a-tree-fort-logo-180x180.png" alt="company logo.">
+                <p class="company-tagline">Over 1,000 Plans!</p>
+                <hr>
+                <p class="spotlight-fineprint">builda@treefort.com | +801-351-5661 | <a href="">Website</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="/wdd230/chamber/images/wdd230-chamber-of-commerce-icon-logo-blue-gray-version.png" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+        <div class="contact-info-container">
+            <h2>Davis Chamber of Commerce</h2>
+            <p class="footer-contact-info street">450 South Simmons Way Suite #220</p>
+            <p class="footer-contact-info city-state-zip">Kaysville, Utah 84037</p>
+            <p class="footer-contact-info phone">801-593-2200</p>
+            <p class="footer-contact-info map">&#x1F4CD; <a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Location Map</a></p>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="fineprint"><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
+        <p class="date-last-modified"><span id="last-modified"></span></p>
+    </footer>
+    
+</body>
+</html>
