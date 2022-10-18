@@ -225,13 +225,25 @@ div.hero-card {
     position: relative;
 }
 
+.hero-card h1 {
+    position: absolute;
+    top: 8vw;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0;
+}
+
 .hero-card h2 {
     position: absolute;
-    top: 5vw;
+    top: 18vw;
     margin: auto;
+    font-size: .9rem;
     line-height: normal;
     text-align: center;
-    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
     color: white;
     background-color: transparent;
 }

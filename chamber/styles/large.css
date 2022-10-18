@@ -116,10 +116,16 @@
         grid-row: 1/3;
     }
 
-    .hero-card h2 {
+    .hero-card h1 {
         font-size: 2.25rem;
         top: initial;
-        bottom: 18rem;
+        bottom: 16rem;
+    }
+
+    .hero-card h2 {
+        font-size: 1.2rem;
+        top: initial;
+        bottom: 13rem;
         margin: 0 0;
     }
 
@@ -129,7 +135,7 @@
     }
 
     .hero-card button {
-        bottom: 1rem;
+        bottom: 7rem;
         top: initial;
         padding: 1rem 3rem;
         font-size: 1.5rem;
