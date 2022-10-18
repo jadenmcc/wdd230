@@ -54,7 +54,7 @@
 
     .hero-card h2 {
         margin: auto 5vw;
-        padding: auto 5vw;
+        padding: .5vw 5vw;
         font-size: 6vw;
         width: initial;
     }
