@@ -82,7 +82,7 @@ header div:nth-child(1) {
     font-weight: normal;
 }
 
-header div:nth-child(1) section {
+header div:nth-child(1) div {
     font-size: 2.5vw;
     color: white;
     letter-spacing: .75px;
@@ -97,7 +97,7 @@ header div:nth-child(1) a {
 }
 
 header div:nth-child(1) img {
-    max-width: 5vw;
+    max-width: 4vw;
     align-self: center;
 }
 /* ////////// end CONTACT */
@@ -171,7 +171,7 @@ nav ul li a {
 /* ////////// end NAV */
 
 /* ++++++++ CURRENT DATE +++++++++ */
-header section:nth-child(4) {
+header div:nth-child(4) {
     padding: .5vw;
     color: white;
     background-color: #1b1b1b;

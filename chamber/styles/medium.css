@@ -2,8 +2,10 @@
 @media only screen and (min-width: 48rem) {
     /* ====================== HEADER ======================*/
     /* ++++++++ CONTACT +++++++++ */
-    header div:nth-child(1) section {
-        font-size: 2vw;
+    header div:nth-child(1) div {
+        padding: 0;
+        font-size: .75rem;
+        letter-spacing: 1.25px;
     }
     header div:nth-child(1) img {
         max-width: 3vw;
@@ -20,7 +22,7 @@
     /* ////////// end NAV */
 
     /* ++++++++ CURRENT DATE +++++++++ */
-    header section:nth-child(4) {
+    header div:nth-child(4) {
         font-size: 2vw;
     }
     /* ////////// end CURRENT DATE */
