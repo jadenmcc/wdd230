@@ -338,6 +338,11 @@ main div:nth-child(6) div:nth-child(3) {
     display: none;
 }
 
+main div:nth-child(6) div a:link,
+main div:nth-child(6) div a:visited {
+    color: white;
+}
+
 /* ////////// end COMPANY SPOTLIGHT CARD */
 
 /* ///////////////////////////////////////// end MAIN */
