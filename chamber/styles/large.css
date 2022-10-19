@@ -127,6 +127,7 @@
         top: initial;
         bottom: 13rem;
         margin: 0 0;
+        padding: 0;
     }
 
     .hero-card img {
