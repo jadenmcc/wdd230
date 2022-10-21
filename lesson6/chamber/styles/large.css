@@ -130,22 +130,10 @@
         padding: 0;
     }
 
-    /* WEEK 6 */
-    .hero-card picture {
-        height: 100%
-    }
-
-    /* WEEK 6 */
     .hero-card img {
-        height: 100%;
         object-fit: cover;
+        height: 100%;
     }
-
-    /* WEEK 5 ...I think */
-    /* .hero-card img {
-        object-fit: cover;
-        height: 100%;
-    } */
 
     .hero-card button {
         bottom: 7rem;

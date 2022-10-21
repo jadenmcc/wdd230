@@ -6,14 +6,10 @@ body {
 
 header,
 nav,
+main,
 footer {
     margin: 1.25rem auto;
-    max-width: 100%;
-}
-
-main {
-    max-width: 97%;
-    margin: auto;
+    max-width: 95%;
 }
 
 h1 {
@@ -252,37 +248,19 @@ div.hero-card {
     background-color: transparent;
 }
 
-/* WEEK 5 */
-/* .hero-card img {
-    max-width: 100%;
-} */
+.hero-card picture.myphoto {
+    width: 80%;
+    border: 1px red dashed;
+}
 
-/* WEEK 6 */
-.hero-card picture {
-    /* border: 1px red dashed; */
+.hero-card picture.myphoto img {
     width: 100%;
 }
 
-/* WEEK 6 */
-.hero-card img {
-    width: 100%;
-    height: 100%;
-    /* border: 1px orange dashed; */
-    object-fit: cover;
-}
-
-/* WEEK 5 */
-/* .hero-card button {
-    position: absolute;
-    top: 25vw;
-} */
-
-/* WEEK 6 */
 .hero-card button {
     position: absolute;
     top: 25vw;
 }
-
 /* ////////// end HERO CARD */
 
 /* ++++++++ EVENT CARD +++++++++ */
