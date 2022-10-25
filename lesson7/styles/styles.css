@@ -19,6 +19,7 @@ main {
 h1 {
     align-self: center;
     color: white;
+    text-align: center;
 }
 
 picture {
@@ -28,11 +29,11 @@ picture {
     margin: 1rem;
 }
 
-img {
-    align-self: center;
-}
-
 /* img {
+    align-self: center;
+} */
+
+img {
     align-self: center;
     filter: blur(0em);
     transition: filter 0.5s;
@@ -40,5 +41,5 @@ img {
 
 img[data-src] {
     filter: blur(0.2em);
-} */
+}
 

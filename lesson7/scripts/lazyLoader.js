@@ -31,5 +31,3 @@ if ('IntersectionObserver' in window) {
         loadImages(img);
     });
 };
-
-// Try running console with breaks to see what's happening.
