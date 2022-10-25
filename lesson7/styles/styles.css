@@ -30,5 +30,11 @@ picture {
 
 img {
     align-self: center;
+    /* filter: blur(0em);
+    transition: filter 0.5s; */
+}
+
+img[data-src] {
+    /* filter: blur(0.2em); */
 }
 
