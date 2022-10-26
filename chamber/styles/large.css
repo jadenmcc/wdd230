@@ -6,29 +6,29 @@
         grid-template-columns: 1fr 2fr .5fr;
     }
     /* ++++++++ CONTACT +++++++++ */
-    header div:nth-child(1) {
+    .contact {
         grid-column: 3/4;
         grid-row: 1/2;
         padding: 0;
         background-color: #132947;
     }
 
-    header div:nth-child(1) div {
+    .contact div {
         display: none;
     }
 
-    header div:nth-child(1) img {
+    .contact img {
         max-width: 1.5rem;
     }
     /* ////////// end CONTACT */
 
     /* ++++++++ NAV BAR +++++++++ */
-    header div:nth-child(2) img {
+    .logo-hamburgerbtn img {
         max-width: 13rem;
         margin: auto 1rem auto 1rem;
     }
 
-    header div:nth-child(2) div {
+    .logo-hamburgerbtn div {
         display: none;
     }
     /* ////////// end NAV BAR */
@@ -64,7 +64,7 @@
     /* ////////// end NAV */
 
     /* ++++++++ CURRENT DATE +++++++++ */
-    header div:nth-child(4) {
+    .date-container {
         grid-column: 1/4;
         font-size: 1rem;
     }
@@ -156,28 +156,28 @@
     /* ////////// end HERO CARD */
 
     /* ++++++++ NEWS CARD +++++++++ */
-    main div:nth-child(4) {
+    .news-card {
         grid-column: 2/3;
         grid-row: 3/4;
         justify-content: space-between;
     }
     
-    main div:nth-child(4) h2 {
+    .news-card h2 {
         align-self: start;
     }
 
-    main div:nth-child(4) p {
+    .news-card p {
         font-size: 1rem;
         margin: .5rem 1.5rem;
     }
 
-    main div:nth-child(4) button {
+    .news-card button {
         margin-bottom: 1rem;
     }
     /* ////////// end NEWS CARD */
 
     /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
-    main div:nth-child(6) {
+    .spotlight-container {
         grid-column: 3/4;
         grid-row: 1/4;
         display: flex;
@@ -188,113 +188,113 @@
         box-shadow: none;
     }
     /* ___All Spotlight Cards___ */
-    main div:nth-child(6) div {
+    .spotlight-container div {
         display: flex;
         flex-direction: column;
         align-items: stretch;
         margin: .1rem .1rem;
     }
 
-    main div:nth-child(6) div h2 {
+    .spotlight-container div h2 {
         /* margin: .1rem .1rem; */
         font-size: 1.5rem;
         width: initial;
         line-height: 1.75;
     }
 
-    main div:nth-child(6) img {
+    .spotlight-container img {
         margin: 0rem 0rem;
         object-fit: contain;
         max-width: 8rem;
         align-self: center;
     }
 
-    main div:nth-child(6) div h3 {
+    .spotlight-container div h3 {
         margin: .5rem 1rem;
         font-size: 1.25rem;
     }
 
-    main div:nth-child(6) div hr {
+    .spotlight-container div hr {
         align-self: center;
         width: 90%;
         margin: .1rem;
     }
 
-    main div:nth-child(6) div p {
+    .spotlight-container div p {
         margin: 1rem 1rem;
         font-size: 1rem;
         letter-spacing: 1px;
     }
     /* ___Spotlight Card 1___ */
-    main div:nth-child(6) div:nth-child(1) {
+    .spotlight-container div:nth-child(1) {
         /* poo */
     }
 
-    main div:nth-child(6) div:nth-child(1) h2 {
+    .spotlight-container div:nth-child(1) h2 {
         /* width: 25%; */
     }
 
-    main div:nth-child(6) div:nth-child(1) h3 {
+    .spotlight-container div:nth-child(1) h3 {
         margin: .5rem 1rem;
     }
     /* ___Spotlight Card 2___ */
-    main div:nth-child(6) div:nth-child(2) h3 {
+    .spotlight-container div:nth-child(2) h3 {
         margin: .5rem 1rem;
     }
     /* ___Spotlight Card 3___ */
-    main div:nth-child(6) div:nth-child(3) {
+    .spotlight-container div:nth-child(3) {
         display: flex;
         flex-direction: column;
     }
-    main div:nth-child(6) div:nth-child(3) h2 {
+    .spotlight-container div:nth-child(3) h2 {
         align-self: stretch;
     }
-    /* main div:nth-child(6) div:nth-child(3) img {
+    /* .spotlight-container div:nth-child(3) img {
         max-width: 10rem;
     } */
-    main div:nth-child(6) div:nth-child(3) .treefort-img {
+    .spotlight-container div:nth-child(3) .treefort-img {
         width: 8rem;
     }
     /* ////////// end COMPANY SPOTLIGHT CARD */
 
     /* ++++++++ JOIN CARD +++++++++ */
-    main div:nth-child(5) {
+    .join-card {
         grid-column: 1/2;
         grid-row: 3/4;
         justify-content: space-evenly;
     }
 
-    main div:nth-child(5) button {
+    .join-card button {
         font-size: 1.15rem;
         margin: 1rem auto;
     }
 
-    main div:nth-child(5) p {
+    .join-card p {
         margin: .5rem 1rem;
         font-size: 1rem;
     }
     /* ////////// end JOIN CARD */
 
     /* ++++++++ EVENT CARD +++++++++ */
-    main div:nth-child(2) {
+    .event-card {
         grid-column: 1/2;
         grid-row: 1/2;
         margin: .1rem;
         justify-content: space-between;
     }
 
-    main div:nth-child(2) p {
+    .event-card p {
         font-size: 1rem;
         margin: .5rem .75rem;
     }
 
-    main div:nth-child(2) button {
+    .event-card button {
         margin-bottom: 1.25rem;
     }
     /* ////////// end EVENT CARD */
 
     /* ++++++++ WEATHER CARD +++++++++ */
-    main div:nth-child(3) {
+    .weather-card {
         grid-column: 1/2;
         grid-row: 2/3;
         margin: .1rem;
@@ -302,13 +302,13 @@
         grid-template-rows: max-content max-content max-content max-content max-content;
     }
 
-    main div:nth-child(3) h2 {
+    .weather-card h2 {
         margin: 0;
         align-self: start;
         justify-self: stretch;
     }
 
-    main div:nth-child(3) img {
+    .weather-card img {
         width: 4rem;
         margin: .1rem;
     }
@@ -322,11 +322,11 @@
         font-size: 1rem;
     }
 
-    main div:nth-child(3) hr {
+    .weather-card hr {
         margin: .5rem;
     }
 
-    main div:nth-child(3) td {
+    .weather-card td {
         padding: .1rem .7rem;
     }
     /* ////////// end WEATHER CARD */
