@@ -22,12 +22,12 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="contact">
             <div>(801) 593-2200 | info@davischamberofcommerce.org</div>
             <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
             <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
         </div>
-        <div>
+        <div class="logo-hamburgerbtn">
             <img src="images/wdd230-chamber-of-commerce-icon-logo-blue-gray-with-text-version.webp" alt="DCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
             <div><button id="hamburgerBtn"><span>&#9776;</span></button></div>
         </div>
@@ -40,52 +40,209 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <div class="header-currentdate" id="currentDate"></div>
+        <div class="date-container" id="currentDate"></div>
     </header>
     <main>
         <h1>Discover</h1>
         <div class="last-visit-container">
             <p class="last-visit">Last Visit: XX days</p>
         </div>
+        <div class="demographics-container">
+            <h2>Demographics</h2>
+            <h3 class="demographics-h3">Geography</h3>
+            <p class="demographics-p">
+                According to the United States Census 
+                Bureau, the city has a total area of 
+                10.0 square miles (25.8 km2), of which 
+                9.8 square miles (25.5 km2) is land and 
+                0.1 square miles (0.2 km2), or 0.96%, 
+                is water.
+            </p>
+            <h3 class="demographics-h3">Population & Density</h3>
+            <p class="demographics-p">
+                In the 2010 census there were 18,275 
+                people, 5,148 households, and 2,769 
+                families residing in the city with an 
+                average family size of 3.41. The 
+                population density was 1,557.8 people 
+                per square mile (601.1/km2). There 
+                were 5,339 housing units at an 
+                average density of 414.7 per square 
+                mile (160.0/km2).
+            </p>
+            <h3 class="demographics-h3">Income</h3>
+            <p class="demographics-p">
+                The median income for a household in 
+                the city was $74,250, and the median 
+                income for a family was $78,492. 
+                Males had a median income of $56,847 
+                versus $30,464 for females. The per 
+                capita income for the city was $24,407.
+            </p>
+            <h3 class="demographics-h3">Ethnic Diversity</h3>
+            <p class="demographics-p">
+                The racial makeup of the city was 
+                95.1% White, 0.7% African American, 
+                0.3% Native American, 0.9% Asian, 
+                0.3% Pacific Islander, 1.0% from 
+                other races, and 1.6% from two or 
+                more races. Hispanic or Latino of 
+                any race were 2.98% of the population.
+            </p>
+            <h3 class="demographics-h3">Age & Gender</h3>
+            <p class="demographics-p">
+                In the city, the population was 
+                spread out, with 37.0% under the 
+                age of 18, 11.4% from 18 to 24, 
+                27.1% from 25 to 44, 19.0% from 45 to 
+                64, and 5.4% who were 65 years of age 
+                or older. The median age was 26 years. 
+                For every 100 females, there were 109.2 
+                males. For every 100 females age 18 and 
+                over, there were 109.4 males.
+            </p>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-card">
+                <picture>
+                    <img src="images/lagoon-amusement-park-960x644-compressed.webp" data-src="" alt="A family riding a roller coater at Lagoon theme park.">
+                </picture>
+                <p class="gallery-p">
+                    Lagoon - Utah’s only theme park 
+                    and the largest family-owned 
+                    amusement park in the country.
+                </p>
+            </div>
+            <div class="gallery-card">
+                <picture>
+                    <img src="images/ford-canyon-overlook-trail-768x576.jpg" data-src="" alt="">
+                </picture>
+                <p class="gallery-p">
+                    One of many beautiful vistas of
+                    Farmington seen along the Ford 
+                    Canyon Overlook Trail.
+                </p>
+            </div>
+            <div class="gallery-card">
+                <picture>
+                    <img src="images/main-street-farmington-750x500.webp" data-src="" alt="">
+                </picture>
+                <p class="gallery-p">
+                    Historic Main Street - the
+                    original founding site of
+                    Farmington city and Davis
+                    County.
+                </p>
+            </div>
+            <div class="gallery-card">
+                <picture>
+                    <img src="images/farmington-station-fullsize.jpeg" data-src="" alt="">
+                </picture>
+                <p class="gallery-p">
+                    Farmington Station - A shopping
+                    plaza, park, and commuter rail 
+                    station combined.
+                </p>
+            </div>
+            <div class="gallery-card">
+                <picture>
+                    <img src="images/rail-trail-900x600-min.jpg" data-src="" alt="">
+                </picture>
+                <p class="gallery-p">
+                    The Rail-To-Trail system is a 
+                    repurpose project providing 
+                    over 3 miles of scenic trails 
+                    for bikers and pedestrians.
+                </p>
+            </div>
+        </div>
+
+
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
         <div class="picture-card">
             <picture>
-                <img src="" data-src="" alt="">
+                <img src="images/lagoon-amusement-park-960x644-compressed.webp" data-src="" alt="A family riding a roller coater at Lagoon Amusement park.">
             </picture>
             <h2>Lagoon</h2>
             <p>
-                Utah’s only theme park and the largest family-owned 
-                amusement park in the country, Lagoon is where your 
-                adrenaline rush does roller coaster loops on the rides 
-                or rapids in Lagoon A Beach and much more.
+                Utah’s only theme park and the 
+                largest family-owned amusement park 
+                in the country, Lagoon is where your 
+                adrenaline rush does roller coaster 
+                loops on the rides or rapids in 
+                Lagoon A Beach and much more.
             </p>
         </div>
         <div class="picture-card">
             <picture>
-                <img src="images/lagoon-amusement-park-960x644-compressed.webp" alt="A family riding a roller coater at Lagoon Amusement park.">
+                <img src="images/flag-rock-trail-davis-county.webp" alt="Vista view of Davis County facing west.">
             </picture>
-            <h2>Image Title</h2>
-            <p>Description of image. Statistical/demographic data.</p>
+            <h2>Population & Growth</h2>
+            <p>
+                Farmington’s population estimate as 
+                of 2022 is 79,978 from the U.S. 
+                Census Bureau. The Mountainland 
+                Association of Governments projects 
+                that by 2050, Farmington’s 
+                population will be 124,436.
+            </p>
         </div>
         <div class="picture-card">
             <picture>
                 <img src="" data-src="" alt="">
             </picture>
-            <h2>Image Title</h2>
-            <p>Description of image. Statistical/demographic data.</p>
+            <h2>Income</h2>
+            <p>
+                The median income for a household in 
+                the city was $74,250, and the median 
+                income for a family was $78,492. 
+                Males had a median income of $56,847 
+                versus $30,464 for females. The per 
+                capita income for the city was $24,407.
+            </p>
         </div>
         <div class="picture-card">
             <picture>
                 <img src="" data-src="" alt="">
             </picture>
-            <h2>Image Title</h2>
-            <p>Description of image. Statistical/demographic data.</p>
+            <h2>Ethnic Diversity</h2>
+            <p>
+                The racial makeup of the city was 
+                95.1% White, 0.7% African American, 
+                0.3% Native American, 0.9% Asian, 
+                0.3% Pacific Islander, 1.0% from 
+                other races, and 1.6% from two or 
+                more races. Hispanic or Latino of 
+                any race were 2.98% of the population.
+            </p>
         </div>
         <div class="picture-card">
             <picture>
                 <img src="" data-src="" alt="">
             </picture>
-            <h2>Image Title</h2>
-            <p>Description of image. Statistical/demographic data.</p>
+            <h2>Age & Gender</h2>
+            <p>
+                In the city, the population was 
+                spread out, with 37.0% under the 
+                age of 18, 11.4% from 18 to 24, 
+                27.1% from 25 to 44, 19.0% from 45 to 
+                64, and 5.4% who were 65 years of age 
+                or older. The median age was 26 years. 
+                For every 100 females, there were 109.2 
+                males. For every 100 females age 18 and 
+                over, there were 109.4 males.
+            </p>
         </div>
     </main>
     <footer>

@@ -468,10 +468,22 @@ footer p.date-last-modified {
 /* ====================== DISCOVER PAGE ======================*/
 /* ====================== DISCOVER PAGE ======================*/
 
-main div.picture-card {
-    display: block;
+.picture-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* display: block; */
 }
-main div.picture-card img {
+
+.picture-card picture {
+    grid-row: 1/2;
+}
+
+.picture-card img {
     max-width: 100%;
-    width: initial;
+    /* width: initial; */
+}
+
+.gallery-card img {
+    object-fit: contain;
+    max-width: 100%;
 }
