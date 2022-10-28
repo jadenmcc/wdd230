@@ -193,12 +193,15 @@ nav ul li a {
 
 /* ------------------ ALL CARDS ------------------*/
 main div {
+    border: 1px solid black;
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+main.home div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 4vw;
-    border: 1px solid black;
-    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 main div button {
@@ -467,13 +470,29 @@ footer p.date-last-modified {
 /* ====================== DISCOVER PAGE ======================*/
 /* ====================== DISCOVER PAGE ======================*/
 /* ====================== DISCOVER PAGE ======================*/
+main.discover {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 main.discover h1 {
     color: #ffffff;
     background-color: #333333;
     text-align: center;
 }
 
-main.discover h3 {
+div.last-visit-container {
+    margin: 10% 10%;
+    box-shadow: none;
+    text-align: center;
+}
+
+div.demographics-container {
+    margin: 5%;
+}
+
+.demographics-container h3 {
     font-weight: 700;
     margin: 5.5% auto auto auto;
 }
@@ -486,6 +505,14 @@ main.discover h3 {
     margin: 4.8% 5%;
 }
 
+div.gallery-container {
+    margin: 5%;
+}
+
+.gallery-card {
+    margin: 5% 2%;
+}
+
 .gallery-card img {
     object-fit: contain;
     max-width: 100%;
@@ -496,10 +523,9 @@ main.discover h3 {
 }
 
 /* OBSOLETE? */
-.picture-card {
+/* .picture-card {
     display: grid;
     grid-template-columns: 1fr;
-    /* display: block; */
 }
 
 .picture-card picture {
@@ -508,6 +534,5 @@ main.discover h3 {
 
 .picture-card img {
     max-width: 100%;
-    /* width: initial; */
-}
+} */
 /* ///////////////// */

@@ -30,20 +30,20 @@
     /* ///////////////////////////////////////// end HEADER */
 
     /* ======================= MAIN =======================*/
-    main {
+    main.home {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     /* ------------------ ALL CARDS ------------------*/
-    main div {
+    main.home div {
         margin: 2vw;
     }
 
-    main div h2 {
+    main.home div h2 {
         font-size: 3.75vw;
     }
-    main div h3 {
+    main.home div h3 {
         font-size: 3vw;
         margin: 5vw 5vw;
     }
@@ -220,8 +220,54 @@
 
     /* ///////////////////////////////////////// end MAIN */
 
-    
-    
+
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    main.discover {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        /* justify-items: start; */
+    }
+
+    main.discover h1 {
+        grid-column: 1/3;
+        margin: 6% 0;
+        font-size: 3rem;
+    }
+
+    div.last-visit-container {
+        grid-column: 1/3;
+        /* grid-row: 2/3; */
+        margin: 5% 15%;
+    }
+
+    div.demographics-container {
+        grid-column: 2/3;
+        margin: .5rem 1%;
+    }
+
+    div.gallery-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: .5rem 1%;
+    }
+
+    .gallery-card picture {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .gallery-card picture img {
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .gallery-card picture:hover img {
+        padding: 5%;
+    }
 
 
 } /*end medium */

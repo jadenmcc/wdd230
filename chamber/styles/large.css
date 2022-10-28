@@ -75,7 +75,7 @@
     /* ======================= MAIN =======================*/
     /* ======================= MAIN =======================*/
     /* ======================= MAIN =======================*/
-    main {
+    main.home {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr .5fr 1fr;
@@ -85,7 +85,7 @@
     }
 
     /* ------------------ ALL CARDS ------------------*/
-    main div {
+    main.home div {
         margin: .1rem .1rem .1rem .1rem;
     }
 
@@ -405,4 +405,13 @@
         padding: 0;
         margin: 0;
     }
+
+
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    main.discover h1 {
+        margin: 4% 0;
+    }
+
 } /*end large */
