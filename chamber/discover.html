@@ -19,6 +19,7 @@
     <script src="scripts/currentDate.js" defer></script>
     <script src="scripts/menuResponsive.js" defer></script>
     <script src="scripts/lastSessionDays.js" defer></script>
+    <script src="scripts/lazyLoader.js" defer></script>
 </head>
 <body>
     <header>
@@ -42,7 +43,7 @@
         </nav>
         <div class="date-container" id="currentDate"></div>
     </header>
-    <main>
+    <main class="discover">
         <h1>Discover</h1>
         <div class="last-visit-container">
             <p class="last-visit-p"><span class="label">Days Since Last Visit: </span><span class="last-visit"></span></p>
@@ -58,6 +59,7 @@
                 0.1 square miles (0.2 km2), or 0.96%, 
                 is water.
             </p>
+            <hr>
             <h3 class="demographics-h3">Population & Density</h3>
             <p class="demographics-p">
                 In the 2010 census there were 18,275 
@@ -70,6 +72,7 @@
                 average density of 414.7 per square 
                 mile (160.0/km2).
             </p>
+            <hr>
             <h3 class="demographics-h3">Income</h3>
             <p class="demographics-p">
                 The median income for a household in 
@@ -79,6 +82,7 @@
                 versus $30,464 for females. The per 
                 capita income for the city was $24,407.
             </p>
+            <hr>
             <h3 class="demographics-h3">Ethnic Diversity</h3>
             <p class="demographics-p">
                 The racial makeup of the city was 
@@ -89,6 +93,7 @@
                 more races. Hispanic or Latino of 
                 any race were 2.98% of the population.
             </p>
+            <hr>
             <h3 class="demographics-h3">Age & Gender</h3>
             <p class="demographics-p">
                 In the city, the population was 
@@ -105,7 +110,14 @@
         <div class="gallery-container">
             <div class="gallery-card">
                 <picture>
-                    <img src="images/lagoon-amusement-park-960x644-compressed.webp" data-src="" alt="A family riding a roller coater at Lagoon theme park.">
+                    <source media="(max-width: 767px)" srcset="images/placeholder-550x369.webp" data-srcset="images/lagoon-amusement-park-small-550x369.webp">
+                    <source media="(max-width: 1023px)" srcset="images/placeholder-768x515.webp" data-srcset="images/lagoon-amusement-park-medium-768x515.webp">
+                    <source media="(max-width: 1099px)" srcset="images/placeholder-1024x687.webp" data-srcset="images/lagoon-amusement-park-large-1024x687.webp">
+                    <img src="images/placeholder-960x644.webp" data-src="images/lagoon-amusement-park-960x644-compressed.webp" alt="A family riding a roller coater at Lagoon.">
+                    <!-- <source media="(max-width: 767px)" srcset="images/placeholder-550x369.webp" data-srcset="images/wdd230-org-small-550.webp">
+                    <source media="(max-width: 1023px)" srcset="images/placeholder-768x515.webp" data-srcset="images/wdd230-org-medium-768.webp">
+                    <source media="(max-width: 1099px)" srcset="images/placeholder-1024x687.webp" data-srcset="images/wdd230-org-large-1024.webp">
+                    <img src="images/placeholder-1920-1288.webp" data-src="images/wdd230-org-1100.webp" alt="Three business people sitting at a table."> -->
                 </picture>
                 <p class="gallery-p">
                     Lagoon - Utah’s only theme park 

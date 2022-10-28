@@ -467,7 +467,35 @@ footer p.date-last-modified {
 /* ====================== DISCOVER PAGE ======================*/
 /* ====================== DISCOVER PAGE ======================*/
 /* ====================== DISCOVER PAGE ======================*/
+main.discover h1 {
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+}
 
+main.discover h3 {
+    font-weight: 700;
+    margin: 5.5% auto auto auto;
+}
+
+.demographics-container hr {
+    width: 80%;
+}
+
+.demographics-p {
+    margin: 4.8% 5%;
+}
+
+.gallery-card img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.gallery-p {
+    margin: 4.8% 5%;
+}
+
+/* OBSOLETE? */
 .picture-card {
     display: grid;
     grid-template-columns: 1fr;
@@ -482,8 +510,4 @@ footer p.date-last-modified {
     max-width: 100%;
     /* width: initial; */
 }
-
-.gallery-card img {
-    object-fit: contain;
-    max-width: 100%;
-}
+/* ///////////////// */
