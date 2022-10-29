@@ -27,17 +27,27 @@ span.insertAdjacentText('beforeend', copyrightYear);
 document.querySelector('#last-modified').textContent = `Last Updated: ${document.lastModified}`;
 
 // === MEETING BANNER ===
+const mainTag = document.querySelector('main');
 
-const dayOfTheWeek = todaysDate.getDay();
+// For testing if the mainTag.classList... works.
+// let tester = mainTag.classList.contains('home');
 
-const meetingBanner = document.getElementById('meetingBanner');
+if (mainTag.classList.contains('home')) {
+    // console.log('It does');
 
-// Next two lines are for testing the banner condition:
-// const fakeDate = new Date('October 19, 2022 23:15:30');
-// const dayOfTheWeek = fakeDate.getDay();
+    const dayOfTheWeek = todaysDate.getDay();
 
-if (dayOfTheWeek != 1 && dayOfTheWeek != 2) {
-    meetingBanner.style.display = "none";
+    const meetingBanner = document.getElementById('meetingBanner');
+
+    // Next two lines are for testing the banner condition:
+    // const fakeDate = new Date('October 18, 2022 23:15:30');
+    // const dayOfTheWeek = fakeDate.getDay();
+
+    if (dayOfTheWeek != 1 && dayOfTheWeek != 2) {
+        meetingBanner.style.display = "none";
+    } else {
+        meetingBanner.style.display = "block";
+    };
 } else {
-    meetingBanner.style.display = "block";
+    // console.log('It does not.');
 };
