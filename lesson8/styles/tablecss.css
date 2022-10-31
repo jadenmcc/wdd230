@@ -1,7 +1,7 @@
 table {
 	margin: 10px auto;
 	border: thin solid #333333;
-	/* box-shadow: 0 0 30px #808080; */
+	box-shadow: 0 0 30px #808080;
 	border-collapse: collapse;
 }
 
