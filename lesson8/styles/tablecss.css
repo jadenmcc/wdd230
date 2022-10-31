@@ -1,5 +1,29 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: auto 1rem 3rem auto;
+    /* background-color: #303030; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    margin: 1rem;
+}
+
+h1 {
+    align-self: center;
+    color: black;
+    text-align: center;
+}
+
 table {
-	margin: 10px auto;
+	margin: 3rem auto;
 	border: thin solid #333333;
 	box-shadow: 0 0 30px #808080;
 	border-collapse: collapse;
