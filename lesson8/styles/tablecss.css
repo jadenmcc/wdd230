@@ -1,0 +1,35 @@
+table {
+	margin: 10px auto;
+	border: thin solid #333333;
+	/* box-shadow: 0 0 30px #808080; */
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: #133C55;
+	font-size: .85rem;
+}
+
+tr:first-child th, .callout {
+	background-color: #133C55;
+	color: #ffffff;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid #545454;
+}
+
+th {
+	background-color: rgba(18, 59, 84, 0.5);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #ededed;
+}
