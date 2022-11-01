@@ -575,7 +575,7 @@ form label.top input, form label.top textarea {
     color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rbga(0,0,0,0.1);
+    /* background-color: #333333; */
 }
 
 form label.sbs {
