@@ -269,5 +269,34 @@
         padding: 5%;
     }
 
+    /* ====================== JOIN PAGE ======================*/
+    /* ====================== JOIN PAGE ======================*/
+    /* ====================== JOIN PAGE ======================*/
+    main.join form fieldset:nth-of-type(3) {
+        display: grid;
+        grid-template-columns: 1fr 1.25fr;
+    }
+
+    main.join form fieldset:nth-of-type(3) legend {
+        grid-column: 1/3;
+    }
+
+    main.join form fieldset:nth-of-type(3) label {
+        grid-column: 1/2;
+        margin: 0;
+        padding: .75rem 0;
+    }
+
+    main.join form fieldset:nth-of-type(3) .member-benefits-p {
+        display: block;
+        grid-column: 2/3;
+        margin: 0;
+        padding: .75rem 0;
+    }
+
+    /* ====================== THANK YOU PAGE ======================*/
+    /* ====================== THANK YOU PAGE ======================*/
+    /* ====================== THANK YOU PAGE ======================*/
+    
 
 } /*end medium */
