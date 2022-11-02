@@ -56,4 +56,5 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: #bebebe;
+    /* background-color: #ededed; COLOR BEFORE PEER RECOMMENDATIONS */
 }
