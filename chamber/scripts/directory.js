@@ -19,6 +19,7 @@ fetch(requestPath)
     let addressPara = document.createElement('p');
     let phonePara = document.createElement('p');
     let coWebsiteLink = document.createElement('a');
+    let membershipPara = document.createElement('p');
   
     // Change the textContent property of the coNamePara element to contain the company's full name
     // coNamePara.textContent = company.name + ' ' + company.lastname;
@@ -34,14 +35,20 @@ fetch(requestPath)
 
     addressPara.textContent = company.address;
     phonePara.textContent = company.phonenumber;
+
+    
     coWebsiteLink.textContent = company.websiteurl;
     coWebsiteLink.setAttribute('href', company.websiteurl);
+    
+    membershipPara.textContent = `Membership: ${company.memblevel}`;
+    membershipPara.classList.add('member-level-p');
   
     // Add/append the section(card) with the coNamePara element
     card.appendChild(logoForDirectory);
     card.appendChild(coNamePara);
     card.appendChild(addressPara);
     card.appendChild(phonePara);
+    card.appendChild(membershipPara);
     card.appendChild(coWebsiteLink);
   
     // Add/append the existing HTML div with the directoryCards class with the section(card)

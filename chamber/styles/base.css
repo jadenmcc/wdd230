@@ -756,7 +756,11 @@ main.directory .list section:nth-child(even) {
 }
 
 main.directory .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
+}
+
+main.directory .list section p.member-level-p {
+	display: none;
 }
 
 
