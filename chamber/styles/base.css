@@ -656,6 +656,10 @@ main.directory {
 	/* background-color: #eee; */
 }
 
+main.directory hr {
+    margin-bottom: 1.5rem;
+}
+
 /* ======= MENU, DIRECTORY  ======= */
 div.directory-menu {
 	margin: 1rem auto;
@@ -751,10 +755,6 @@ main.directory .list section:nth-child(odd) {
     background-color: #404040;
 }
 
-main.directory .list section:nth-child(even) {
-    /* background-color: black; */
-}
-
 main.directory .list section img {
 	display: none;
 }
@@ -762,17 +762,37 @@ main.directory .list section img {
 main.directory .list section p.member-level-p {
 	display: none;
 }
-
-
 /* end LIST, DIRECTORY /////////////// */
 
-/* main.directory section h3 {
-	font-size: 1.5rem;
-} */
+/* ======== WIREFRAMES ========*/
+main.directory div.container-directory-wireframes {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 
+main.directory div.wireframes-directory {
+    margin: 2rem;
+    margin-top: 4rem;
+    border: 1px solid black;
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* max-width: 600px; */
+    min-width: 35%;
+    text-align: center;
+    align-self: center;
+}
 
-/* @media (min-width: 700px) {
-	.list section img {
-		display: block;
-	}
-} */
+main.directory div h2 {
+    /* width: 100%; */
+    text-align: center;
+    margin: 0 auto auto auto;
+    line-height: 2.25;
+}
+
+div.wireframes-directory a {
+    display: inline-block;
+    margin: 1rem;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+}
