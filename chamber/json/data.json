@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "logopath": "images/directory-logos/academy-mortgage-logo-compressed.webp",
+            "name": "Academy Mortgage - Corp NMLS #3113",
+            "address": "938 S University Park Blvd #200 Clearfield UT 84015",
+            "phonenumber": "(801) 784-7872",
+            "websiteurl": "https://academymortgage.com/"
+        },
+        {
+            "logopath": "images/directory-logos/bank-of-utah-logo-compressed.webp",
+            "name": "Bank of Utah Bountiful Branch",
+            "address": "100 S 500 W West Bountiful UT 84010",
+            "phonenumber": "(801) 409-5171",
+            "websiteurl": "https://www.bankofutah.com/"
+        },
+        {
+            "logopath": "images/directory-logos/boondocks-logo-compressed.webp",
+            "name": "Boondocks Food & Fun",
+            "address": "525 S Deseret Dr. Kaysville UT 84037",
+            "phonenumber": "(801) 660-6250",
+            "websiteurl": "http://www.boondocks.com/"
+        },
+        {
+            "logopath": "images/directory-logos/davis-county-logo-compressed.webp",
+            "name": "Davis County",
+            "address": "PO Box 618 Farmington UT 84025",
+            "phonenumber": "(801) 451-3200",
+            "websiteurl": "https://www.daviscountyutah.gov/"
+        },
+        {
+            "logopath": "images/directory-logos/davis-technical-college-logo-compressed.webp",
+            "name": "Davis Technical College",
+            "address": "550 E 300 South Kaysville UT 84037",
+            "phonenumber": "(801) 593-2501",
+            "websiteurl": "https://www.davistech.edu/"
+        },
+        {
+            "logopath": "images/directory-logos/ensign-college-logo-compressed.webp",
+            "name": "Ensign College",
+            "address": "95 North 300 West Salt Lake City UT 84101",
+            "phonenumber": "(801) 524-1925",
+            "websiteurl": "http://www.ensign.edu/"
+        },
+        {
+            "logopath": "images/directory-logos/lagoon-logo-compressed.webp",
+            "name": "Lagoon",
+            "address": "375 Lagoon Drive Farmington UT 84025",
+            "phonenumber": "(801) 451-8069",
+            "websiteurl": "http://www.lagoonpark.com/"
+        },
+        {
+            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed.webp",
+            "name": "Lakeview Hospital",
+            "address": "630 E Medical Dr Bountiful UT 84010",
+            "phonenumber": "(801) 299-2503",
+            "websiteurl": "https://mountainstar.com/"
+        },
+        {
+            "logopath": "images/directory-logos/lifetime-logo-compressed.webp",
+            "name": "Lifetime Products",
+            "address": "Freeport Center bldg D12 Clearfield UT 84016",
+            "phonenumber": "(801) 776-1532",
+            "websiteurl": "https://www.lifetime.com/"
+        }
+    ]
+}

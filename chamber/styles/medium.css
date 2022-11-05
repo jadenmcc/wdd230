@@ -306,4 +306,20 @@
         display: block;
     } */
 
+    /* Moved from base.css; maybe remove it and move to only large depending on how it looks. */
+    /* main.directory .list section {
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: left;
+
+        display: grid;
+        grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr);
+    }
+
+    main.directory .list section a {
+        overflow-wrap: break-word;
+    } */
+
 } /*end medium */

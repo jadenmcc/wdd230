@@ -192,7 +192,10 @@ nav ul li a {
 
 
 /* ------------------ ALL CARDS ------------------*/
-main div {
+main.home div,
+main.discover div,
+main.join div,
+main.thankyou div {
     border: 1px solid black;
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -647,15 +650,16 @@ main.directory * {
 
 main.directory {
 	margin: 0 auto;
-	border: 1px solid #bbb;
+	/* border: 1px solid #bbb; */
 	padding: 0.5rem;
 	/* max-width: 700px; */
 	/* background-color: #eee; */
 }
 
+/* ======= MENU, DIRECTORY  ======= */
 div.directory-menu {
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	/* border: 1px solid rgba(0, 0, 0, 0.1); */
 	padding: 0.5rem;
 	/* background-color: #bbb; */
 	text-align: center;
@@ -665,6 +669,7 @@ div.directory-menu {
 	margin: auto 1rem;
     padding: 1rem;
 }
+/* end MENU, DIRECTORY //////////// */
 
 main.directory article,
 main.directory section {
@@ -672,16 +677,64 @@ main.directory section {
 }
 
 main.directory section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	padding: 0.5rem;
-	/* background-color: #ccc; */
+    padding: 0.5rem; */
+    /* background-color: #ccc; */
 }
 
+main.directory section a {
+    font-size: 0.9rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+    color: #FDEBB4;
+}
+
+main.directory img {
+    height: 75px;
+    max-width: 100%;
+}
+
+/* ======= GRID, DIRECTORY  ======= */
 main.directory .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
+    row-gap: 1rem;
+}
+
+main.directory .grid section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 0.5rem;
+    /* background-color: white; */
+    height: 100%;
+}
+
+main.directory .grid section > * {
+    margin: 0.1rem;
+}
+
+main.directory .grid section p.member-name-p {
+    display: none;
+}
+/* end GRID, DIRECTORY ///////////// */
+
+/* ======= LIST, DIRECTORY  ======= */
+main.directory .list section {
+    display: block;
+    margin: 0 0;
+    padding: 1rem 0.5rem;
+    /* align-items: center;
+    flex-direction: row;
+    justify-content: left; */
+    /* border-bottom: 1px solid black; */
 }
 
 main.directory .list {
@@ -689,46 +742,30 @@ main.directory .list {
 	flex-direction: column;
 }
 
-main.directory .list section {
-	display: flex;
-	align-items: center;
-}
-
-main.directory .grid section {
-	flex-direction: column;
-	text-align: center;
-}
-
-main.directory .grid section > * {
-	margin: 0.1rem;
-}
-
-main.directory .list section {
-	flex-direction: row;
-	justify-content: left;
-}
-
 main.directory .list section > * {
 	margin: 0 1rem;
 	text-align: left;
+}
+
+main.directory .list section:nth-child(odd) {
+    background-color: #404040;
+}
+
+main.directory .list section:nth-child(even) {
+    /* background-color: black; */
 }
 
 main.directory .list section img {
 	display: none; /* smaller viewports only */
 }
 
+
+/* end LIST, DIRECTORY /////////////// */
+
 /* main.directory section h3 {
 	font-size: 1.5rem;
 } */
 
-main.directory section a {
-	font-size: 0.9rem;
-}
-
-main.directory img {
-	height: 75px;
-	max-width: 100%;
-}
 
 /* @media (min-width: 700px) {
 	.list section img {

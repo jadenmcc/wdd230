@@ -434,4 +434,21 @@
         margin: auto;
     }
 
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    main.directory .list section {
+        /* display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: left; */
+        display: grid;
+        grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr);
+        /* grid-template-rows: 1fr; */
+    }
+
+    main.directory .list section a {
+        overflow-wrap: break-word;
+    }
+
 } /*end large */
