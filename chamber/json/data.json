@@ -1,7 +1,8 @@
 {
     "companies": [
         {
-            "logopath": "images/directory-logos/academy-mortgage-logo-compressed.webp",
+            "logopath": "images/directory-logos/academy-mortgage-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Academy Mortgage - Corp NMLS #3113",
             "address": "938 S University Park Blvd #200 Clearfield UT 84015",
             "phonenumber": "(801) 784-7872",
@@ -9,7 +10,8 @@
             "memblevel": "Bronze"
         },
         {
-            "logopath": "images/directory-logos/bank-of-utah-logo-compressed.webp",
+            "logopath": "images/directory-logos/bank-of-utah-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Bank of Utah Bountiful Branch",
             "address": "100 S 500 W West Bountiful UT 84010",
             "phonenumber": "(801) 409-5171",
@@ -17,7 +19,8 @@
             "memblevel": "Silver"
         },
         {
-            "logopath": "images/directory-logos/boondocks-logo-compressed.webp",
+            "logopath": "images/directory-logos/boondocks-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Boondocks Food & Fun",
             "address": "525 S Deseret Dr. Kaysville UT 84037",
             "phonenumber": "(801) 660-6250",
@@ -25,7 +28,8 @@
             "memblevel": "Bronze"
         },
         {
-            "logopath": "images/directory-logos/davis-county-logo-compressed.webp",
+            "logopath": "images/directory-logos/davis-county-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis County",
             "address": "PO Box 618 Farmington UT 84025",
             "phonenumber": "(801) 451-3200",
@@ -33,7 +37,8 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/davis-technical-college-logo-compressed.webp",
+            "logopath": "images/directory-logos/davis-technical-college-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis Technical College",
             "address": "550 E 300 South Kaysville UT 84037",
             "phonenumber": "(801) 593-2501",
@@ -41,7 +46,8 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/ensign-college-logo-compressed.webp",
+            "logopath": "images/directory-logos/ensign-college-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Ensign College",
             "address": "95 North 300 West Salt Lake City UT 84101",
             "phonenumber": "(801) 524-1925",
@@ -49,7 +55,8 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/lagoon-logo-compressed.webp",
+            "logopath": "images/directory-logos/lagoon-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lagoon",
             "address": "375 Lagoon Drive Farmington UT 84025",
             "phonenumber": "(801) 451-8069",
@@ -57,7 +64,8 @@
             "memblevel": "Gold"
         },
         {
-            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed.webp",
+            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lakeview Hospital",
             "address": "630 E Medical Dr Bountiful UT 84010",
             "phonenumber": "(801) 299-2503",
@@ -65,7 +73,8 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/lifetime-logo-compressed.webp",
+            "logopath": "images/directory-logos/lifetime-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lifetime Products",
             "address": "Freeport Center bldg D12 Clearfield UT 84016",
             "phonenumber": "(801) 776-1532",

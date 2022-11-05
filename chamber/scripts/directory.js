@@ -27,8 +27,9 @@ fetch(requestPath)
     coNamePara.classList.add('member-name-p');
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    // logoForDirectory.setAttribute('src', company.placeholderpath); // NEED TO TROUBLESHOOT LAZYLOADER.JS ISSUES
     logoForDirectory.setAttribute('src', company.logopath);
-    // logoForDirectory.setAttribute('alt', 'Portait of ' + company.name + ' ' + company.lastname);
+    // logoForDirectory.setAttribute('data-src', company.logopath); // NEED TO TROUBLESHOOT LAZYLOADER.JS ISSUES
     logoForDirectory.setAttribute('alt', `${company.name} company logo.`);
     logoForDirectory.setAttribute('loading', 'lazy'); // COMMENT THIS SECTION OUT (SEE NEXT LINE)
     // Update code so that it will add [data-src] etc so will work with lazyLoader.js
