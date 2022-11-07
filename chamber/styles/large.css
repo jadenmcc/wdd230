@@ -89,7 +89,7 @@
         margin: .1rem .1rem .1rem .1rem;
     }
 
-    main div h2 {
+    main.home div h2 {
         font-size: 1.5rem;
         margin: 0;
         /* width: inherit; */
@@ -156,7 +156,7 @@
     /* ////////// end HERO CARD */
 
     /* ++++++++ NEWS CARD +++++++++ */
-    .news-card {
+    main.home div.news-card {
         grid-column: 2/3;
         grid-row: 3/4;
         justify-content: space-between;
@@ -177,7 +177,7 @@
     /* ////////// end NEWS CARD */
 
     /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
-    .spotlight-container {
+    main.home div.spotlight-container {
         grid-column: 3/4;
         grid-row: 1/4;
         display: flex;
@@ -188,7 +188,7 @@
         box-shadow: none;
     }
     /* ___All Spotlight Cards___ */
-    .spotlight-container div {
+    main.home div.spotlight-container div {
         display: flex;
         flex-direction: column;
         align-items: stretch;
@@ -199,7 +199,7 @@
         /* margin: .1rem .1rem; */
         font-size: 1.5rem;
         width: initial;
-        line-height: 1.75;
+        line-height: 2.25;
     }
 
     .spotlight-container img {
@@ -258,7 +258,7 @@
     /* ////////// end COMPANY SPOTLIGHT CARD */
 
     /* ++++++++ JOIN CARD +++++++++ */
-    .join-card {
+    main.home div.join-card {
         grid-column: 1/2;
         grid-row: 3/4;
         justify-content: space-evenly;

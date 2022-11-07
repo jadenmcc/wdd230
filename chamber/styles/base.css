@@ -71,6 +71,7 @@ a:visited {
 a:hover,
 a:active {
     text-decoration: underline;
+    background-color: #224576;
 }
 
 /* ++++++++ CONTACT +++++++++ */
@@ -299,7 +300,7 @@ div.hero-card {
 /* ////////// end EVENT CARD */
 
 /* ++++++++ WEATHER CARD +++++++++ */
-.weather-card {
+main.home div.weather-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -353,16 +354,22 @@ div.hero-card {
 /* ////////// end NEWS CARD */
 
 /* ++++++++ JOIN CARD +++++++++ */
-.join-card {
+main.home div.join-card {
     display: none;
 }
 /* ////////// end JOIN CARD */
 
 /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
+ main.home div.spotlight-container {
+    border: none;
+    box-shadow: none;
+}
+
 .spotlight-container div {
     display: flex;
     flex-direction: column;
     /* text-align: center; */
+    /* width: 100%; */
 }
 
 .spotlight-container div h3 {

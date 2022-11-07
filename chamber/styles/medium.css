@@ -97,7 +97,7 @@
     /* ////////// end NEWS CARD */
 
     /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
-    .spotlight-container {
+    main.home div.spotlight-container {
         grid-column: 1/4;
         grid-row: 3/4;
         display: grid;
@@ -154,7 +154,7 @@
     /* ////////// end COMPANY SPOTLIGHT CARD */
 
     /* ++++++++ JOIN CARD +++++++++ */
-    .join-card {
+    main.home div.join-card {
         grid-column: 1/4;
         grid-row: 4/5;
         display: flex;
