@@ -115,9 +115,16 @@ a:active {
 }
 
 .logo-hamburgerbtn img {
-    margin: 5vw 3vw;
-    max-width: 50vw;
+    margin: 5vw 2%;
+    max-width: 4rem;
     object-fit: contain;
+}
+
+.logo-hamburgerbtn h1 {
+    align-self: center;
+    margin: 5vw 2%;
+    font-size: 1rem;
+    color: white;
 }
 
 .logo-hamburgerbtn div {
@@ -437,6 +444,7 @@ footer div.contact-info-container {
 footer div.contact-info-container * {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 footer div.contact-info-container h2 {
@@ -448,13 +456,12 @@ footer div.contact-info-container h2 {
 
 footer div p.footer-contact-info.phone {
     margin: 2.5vw auto 2vw auto;
-    text-align: center;
 }
 
-footer div p.footer-contact-info.map {
+/* footer div p.footer-contact-info.map {
     margin: 2vw auto 2.5vw auto;
     text-align: center;
-}
+} */
 
 footer div.footer-divider {
     margin: 2vw auto;

@@ -3,7 +3,7 @@
     /* ====================== HEADER ======================*/
     header {
         display: grid;
-        grid-template-columns: 1fr 2fr .5fr;
+        grid-template-columns: 1.25fr 2fr .5fr;
     }
     /* ++++++++ CONTACT +++++++++ */
     .contact {
@@ -23,9 +23,18 @@
     /* ////////// end CONTACT */
 
     /* ++++++++ NAV BAR +++++++++ */
+    .logo-hamburgerbtn {
+        justify-content: flex-start;
+    }
+
     .logo-hamburgerbtn img {
-        max-width: 13rem;
+        max-width: 8rem;
         margin: auto 1rem auto 1rem;
+    }
+
+    .logo-hamburgerbtn h1 {
+        font-size: 1.5rem;
+        max-width: 100%;
     }
 
     .logo-hamburgerbtn div {
@@ -36,8 +45,10 @@
     /* ++++++++++ NAV +++++++++++ */
     nav,
     nav.open {
-        display: block;
+        display: flex;
+        justify-content: space-between;
         margin: 0;
+        /* width: 100%; */
     }
     
     nav ul,
@@ -45,15 +56,21 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
         /* margin:  */
         list-style-type: none;
+        width: 100%;
     }
 
     nav ul li {
-        margin: 0;
+        margin: auto 2%;
         border: none;
         font-size: 1rem;
         color: white;
+    }
+
+    nav ul li:hover {
+        background-color: #224576;
     }
     
     nav ul li a {
