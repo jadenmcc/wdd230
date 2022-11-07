@@ -94,7 +94,7 @@
         margin: 0;
         /* width: inherit; */
     }
-    main div h3 {
+    main.home div h3 {
         font-size: 1.25rem;
         margin: .75rem .75rem;
         width: inherit;
