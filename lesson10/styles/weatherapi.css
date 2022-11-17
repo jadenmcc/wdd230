@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #303030;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 1024px;
+}
+
+header,
+footer {
+    background-color: #007000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+h1 {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: .5rem 0;
+    font-size: 1.75rem;
+    font-family: 'Cairo', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h3 {
+    margin: .5rem 0;
+    font-size: 1.75rem;
+    font-family: 'Cairo', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    margin: .125rem 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e8eaed;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    margin: 0.75rem;
+    padding: 0.35rem;
+    /* background-color: #eee; */
+    /* border: 1px solid #bbb; */
+    border: 1px solid white;
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    /* background-color: #8cb4ffb3; */
+    background-color: #132947;
+}
+
+div hr {
+    width: 80%;
+    margin: 0;
+}
+
+div p {
+    margin: 1rem;
+    font-size: 1.5rem;
+    max-width: 50%;
+}
+
+figure {
+    margin: 0 0 1rem 0;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-family: 'Cairo', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+
+footer img {
+    max-width: 8rem;
+    object-fit: contain;
+}

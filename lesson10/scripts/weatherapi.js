@@ -31,5 +31,11 @@ function displayResults(weatherData) {
 
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
-  captionDesc.textContent = desc;
+  captionDesc.textContent = titleCase(desc);
+};
+
+function titleCase(str) {
+  return str.toLowerCase().split(' ').map(function(word) {
+    return word.replace(word[0], word[0].toUpperCase());
+  }).join(' ');
 };
