@@ -50,31 +50,47 @@
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="youremail@domain.com" required></label>
-                <label class="top">Cell Phone* <input type="tel" name="cell-phone" placeholder="18015551234" required></label>
+                <div>
+                    <label class="top">First Name* <input type="text" name="fName" required></label>
+                    <label class="top">Last Name* <input type="text" name="lName" required></label>
+                    <label class="top">Email* <input type="email" name="eMail" placeholder="youremail@domain.com" required></label>
+                    <label class="top">Cell Phone* <input type="tel" name="cellPhone" placeholder="18015551234" required></label>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label class="top">Position/Title <input type="text" name="bus-title" pattern="[a-zA-Z0-9- ]{7,}" title="Only alpha characters, hyphens, and spaces accepted."></label>
-                <label class="top">Business Name* <input type="text" name="bus-name" required></label>
-                <label class="top">Business Description <textarea name="bus-description" rows="4" cols="20" maxlength="150" placeholder="Briefly describe your business."></textarea></label>
-                
+                <div>
+                    <label class="top">Position/Title <input type="text" name="busTitle" pattern="[a-zA-Z0-9- ]{7,}" title="Only alpha characters, hyphens, and spaces accepted."></label>
+                    <label class="top">Business Name* <input type="text" name="busName" required></label>
+                    <label class="top">Business Description <textarea name="busDescription" rows="4" cols="20" maxlength="150" placeholder="Briefly describe your business."></textarea></label>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Membership</legend>
-                <h3>Select Membership Level:</h3>
-                <label class="sbs"><input type="radio" name="membership-level" value="np" required> Np Membership (Fee: None)</label>
-                <p class="member-benefits-p">For Non-Profits; Includes all Bronze benefits.</p>
-                <label class="sbs"><input type="radio" name="membership-level" value="brz" required> Bronze Membership (Fee: $2,500/yr)</label>
-                <p class="member-benefits-p">Includes 1x Training per Year, Event Discounts</p>
-                <label class="sbs"><input type="radio" name="membership-level" value="sil" required> Silver Membership (Fee: $4,500/yr)</label>
-                <p class="member-benefits-p">Includes 2x Training per Year, Event Discounts</p>
-                <label class="sbs"><input type="radio" name="membership-level" value="gld" required> Gold Membership (Fee: $6,500/yr)</label>
-                <p class="member-benefits-p">Includes 4x Training per Year, Event Discounts</p>
+                <div class="join-membership-medium-view">
+                    <h3>Select Membership Level:</h3>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="np" required> Np Membership (Fee: None)</label>
+                    <p class="member-benefits-p">For Non-Profits; Includes all Bronze benefits.</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="brz" required> Bronze Membership (Fee: $2,500/yr)</label>
+                    <p class="member-benefits-p">Includes 1x Training per Year, Event Discounts</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="sil" required> Silver Membership (Fee: $4,500/yr)</label>
+                    <p class="member-benefits-p">Includes 2x Training per Year, Event Discounts</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="gld" required> Gold Membership (Fee: $6,500/yr)</label>
+                    <p class="member-benefits-p">Includes 4x Training per Year, Event Discounts</p>
+                </div>
+                <div class="join-membership-small-view">
+                    <h3>Select Membership Level:</h3>
+                    <p class="member-benefits-p">For Non-Profits; Includes all Bronze benefits.</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="np" required> Np Membership (Fee: None)</label>
+                    <p class="member-benefits-p">Includes 1x Training per Year, Event Discounts</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="brz" required> Bronze Membership (Fee: $2,500/yr)</label>
+                    <p class="member-benefits-p">Includes 2x Training per Year, Event Discounts</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="sil" required> Silver Membership (Fee: $4,500/yr)</label>
+                    <p class="member-benefits-p">Includes 4x Training per Year, Event Discounts</p>
+                    <label class="sbs"><input type="radio" name="membershipLevel" value="gld" required> Gold Membership (Fee: $6,500/yr)</label>
+                </div>
             </fieldset>
-            <input type="hidden" name="time-loaded" id="hiddenTimeStamp">
+            <input type="hidden" name="timeLoaded" id="hiddenTimeStamp">
             <input type="submit" value="Apply for Membership" class="submitBtn">
         </form>
     </main>

@@ -554,16 +554,21 @@ main.join h2 {
     text-align: center;
 }
 
-.member-benefits-p {
-    display: none;
-}
-
 form fieldset {
     margin: 2rem 0;
     border: 2px solid #333333;
     padding: .5rem 2%;
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
+}
+
+main.join form fieldset div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    border: none;
+    width: 100%;
 }
 
 form fieldset:nth-of-type(1) {
@@ -579,18 +584,22 @@ form legend {
 
 form label.top {
     display: block;
+    margin: 0 5%;
     padding-top: 1rem;
     color: white;
     font-size: .8rem;
+    width: 70%;
+    max-width: 20rem;
 }
 
 form label.top input, form label.top textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px #333333;
+    margin: 0 .5%;
     padding: .75rem;
     color: black;
-    width: 100%;
+    width: 90%;
     max-width: 20rem;
     /* background-color: #333333; */
 }
@@ -624,6 +633,38 @@ form fieldset:nth-of-type(3) h3 {
     /* color: white; */
     text-decoration: underline;
 }
+
+/* ++++++ Third Fieldset ++++++ */
+main.join form fieldset:nth-of-type(3) div.join-membership-medium-view {
+    display: none;
+}
+
+main.join form fieldset:nth-of-type(3) div.join-membership-small-view {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    box-shadow: none;
+    border: none;
+}
+
+main.join div h3 {
+    margin: 0;
+    padding: .5rem 0;
+    align-self: center;
+}
+
+main.join form fieldset:nth-of-type(3) label {
+    margin: 0;
+    padding: 0 5% .75rem 5%;
+}
+
+main.join form fieldset:nth-of-type(3) .member-benefits-p {
+    margin: 0;
+    padding: .75rem 5% 0 5%;
+    font-style: italic;
+}
+
+
 
 /* ====================== THANK YOU PAGE ======================*/
 /* ====================== THANK YOU PAGE ======================*/
