@@ -67,7 +67,7 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 50%;
+    /* max-width: 50%; */
     /* background-color: #8cb4ffb3; */
     background-color: #132947;
 }
