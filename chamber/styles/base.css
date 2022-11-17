@@ -212,7 +212,7 @@ main.home div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4vw;
+    margin: 2rem 5%;
 }
 
 main div button {
@@ -234,7 +234,7 @@ main div h2 {
 
 main div h3 {
     text-align: center;
-    margin: 5vw 3vw;
+    margin: 2.5rem 5%;
 }
 /* ////////// end ALL CARDS */
 
@@ -372,10 +372,12 @@ main.home div.join-card {
     box-shadow: none;
 }
 
-.spotlight-container div {
+main.home div.spotlight-container div {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+    /* justify-content: space-between; */
+    text-align: center;
+    margin: 0 0 2rem 0;
     /* width: 100%; */
 }
 
@@ -386,6 +388,7 @@ main.home div.join-card {
 
 .spotlight-container div hr {
     width: 90%;
+    margin: auto 0;
 }
 
 .spotlight-container div p {
@@ -394,7 +397,7 @@ main.home div.join-card {
     color: white;
 }
 
-.spotlight-container div:nth-child(3) {
+main.home div.spotlight-container div:nth-child(3) {
     display: none;
 }
 

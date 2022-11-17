@@ -103,17 +103,18 @@
 
     /* ------------------ ALL CARDS ------------------*/
     main.home div {
-        margin: .1rem .1rem .1rem .1rem;
+        margin: .1rem 1% .1rem 1%;
     }
 
     main.home div h2 {
         font-size: 1.5rem;
         margin: 0;
+        padding: 0;
         /* width: inherit; */
     }
     main.home div h3 {
         font-size: 1.25rem;
-        margin: .75rem .75rem;
+        margin: .75rem 5%;
         width: inherit;
     }
 
@@ -123,7 +124,7 @@
 
     main div button {
         font-size: 1rem;
-        margin: .5rem .5rem;
+        margin: .5rem 5%;
         padding: .5rem 1.75rem;
     }
 
@@ -203,13 +204,15 @@
         justify-content: space-between;
         border: none;
         box-shadow: none;
+        /* width: 100%; */
     }
     /* ___All Spotlight Cards___ */
     main.home div.spotlight-container div {
         display: flex;
         flex-direction: column;
         align-items: stretch;
-        margin: .1rem .1rem;
+        margin: 0 0 .75rem 0;
+        /* width: 100%; */
     }
 
     .spotlight-container div h2 {
@@ -238,7 +241,7 @@
     }
 
     .spotlight-container div p {
-        margin: 1rem 1rem;
+        margin: 1rem 2%;
         font-size: 1rem;
         letter-spacing: 1px;
     }
@@ -256,12 +259,14 @@
     }
     /* ___Spotlight Card 2___ */
     .spotlight-container div:nth-child(2) h3 {
-        margin: .5rem 1rem;
+        margin: .75rem 5%;
     }
     /* ___Spotlight Card 3___ */
-    .spotlight-container div:nth-child(3) {
+    main.home div.spotlight-container div:nth-child(3) {
         display: flex;
         flex-direction: column;
+        align-items: stretch;
+        margin: 0;
     }
     .spotlight-container div:nth-child(3) h2 {
         align-self: stretch;
@@ -302,7 +307,7 @@
 
     .event-card p {
         font-size: 1rem;
-        margin: .5rem .75rem;
+        margin: .5rem 5%;
     }
 
     .event-card button {

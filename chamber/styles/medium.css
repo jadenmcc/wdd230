@@ -115,16 +115,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        column-gap: .5vw;
+        column-gap: 2%;
     }
     
     /* ___All Spotlight Cards___ */
-    .spotlight-container div {
-        margin: 1vw 1vw;
+    main.home div.spotlight-container div {
+        margin: 0.5rem 0;
+        /* height: 100%; */
     }
 
     .spotlight-container div h2 {
-        margin: auto 0;
+        margin: 0 0 auto 0;
         font-size: 2.5vw;
     }
 
@@ -152,7 +153,7 @@
     }
 
     .spotlight-container div:nth-child(1) h3 {
-        margin: 2vw 10vw;
+        margin: 2rem 10%;
     }
     /* ___Spotlight Card 2___ */
     .spotlight-container div:nth-child(2) {
@@ -161,7 +162,7 @@
     }
 
     .spotlight-container div:nth-child(2) h3 {
-        margin: 2vw 4vw;
+        margin: 2rem 10%;
     }
     /* ////////// end COMPANY SPOTLIGHT CARD */
 
