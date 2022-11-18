@@ -71,7 +71,7 @@
         top: 15vw;
     }
 
-    .hero-card h2 {
+    main.home div.hero-card h2 {
         top: 22vw;
         margin: auto 5vw;
         padding: .5vw 5vw;
@@ -80,9 +80,9 @@
     }
 
     /* WEEK 6 */
-    .hero-card picture {
+    /* .hero-card picture {
         width: 100%;
-    }
+    } */
 
     /* WEEK 6 */
     .hero-card img {
