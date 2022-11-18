@@ -18,8 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="scripts/script.js" defer></script>
     <script src="scripts/menuResponsive.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
     <script src="scripts/weatherapi.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <div class="banner" id="meetingBanner">
@@ -68,15 +68,15 @@
         </div>
         <div class="weather-card">
             <h2>Weather</h2>
-            <img src="images/weather-icon-white-64x64.webp" alt="Weather icon. Credit Muammar Khalid https://thenounproject.com/browse/icons/term/weather/">
-            <!-- <img src="" alt="" id="weather-icon"> -->
-            <p class="temperature"><span id="currentTemp">50</span><span>&#8457;</span></p>
-            <p class="forecast">Partly Sunny</p>
+            <!-- <img src="images/weather-icon-white-64x64.webp" alt="Weather icon. Credit Muammar Khalid https://thenounproject.com/browse/icons/term/weather/"> -->
+            <img src="" alt="" id="weatherIcon">
+            <p class="temperature"><span id="currentTemp"></span><span>&#8457;</span></p>
+            <p class="forecast" id="currentForecast"></p>
             <hr>
             <table>
                 <tr>
                     <td>Wind Speed:</td>
-                    <td><span id="currentWind">9.0</span> mp/h</td>
+                    <td><span id="currentWind"></span> mp/h</td>
                 </tr>
                 <tr>
                     <td>Wind Chill:</td>
