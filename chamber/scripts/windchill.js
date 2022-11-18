@@ -14,7 +14,7 @@ async function apiFetch() {
       if (response.ok) {
         const data = await response.json();
         // Below is for testing the call:
-        console.log(data);
+        // console.log(data);
         showResults(data);
       } else {
           throw Error(await response.text());
