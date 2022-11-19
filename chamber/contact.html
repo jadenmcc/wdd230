@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Davis Chamber of Commerce</title>
+    <meta name="description" content="Contact page for the Davis County
+        Chamber of Commerce - the WDD-230 Term Project by
+        Jaden McCarrey at Brigham Young University-Idaho.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/menuResponsive.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="contact">
+            <div>(801) 593-2200 | info@davischamberofcommerce.org</div>
+            <a href="https://www.facebook.com/DavisChamberOfCommerce" target="_blank"><img src="images/icon-facebook.png" alt="Facebook icon."></a>
+            <a href="https://www.linkedin.com/company/davis-chamber-of-commerce/" target="_blank"><img src="images/icon-linkedin.png" alt="LinkedIn icon."></a>
+        </div>
+        <div class="logo-hamburgerbtn">
+            <img src="images/wdd230-chamber-of-commerce-icon-logo-blue-gray-version.webp" alt="DCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+            <h1>Davis Chamber of Commerce</h1>
+            <div><button id="hamburgerBtn"><span>&#9776;</span></button></div>
+        </div>
+        <nav id="parentPrimaryNav">
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="date-container" id="currentDate"></div>
+    </header>
+    <main class="contact-chamber">
+        <h1>Contact the Chamber</h1>
+        <div class="contact-title-description">
+            <p>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</p>
+        </div>
+        <div class="contact-form-container">
+            <h2>Contact Form</h2>
+            <p class="contact-chamber-required-field-p">* Required Field</p>
+            <form class="contact-form" method="get" action="thankyou.html">
+                <div>
+                    <label class="top">Name* <input type="text" name="nameFirstLast" required></label>
+                    <label class="top">Organization <input class="plus-6px" type="text" name="orgName"></label>
+                    <label class="top">Email* <input type="email" name="eMail" placeholder="youremail@domain.com" required></label>
+                    <label class="top">Mobile Phone* <input type="tel" name="mobilePhone" placeholder="18015551234" required></label>
+                    <label class="top">Comments/Questions* <textarea name="question" rows="4" cols="20" maxlength="150" placeholder="Type comments here." required></textarea></label>
+                    <input type="submit" value="Send Comment/Question" class="submitBtn">
+                </div>
+            </form>
+            <div class="contact-form-quick-info">
+                <div>
+                    <p>Davis Chamber of Commerce</p>
+                    <p>450 Simmons Way, Ste. 220</p>
+                    <p>Kaysville, UT 84037</p>
+                    <p>(801) 593-2200</p>
+                    <p>info@davischamberofcommerce.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="visit-us">
+            <h2>Visit Us</h2>
+            <h3>&#8212 Address &#8212</h3>
+            <div>
+                <p>Davis Chamber of Commerce</p>
+                <p>Kaysville, UT 84037</p>
+                <p>450 Simmons Way, Ste. 220</p>
+            </div>
+            <h3>&#8212 Office Hours &#8212</h3>
+            <div>
+                <p>Mon: 9:00am to 4:30pm</p>
+                <p>Tue: 9:00am to 4:30pm</p>
+                <p>Wed: 9:00am to 4:30pm</p>
+                <p>Thu: 9:00am to 4:30pm</p>
+                <p>Fri: By Appointment Only</p>
+            </div>
+        </div>
+        <div class="points-of-contact">
+            <h2>Points of Contact</h2>
+            <div class="quick-contact contact-1">
+                <p>Angie Osguthorpe</p>
+                <p>President/CEO</p>
+                <p>(801) 224-443, ext. 100</p>
+            </div>
+            <hr>
+            <div class="quick-contact contact-2">
+                <p>Jason Smith</p>
+                <p>Treasurer</p>
+                <p>(801) 225-4433, ext. 109</p>
+            </div>
+            <hr>
+            <div class="quick-contact contact-3">
+                <p>Ryan Hansen</p>
+                <p>Vice Chair</p>
+                <p>(801) 225-4433, ext. 101</p>
+            </div>
+            <hr>
+            <div class="quick-contact contact-4">
+                <p>Julie Batchelor</p>
+                <p>Membership Director</p>
+                <p>(801).225.4433, ext. 102</p>
+            </div>
+            <hr>
+            <div class="quick-contact contact-5">
+                <p>Issa Arnita</p>
+                <p>Operations Assistant</p>
+                <p>(801) 225-4433, ext. 104</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/wdd230-chamber-of-commerce-icon-logo-blue-gray-version.webp" alt="DCCC Logo - Credit Rafina A. https://thenounproject.com/icon/logo-2765931/">
+        <div class="contact-info-container">
+            <h2>Davis Chamber of Commerce</h2>
+            <p class="footer-contact-info street">&#x1F4CD; <a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">450 South Simmons Way</a></p>
+            <p class="footer-contact-info ste"><a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Suite #220</a></p>
+            <p class="footer-contact-info city-state-zip"><a href="https://www.google.com/maps/place/Davis+Chamber+of+Commerce/@41.027581,-111.925257,16z/data=!4m5!3m4!1s0x0:0xe973ceeff4ba01ff!8m2!3d41.027581!4d-111.925257?hl=en-US">Kaysville, Utah 84037</a></p>
+            <p class="footer-contact-info phone">801-593-2200</p>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="fineprint"><span>&#169; </span> Davis Chamber of Commerce | Jaden D. McCarrey | WDD 230 Project</p>
+        <p class="date-last-modified"><span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>

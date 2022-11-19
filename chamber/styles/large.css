@@ -488,4 +488,83 @@
         overflow-wrap: break-word;
     }
 
+
+
+    /* ====================== CONTACT CHAMBER PAGE ======================*/
+    /* ====================== CONTACT CHAMBER PAGE ======================*/
+    /* ====================== CONTACT CHAMBER PAGE ======================*/
+    main.contact-chamber {
+        max-width: 75%;
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        /* grid-template-rows: 1fr; */
+    }
+
+    main.contact-chamber h1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    /* ======== PAGE DESCRIPTION CARD ========*/
+    div.contact-title-description {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    div.contact-title-description p {
+        font-size: 1.5rem;
+    }
+
+    /* ======== CONTACT FORM CARD ========*/
+    div.contact-form-container {
+        margin: 0 4% 2rem 2%;
+        grid-row: 3/5;
+        align-self: stretch;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+
+    /* ======== VISIT US CARD ========*/
+    div.visit-us {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2% 2rem 4%;
+        padding-bottom: 0;
+    }
+
+    div.visit-us div:nth-of-type(2) {
+        margin-bottom: 1.5rem;
+    }
+
+    /* ======== POINTS OF CONTACT CARD ========*/
+    div.points-of-contact {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        align-items: center;
+        margin: 0 2% 2rem 4%;
+        padding-bottom: 1.5rem;
+    }
+
+    div.points-of-contact h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    div.points-of-contact div {
+        margin: 0 2% .5rem 4%;
+        padding-bottom: .5rem;
+        border-bottom: 1px solid #BFBFBF;
+    }
+
+    div.points-of-contact div:nth-of-type(5) {
+        border-bottom: none;
+    }
+
+    div.points-of-contact hr {
+        display: none;
+    }
+
 } /*end large */
