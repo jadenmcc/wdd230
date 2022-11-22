@@ -27,9 +27,14 @@
         justify-content: flex-start;
     }
 
-    .logo-hamburgerbtn img {
+    .logo-hamburgerbtn a {
         max-width: 8rem;
         margin: auto 1rem auto 1rem;
+    }
+
+    .logo-hamburgerbtn a img {
+        max-width: 8rem;
+        /* margin: auto 1rem auto 1rem; */
     }
 
     .logo-hamburgerbtn h1 {

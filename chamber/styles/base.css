@@ -114,8 +114,14 @@ a:active {
     justify-content: space-between;
 }
 
-.logo-hamburgerbtn img {
+.logo-hamburgerbtn a {
     margin: 5vw 2%;
+    max-width: 4rem;
+    object-fit: contain;
+}
+
+.logo-hamburgerbtn a img {
+    /* margin: 5vw 2%; */
     max-width: 4rem;
     object-fit: contain;
 }

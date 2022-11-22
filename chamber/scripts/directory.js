@@ -12,35 +12,35 @@ fetch(requestPath)
 
     // Below added 11/21
     // companies.forEach(printTestIndex);
-    let canSpotlight = companies.filter(determineSpotlightability);
-    console.log(canSpotlight);
+    // let canSpotlight = companies.filter(determineSpotlightability);
+    // console.log(canSpotlight);
     // const shuffledCanSpotlight = canSpotlight.sort((a, b) => 0.5 - Math.random());
     // console.log(shuffledCanSpotlight);
-    const shuffledCanSpotlight = canSpotlight.sort(shuffleCompanies);
-    console.log(shuffledCanSpotlight);
+    // const shuffledCanSpotlight = canSpotlight.sort(shuffleCompanies);
+    // console.log(shuffledCanSpotlight);
     // const array = [1, 2, 3];
     // const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
     // console.log(shuffledArray);
   });
 
   // Below added 11/21
-  function printTestIndex(company) {
-    console.log(company["memblevel"]);
-  };
+  // function printTestIndex(company) {
+  //   console.log(company["memblevel"]);
+  // };
 
   // Below added 11/21
-  function determineSpotlightability(company) {
-    if (company["memblevel"] == "Gold" | company["memblevel"] == "Silver") {
-      return company;
-    } else {
-      return false;
-    };
-  };
+  // function determineSpotlightability(company) {
+  //   if (company["memblevel"] == "Gold" | company["memblevel"] == "Silver") {
+  //     return company;
+  //   } else {
+  //     return false;
+  //   };
+  // };
 
 
-  function shuffleCompanies(companyA, companyB) {
-    return 0.5 - Math.random();
-  };
+  // function shuffleCompanies(companyA, companyB) {
+  //   return 0.5 - Math.random();
+  // };
 
   function displaycompanies(company) {
     // Create elements to add to the document

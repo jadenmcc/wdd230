@@ -13,8 +13,14 @@
     /* ////////// end CONTACT */
 
     /* ++++++++ NAV BAR +++++++++ */
-    .logo-hamburgerbtn img {
+    .logo-hamburgerbtn a {
         margin: 5vw 2% 5vw 4%;
+        max-width: 10rem;
+        object-fit: contain;
+    }
+    
+    .logo-hamburgerbtn a img {
+        /* margin: 5vw 2% 5vw 4%; */
         max-width: 10rem;
         object-fit: contain;
     }
