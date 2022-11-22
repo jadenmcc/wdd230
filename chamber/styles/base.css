@@ -12,7 +12,8 @@ footer {
 }
 
 main {
-    max-width: 97%;
+    /* max-width: 97%; */
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -367,6 +368,7 @@ main.home div.join-card {
  main.home div.spotlight-container {
     border: none;
     box-shadow: none;
+    align-items: stretch;
 }
 
 main.home div.spotlight-container div {
