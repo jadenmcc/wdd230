@@ -377,6 +377,11 @@ main.home div.spotlight-container div {
     color: white;
 }
 
+.spotlight-container div img {
+    margin-top: 1.5rem;
+    max-width: 6rem;
+}
+
 .spotlight-container div hr {
     width: 90%;
     margin: auto 0;

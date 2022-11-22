@@ -1,0 +1,103 @@
+{
+    "companies": [
+        {
+            "logopath": "images/directory-logos/academy-mortgage-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Academy Mortgage - Corp NMLS #3113",
+            "address": "938 S University Park Blvd #200 Clearfield UT 84015",
+            "phonenumber": "(801) 784-7872",
+            "websiteurl": "https://academymortgage.com/",
+            "memblevel": "Silver",
+            "email": "info@academymortgage.com",
+            "tagline": "We'll get you your house!"
+        },
+        {
+            "logopath": "images/directory-logos/bank-of-utah-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Bank of Utah",
+            "address": "100 S 500 W West Bountiful UT 84010",
+            "phonenumber": "(801) 409-5171",
+            "websiteurl": "https://www.bankofutah.com/",
+            "memblevel": "Silver",
+            "email": "info@bankofutah-bt.com",
+            "tagline": "We'll protect your money for you!"
+        },
+        {
+            "logopath": "images/directory-logos/boondocks-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Boondocks Food & Fun",
+            "address": "525 S Deseret Dr. Kaysville UT 84037",
+            "phonenumber": "(801) 660-6250",
+            "websiteurl": "http://www.boondocks.com/",
+            "memblevel": "Bronze",
+            "email": "info@boondocks.com",
+            "tagline": "We'll help you have fun!"
+        },
+        {
+            "logopath": "images/directory-logos/davis-county-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Davis County",
+            "address": "PO Box 618 Farmington UT 84025",
+            "phonenumber": "(801) 451-3200",
+            "websiteurl": "https://www.daviscountyutah.gov/",
+            "memblevel": "NP",
+            "email": "info@daviscountyut.gov",
+            "tagline": "We'll help you run your local government!"
+        },
+        {
+            "logopath": "images/directory-logos/davis-technical-college-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Davis Technical College",
+            "address": "550 E 300 South Kaysville UT 84037",
+            "phonenumber": "(801) 593-2501",
+            "websiteurl": "https://www.davistech.edu/",
+            "memblevel": "NP",
+            "email": "info@davistech.edu",
+            "tagline": "We'll skill you up!"
+        },
+        {
+            "logopath": "images/directory-logos/ensign-college-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Ensign College",
+            "address": "95 North 300 West Salt Lake City UT 84101",
+            "phonenumber": "(801) 524-1925",
+            "websiteurl": "http://www.ensign.edu/",
+            "memblevel": "NP",
+            "email": "info@ensigncollege.edu",
+            "tagline": "We'll teach you stuff!"
+        },
+        {
+            "logopath": "images/directory-logos/lagoon-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Lagoon",
+            "address": "375 Lagoon Drive Farmington UT 84025",
+            "phonenumber": "(801) 451-8069",
+            "websiteurl": "http://www.lagoonpark.com/",
+            "memblevel": "Gold",
+            "email": "info@lagoon.com",
+            "tagline": "We'll help you lose your lunch!"
+        },
+        {
+            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Lakeview Hospital",
+            "address": "630 E Medical Dr Bountiful UT 84010",
+            "phonenumber": "(801) 299-2503",
+            "websiteurl": "https://mountainstar.com/",
+            "memblevel": "Silver",
+            "email": "info@lvhospital.com",
+            "tagline": "We'll help you feel better!"
+        },
+        {
+            "logopath": "images/directory-logos/lifetime-logo-compressed-200x200.webp",
+            "placeholderpath": "images/placeholder-200x200.webp",
+            "name": "Lifetime Products",
+            "address": "Freeport Center bldg D12 Clearfield UT 84016",
+            "phonenumber": "(801) 776-1532",
+            "websiteurl": "https://www.lifetime.com/",
+            "memblevel": "Silver",
+            "email": "info@lifetimeproducts.com",
+            "tagline": "We'll make you stuff for a lifetime!"
+        }
+    ]
+}
