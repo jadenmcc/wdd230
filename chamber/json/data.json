@@ -1,7 +1,7 @@
 {
     "companies": [
         {
-            "logopath": "images/directory-logos/academy-mortgage-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/academy-mortgage-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Academy Mortgage - Corp NMLS #3113",
             "address": "938 S University Park Blvd #200 Clearfield UT 84015",
@@ -10,7 +10,7 @@
             "memblevel": "Silver"
         },
         {
-            "logopath": "images/directory-logos/bank-of-utah-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/bank-of-utah-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Bank of Utah Bountiful Branch",
             "address": "100 S 500 W West Bountiful UT 84010",
@@ -19,7 +19,7 @@
             "memblevel": "Silver"
         },
         {
-            "logopath": "images/directory-logos/boondocks-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/boondocks-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Boondocks Food & Fun",
             "address": "525 S Deseret Dr. Kaysville UT 84037",
@@ -28,7 +28,7 @@
             "memblevel": "Bronze"
         },
         {
-            "logopath": "images/directory-logos/davis-county-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/davis-county-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis County",
             "address": "PO Box 618 Farmington UT 84025",
@@ -37,7 +37,7 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/davis-technical-college-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/davis-technical-college-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis Technical College",
             "address": "550 E 300 South Kaysville UT 84037",
@@ -46,7 +46,7 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/ensign-college-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/ensign-college-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Ensign College",
             "address": "95 North 300 West Salt Lake City UT 84101",
@@ -55,7 +55,7 @@
             "memblevel": "NP"
         },
         {
-            "logopath": "images/directory-logos/lagoon-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/lagoon-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lagoon",
             "address": "375 Lagoon Drive Farmington UT 84025",
@@ -64,7 +64,7 @@
             "memblevel": "Gold"
         },
         {
-            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/lakeview-hospital-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lakeview Hospital",
             "address": "630 E Medical Dr Bountiful UT 84010",
@@ -73,7 +73,7 @@
             "memblevel": "Silver"
         },
         {
-            "logopath": "images/directory-logos/lifetime-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/directory/lifetime-logo-compressed-75x75.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lifetime Products",
             "address": "Freeport Center bldg D12 Clearfield UT 84016",

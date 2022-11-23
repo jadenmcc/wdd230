@@ -1,7 +1,7 @@
 {
     "companies": [
         {
-            "logopath": "images/directory-logos/academy-mortgage-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/academy-mortgage-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Academy Mortgage",
             "address": "938 S University Park Blvd #200 Clearfield UT 84015",
@@ -12,7 +12,7 @@
             "tagline": "We'll get you your house!"
         },
         {
-            "logopath": "images/directory-logos/bank-of-utah-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/bank-of-utah-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Bank of Utah",
             "address": "100 S 500 W West Bountiful UT 84010",
@@ -23,7 +23,7 @@
             "tagline": "We'll protect your money for you!"
         },
         {
-            "logopath": "images/directory-logos/boondocks-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/boondocks-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Boondocks Food & Fun",
             "address": "525 S Deseret Dr. Kaysville UT 84037",
@@ -34,7 +34,7 @@
             "tagline": "We'll help you have fun!"
         },
         {
-            "logopath": "images/directory-logos/davis-county-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/davis-county-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis County",
             "address": "PO Box 618 Farmington UT 84025",
@@ -45,7 +45,7 @@
             "tagline": "We'll help you run your local government!"
         },
         {
-            "logopath": "images/directory-logos/davis-technical-college-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/davis-technical-college-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Davis Technical College",
             "address": "550 E 300 South Kaysville UT 84037",
@@ -56,7 +56,7 @@
             "tagline": "We'll skill you up!"
         },
         {
-            "logopath": "images/directory-logos/ensign-college-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/ensign-college-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Ensign College",
             "address": "95 North 300 West Salt Lake City UT 84101",
@@ -67,7 +67,7 @@
             "tagline": "We'll teach you stuff!"
         },
         {
-            "logopath": "images/directory-logos/lagoon-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/lagoon-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lagoon",
             "address": "375 Lagoon Drive Farmington UT 84025",
@@ -78,7 +78,7 @@
             "tagline": "We'll help you lose your lunch!"
         },
         {
-            "logopath": "images/directory-logos/lakeview-hospital-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/lakeview-hospital-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lakeview Hospital",
             "address": "630 E Medical Dr Bountiful UT 84010",
@@ -89,7 +89,7 @@
             "tagline": "We'll help you feel better!"
         },
         {
-            "logopath": "images/directory-logos/lifetime-logo-compressed-200x200.webp",
+            "logopath": "images/directory-logos/spotlight/lifetime-logo-compressed-96x96.webp",
             "placeholderpath": "images/placeholder-200x200.webp",
             "name": "Lifetime Products",
             "address": "Freeport Center bldg D12 Clearfield UT 84016",
@@ -97,7 +97,7 @@
             "websiteurl": "https://www.lifetime.com/",
             "memblevel": "Silver",
             "email": "info@lifetimeproducts.com",
-            "tagline": "We'll make you stuff for a lifetime!"
+            "tagline": "We'll make you stuff that lasts a lifetime!"
         }
     ]
 }

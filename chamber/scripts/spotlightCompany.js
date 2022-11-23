@@ -43,17 +43,12 @@ fetch(requestPath2)
     let coContactInfo = document.createElement('p');
     let coWebsiteLink2 = document.createElement('a');
   
-    // Change the textContent property of the coNameH2 element to contain the company's full name
-    // coNameH2.textContent = company.name + ' ' + company.lastname;
     coNameH2.textContent = company.name;
   
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    // logoForCard.setAttribute('src', company.placeholderpath); // NEED TO TROUBLESHOOT LAZYLOADER.JS ISSUES
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     logoForCard.setAttribute('src', company.logopath);
-    // logoForCard.setAttribute('data-src', company.logopath); // NEED TO TROUBLESHOOT LAZYLOADER.JS ISSUES
     logoForCard.setAttribute('alt', `${company.name} company logo.`);
-    logoForCard.setAttribute('loading', 'lazy'); // COMMENT THIS SECTION OUT (SEE NEXT LINE)
-    // Update code so that it will add [data-src] etc so will work with lazyLoader.js
+    logoForCard.setAttribute('loading', 'lazy');
 
     taglineH3.textContent = company.tagline;
     

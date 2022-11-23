@@ -40,6 +40,7 @@ function displayResults(weatherData) {
 
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
+  weatherIcon.setAttribute('loading', 'lazy');
   captionDesc.textContent = titleCase(desc);
 
   windSpeed.textContent = weatherData.wind.speed.toFixed(0);

@@ -20,3 +20,32 @@ OLD SPOTLIGHT DIV CODE BEFORE W11
                 <hr>
                 <p>builda@treefort.com | +801-351-5661 | <a href="">Website</a></p>
             </div> -->
+
+
+OLD WEATHER CARD
+<div class="weather-card">
+            <h2>Weather</h2>
+            <img src="images/weather-icon-white-64x64.webp" alt="Weather icon. Credit Muammar Khalid https://thenounproject.com/browse/icons/term/weather/">
+            <p class="temperature"><span id="currentTemp"></span><span>&#8457;</span></p>
+            <p class="forecast" id="currentForecast"></p>
+            <hr>
+            <table>
+                <tr>
+                    <td>Wind Speed:</td>
+                    <td><span id="currentWind"></span> mp/h</td>
+                </tr>
+                <tr>
+                    <td>Wind Chill:</td>
+                    <td id="windChillCell"> <span>&#8457;</span></td>
+                </tr>
+            </table>
+        </div>
+
+
+OLD HERO CARD FOR WEEK 6 REQUIREMENTS
+<!-- <picture class="myphoto">
+                <source media="(max-width: 767px)" srcset="images/wdd230-org-small-550.webp">
+                <source media="(max-width: 1023px)" srcset="images/wdd230-org-medium-768.webp">
+                <source media="(max-width: 1099px)" srcset="images/wdd230-org-large-1024.webp">
+                <img src="images/wdd230-org-1100.webp" alt="Three business people sitting at a table.">
+            </picture> -->

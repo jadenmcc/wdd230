@@ -229,7 +229,7 @@
     }
 
     .weather-card table {
-        margin: auto;
+        margin: auto auto .5rem auto;
     }
 
     .weather-card td {
@@ -245,7 +245,7 @@
     /* ====================== DISCOVER PAGE ======================*/
     main.discover {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1.75fr 1fr;
         align-items: start;
         /* justify-items: start; */
     }
