@@ -1,3 +1,6 @@
+/* ================== HOME PAGE ==================*/
+/* ================== HOME PAGE ==================*/
+/* ================== HOME PAGE ==================*/
 body {
     font-size: 16px;
     line-height: 1.5;
@@ -12,7 +15,6 @@ footer {
 }
 
 main {
-    /* max-width: 97%; */
     max-width: 1200px;
     margin: auto;
 }
@@ -41,7 +43,7 @@ p {
     color: white;
 }
 
-/* ====================== BANNER ======================*/
+/* ============== BANNER ==============*/
 .banner {
     margin: 0 auto;
     max-width: 900px;
@@ -56,7 +58,7 @@ p {
     background-color: #FCBA03;
 }
 
-/* ====================== HEADER ======================*/
+/* ============== HEADER ==============*/
 header {
     display: flex;
     flex-direction: column;
@@ -106,7 +108,6 @@ a:active {
     max-width: 4vw;
     align-self: center;
 }
-/* ////////// end CONTACT */
 
 /* ++++++++ NAV BAR +++++++++ */
 .logo-hamburgerbtn {
@@ -122,7 +123,6 @@ a:active {
 }
 
 .logo-hamburgerbtn a img {
-    /* margin: 5vw 2%; */
     max-width: 4rem;
     object-fit: contain;
 }
@@ -145,7 +145,6 @@ a:active {
     color: white;
     background-color: transparent;
 }
-/* ////////// end NAV BAR */
 
 /* ++++++++ NAV +++++++++ */
 nav {
@@ -187,9 +186,8 @@ nav ul li a {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);
 }
-/* ////////// end NAV */
 
-/* ++++++++ CURRENT DATE +++++++++ */
+/* ++++ CURRENT DATE +++++ */
 .date-container {
     padding: .5vw;
     color: white;
@@ -199,14 +197,10 @@ nav ul li a {
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
 }
-/* ////////// end CURRENT DATE */
+/* /////////////////////// end HEADER */
 
-/* ///////////////////////////////////////// end HEADER */
-
-/* ====================== MAIN ======================*/
-
-
-/* ------------------ ALL CARDS ------------------*/
+/* =============== MAIN ===============*/
+/* +++++++ ALL CARDS +++++++*/
 main.home div,
 main.discover div,
 main.join div,
@@ -243,9 +237,8 @@ main div h3 {
     text-align: center;
     margin: 2.5rem 5%;
 }
-/* ////////// end ALL CARDS */
 
-/* ++++++++ HERO CARD +++++++++ */
+/* ++++++ HERO CARD +++++++ */
 main.home div.hero-card {
     display: flex;
     flex-direction: row;
@@ -286,21 +279,18 @@ main.home div.hero-card {
 
 .hero-card button {
     position: absolute;
-    /* top: 25vw; */
     bottom: 1.5rem;
     margin: 0;
     padding: .5rem 5%;
 }
-/* ////////// end HERO CARD */
 
-/* ++++++++ EVENT CARD +++++++++ */
+/* ++++++ EVENT CARD +++++++ */
 .event-card p {
     margin: 4vw 3vw;
     text-align: justify;
 }
-/* ////////// end EVENT CARD */
 
-/* ++++++++ WEATHER CARD +++++++++ */
+/* +++++ WEATHER CARD ++++++ */
 main.home div.weather-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -344,23 +334,19 @@ main.home div.weather-card {
     justify-self: stretch;
     text-align: center;
 }
-/* ////////// end WEATHER CARD */
 
-/* ++++++++ NEWS CARD +++++++++ */
+/* +++++++ NEWS CARD ++++++++ */
 .news-card p {
     margin: 4vw 3vw;
     text-align: justify;
 }
 
-/* ////////// end NEWS CARD */
-
-/* ++++++++ JOIN CARD +++++++++ */
+/* ++++++ JOIN CARD +++++++ */
 main.home div.join-card {
     display: none;
 }
-/* ////////// end JOIN CARD */
 
-/* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
+/* ++++ SPOTLIGHT CARD ++++ */
  main.home div.spotlight-container {
     border: none;
     box-shadow: none;
@@ -370,10 +356,8 @@ main.home div.join-card {
 main.home div.spotlight-container div {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     text-align: center;
     margin: 0 0 2rem 0;
-    /* width: 100%; */
 }
 
 .spotlight-container div h3 {
@@ -405,13 +389,9 @@ main.home div.spotlight-container div:nth-child(3) {
 .spotlight-container div a:visited {
     color: white;
 }
+/* ////////////////////////// end MAIN */
 
-/* ////////// end COMPANY SPOTLIGHT CARD */
-
-/* ///////////////////////////////////////// end MAIN */
-
-
-/* ====================== FOOTER ======================*/
+/* ============== FOOTER ==============*/
 footer,
 footer p,
 footer div p {
@@ -426,8 +406,6 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
-    /* padding: 3vw; */
-    /* width: 100%; */
 }
 
 footer a:link,
@@ -461,11 +439,6 @@ footer div.contact-info-container h2 {
 footer div p.footer-contact-info.phone {
     margin: 2.5vw auto 2vw auto;
 }
-
-/* footer div p.footer-contact-info.map {
-    margin: 2vw auto 2.5vw auto;
-    text-align: center;
-} */
 
 footer div.footer-divider {
     margin: 2vw auto;
@@ -502,10 +475,13 @@ footer .openweather-logo {
     max-width: 6rem;
     margin: .25rem auto 1rem auto;
 }
+/* //////////////////////// end FOOTER */
 
-/* ====================== DISCOVER PAGE ======================*/
-/* ====================== DISCOVER PAGE ======================*/
-/* ====================== DISCOVER PAGE ======================*/
+
+
+/* ================ DISCOVER PAGE ================*/
+/* ================ DISCOVER PAGE ================*/
+/* ================ DISCOVER PAGE ================*/
 main.discover {
     display: flex;
     flex-direction: column;
@@ -549,8 +525,6 @@ main.discover .gallery-card {
     margin: 1rem 5% 2rem 5%;
     border: 1px solid #333333;
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,0.2);
-    /* box-shadow: 0 .25rem .5rem .25rem rgba(0,0,0,0.2); */
-    /* box-shadow: 0 .25rem .5rem .25rem rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 
 .gallery-card img {
@@ -563,9 +537,11 @@ main.discover .gallery-card {
     padding: 1rem 5%;
 }
 
-/* ====================== JOIN PAGE ======================*/
-/* ====================== JOIN PAGE ======================*/
-/* ====================== JOIN PAGE ======================*/
+
+
+/* ================== JOIN PAGE ==================*/
+/* ================== JOIN PAGE ==================*/
+/* ================== JOIN PAGE ==================*/
 main.join h1 {
     color: #ffffff;
     background-color: #333333;
@@ -602,10 +578,6 @@ form.join-form fieldset div {
     width: 100%;
 }
 
-/* form.join-form fieldset:nth-of-type(1) {
-    margin: .75rem 0 2rem 0;
-} */
-
 form.join-form legend {
     font-size: 1.25rem;
     color: white;
@@ -632,7 +604,6 @@ form.join-form label.top input, form.join-form label.top textarea {
     color: black;
     width: 90%;
     max-width: 20rem;
-    /* background-color: #333333; */
 }
 
 form.join-form label.sbs {
@@ -645,7 +616,6 @@ form.join-form input.submitBtn {
     border: none;
     background-color: #FCBA03;
     padding: .75rem 1.5rem;
-    /* margin: 0 0 4rem 2%; */
     width: 96%;
     max-width: 20rem;
     font-family: 'Cabin', sans-serif;
@@ -661,11 +631,10 @@ form.join-form label.top input:required:valid {
 }
 
 form.join-form fieldset:nth-of-type(3) h3 {
-    /* color: white; */
     text-decoration: underline;
 }
 
-/* ++++++ Third Fieldset ++++++ */
+/* ++++ Third Fieldset ++++ */
 main.join form.join-form fieldset:nth-of-type(3) div.join-membership-medium-view {
     display: none;
 }
@@ -673,7 +642,6 @@ main.join form.join-form fieldset:nth-of-type(3) div.join-membership-medium-view
 main.join form.join-form fieldset:nth-of-type(3) div.join-membership-small-view {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     box-shadow: none;
     border: none;
 }
@@ -697,9 +665,9 @@ main.join form.join-form fieldset:nth-of-type(3) .member-benefits-p {
 
 
 
-/* ====================== THANK YOU PAGE ======================*/
-/* ====================== THANK YOU PAGE ======================*/
-/* ====================== THANK YOU PAGE ======================*/
+/* =============== THANK YOU PAGE ================*/
+/* =============== THANK YOU PAGE ================*/
+/* =============== THANK YOU PAGE ================*/
 main.thankyou h1 {
     color: #ffffff;
     background-color: #333333;
@@ -719,9 +687,11 @@ main.thankyou p {
     margin: 1rem 5% 12rem 5%;
 }
 
-/* ====================== DIRECTORY YOU PAGE ======================*/
-/* ====================== DIRECTORY YOU PAGE ======================*/
-/* ====================== DIRECTORY YOU PAGE ======================*/
+
+
+/* ============= DIRECTORY YOU PAGE ==============*/
+/* ============= DIRECTORY YOU PAGE ==============*/
+/* ============= DIRECTORY YOU PAGE ==============*/
 main.directory h1 {
     color: #ffffff;
     background-color: #333333;
@@ -736,22 +706,17 @@ main.directory * {
 
 main.directory {
 	margin: 0 auto;
-	/* border: 1px solid #bbb; */
 	padding: 0.5rem;
-	/* max-width: 700px; */
-	/* background-color: #eee; */
 }
 
 main.directory hr {
     margin-bottom: 1.5rem;
 }
 
-/* ======= MENU, DIRECTORY  ======= */
+/* +++++++++ MENU +++++++++ */
 div.directory-menu {
 	margin: 1rem auto;
-	/* border: 1px solid rgba(0, 0, 0, 0.1); */
 	padding: 0.5rem;
-	/* background-color: #bbb; */
 	text-align: center;
 }
 
@@ -759,18 +724,11 @@ div.directory-menu {
 	margin: auto 1rem;
     padding: 1rem;
 }
-/* end MENU, DIRECTORY //////////// */
 
+/* +++ DIRECTORY CONTAINER +++ */
 main.directory article,
 main.directory section {
 	margin: 0.75rem;
-}
-
-main.directory section {
-    /* border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 0.5rem; */
-    /* background-color: #ccc; */
 }
 
 main.directory section a {
@@ -785,7 +743,7 @@ main.directory img {
     max-width: 100%;
 }
 
-/* ======= GRID, DIRECTORY  ======= */
+/* +++ GRID, DIRECTORY  +++ */
 main.directory .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -798,12 +756,10 @@ main.directory .grid section {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* flex-direction: column; */
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 0.5rem;
-    /* background-color: white; */
     height: 100%;
 }
 
@@ -814,17 +770,12 @@ main.directory .grid section > * {
 main.directory .grid section p.member-name-p {
     display: none;
 }
-/* end GRID, DIRECTORY ///////////// */
 
-/* ======= LIST, DIRECTORY  ======= */
+/* +++ LIST, DIRECTORY  +++ */
 main.directory .list section {
     display: block;
     margin: 0 0;
     padding: 1rem 0.5rem;
-    /* align-items: center;
-    flex-direction: row;
-    justify-content: left; */
-    /* border-bottom: 1px solid black; */
 }
 
 main.directory .list {
@@ -848,9 +799,8 @@ main.directory .list section img {
 main.directory .list section p.member-level-p {
 	display: none;
 }
-/* end LIST, DIRECTORY /////////////// */
 
-/* ======== WIREFRAMES ========*/
+/* +++++++ WIREFRAMES +++++++*/
 main.directory div.container-directory-wireframes {
     display: flex;
     flex-direction: column;
@@ -862,14 +812,12 @@ main.directory div.wireframes-directory {
     margin-top: 4rem;
     border: 1px solid black;
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    /* max-width: 600px; */
     min-width: 35%;
     text-align: center;
     align-self: center;
 }
 
 main.directory div h2 {
-    /* width: 100%; */
     text-align: center;
     margin: 0 auto auto auto;
     line-height: 2.25;
@@ -885,9 +833,15 @@ div.wireframes-directory a {
 
 
 
-/* ====================== CONTACT CHAMBER PAGE ======================*/
-/* ====================== CONTACT CHAMBER PAGE ======================*/
-/* ====================== CONTACT CHAMBER PAGE ======================*/
+/* ============ CONTACT CHAMBER PAGE =============*/
+/* ============ CONTACT CHAMBER PAGE =============*/
+/* ============ CONTACT CHAMBER PAGE =============*/
+main.contact-chamber {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 main.contact-chamber h1 {
     color: #ffffff;
     background-color: #333333;
@@ -905,7 +859,7 @@ main.contact-chamber h3 {
     font-size: 20px;
 }
 
-/* ======== PAGE DESCRIPTION CARD ========*/
+/* +++ PAGE DESCRIPTION CARD +++ */
 div.contact-title-description {
     margin-bottom: 4.5rem;
     padding: 0 5%;
@@ -915,12 +869,12 @@ div.contact-title-description p  {
     font-size: 1.25rem;
 }
 
-/* ======== CONTACT FORM CARD ========*/
+/* ============== FORM ============== */
 div.contact-form-container {
-    margin-bottom: 2rem;
+    margin: 0 4% 2rem 4%;
     border: 1px solid black;
-    /* box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,0.2);
+    max-width: 96%;
 }
 
 div.contact-form-container p.contact-chamber-required-field-p {
@@ -929,7 +883,7 @@ div.contact-form-container p.contact-chamber-required-field-p {
     text-align: center;
 }
 
-/* ++++++++++ FORM ++++++++++ */
+/* +++ CONTACT FORM CARD +++ */
 form.contact-form {
     margin: 0 0 2rem 0;
     border: 2px solid #333333;
@@ -947,25 +901,12 @@ form.contact-form div {
     width: 100%;
 }
 
-/* Trying to constrain a border around form... */
-/* You have to uncomment the alternate version of the HTML first */
-/* div.contact-form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-/* div form.contact-form {
-    border: 1px solid black;
-    max-width: 30rem;
-} */
-
 form.contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: none;
     border: none;
-    /* width: 100%; */
 }
 
 form.contact-form label.top {
@@ -988,7 +929,6 @@ form.contact-form label.top textarea {
     color: black;
     width: 90%;
     max-width: 20rem;
-    /* background-color: #333333; */
 }
 
 form.contact-form label.top input.plus-6px {
@@ -1015,8 +955,8 @@ form.contact-form label.top input:required:valid,
 form.contact-form label.top textarea:required:valid {
     border-left: green solid 6px;
 }
-/* ///////////////// end of FORM */
 
+/* ++++ QUICK INFO CARD ++++ */
 div.contact-form-quick-info {
     display: flex;
     flex-direction: column;
@@ -1038,35 +978,18 @@ div.contact-form-quick-info div p:nth-of-type(4),
 div.contact-form-quick-info div p:nth-of-type(5) {
     font-size: 1.2rem;
 }
+/* ////////////////////// end of FORM */
 
-/* ======== VISIT US CARD ========*/
-/* Flex version */
-/* div.visit-us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-    border: 1px solid black;
-    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-div.visit-us div {
-    margin-left: 10%;
-}
-div.visit-us p {
-    margin: 0;
-} */
-
-/* Grid version */
+/* +++++ VISIT US CARD +++++*/
 div.visit-us {
     display: grid;
     grid-template-columns: .25fr 1fr .25fr;
     justify-items: center;
-    margin-bottom: 2rem;
+    margin: 0 4% 2rem 4%;
     padding-bottom: 2rem;
     border: 1px solid black;
-    /* box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,0.2);
+    max-width: 96%;
 }
 div.visit-us p {
     margin: 0;
@@ -1080,19 +1003,18 @@ div.visit-us hr {
     grid-column: 2/3;
 }
 div.visit-us div {
-    /* justify-self: left; */
     margin-bottom: 1rem;
 }
 
-/* ======== POINTS OF CONTACT CARD ========*/
+/* +++ POINTS CONT. CARD +++ */
 div.points-of-contact {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    margin-bottom: 4.5rem;
+    align-items: center;
+    margin: 0 4% 4.5rem 4%;
     border: 1px solid black;
-    /* box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,0.2);
+    max-width: 96%;
 }
 
 div.quick-contact {
