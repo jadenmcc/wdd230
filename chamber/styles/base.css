@@ -577,12 +577,20 @@ main.join h2 {
     text-align: center;
 }
 
+main.join form.join-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
 form.join-form fieldset {
     margin: 2rem 0;
     border: 2px solid #333333;
     padding: .5rem 2% 1.5rem;
     font-family: 'Cabin', sans-serif;
     font-weight: normal;
+    width: 90%;
 }
 
 form.join-form fieldset div {
@@ -637,7 +645,7 @@ form.join-form input.submitBtn {
     border: none;
     background-color: #FCBA03;
     padding: .75rem 1.5rem;
-    margin: 0 0 4rem 2%;
+    /* margin: 0 0 4rem 2%; */
     width: 96%;
     max-width: 20rem;
     font-family: 'Cabin', sans-serif;
