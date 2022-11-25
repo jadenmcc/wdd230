@@ -43,7 +43,6 @@
     .date-container {
         font-size: 2vw;
     }
-
     /* /////////////////////// end HEADER */
 
     /* =============== MAIN ===============*/
@@ -171,6 +170,10 @@
     .join-card button {
         width: 80%;
         box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .join-card button:hover {
+        cursor: pointer;
     }
 
     .join-card p {

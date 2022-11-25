@@ -284,6 +284,10 @@ main.home div.hero-card {
     padding: .5rem 5%;
 }
 
+.hero-card button:hover {
+    cursor: pointer;
+}
+
 /* ++++++ EVENT CARD +++++++ */
 .event-card p {
     margin: 4vw 3vw;
@@ -661,6 +665,7 @@ main.join form.join-form fieldset:nth-of-type(3) .member-benefits-p {
     margin: 0;
     padding: .75rem 1% 0 1%;
     font-style: italic;
+    /* text-align: center; */
 }
 
 
@@ -681,6 +686,7 @@ main.thankyou h2 {
 
 main.thankyou h3 {
     margin: 1rem 5%;
+    font-weight: bold;
 }
 
 main.thankyou p {
