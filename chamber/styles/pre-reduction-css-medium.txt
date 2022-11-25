@@ -1,0 +1,371 @@
+/* MEDIUM */
+@media only screen and (min-width: 48rem) {
+    /* ====================== HEADER ======================*/
+    /* ++++++++ CONTACT +++++++++ */
+    .contact div {
+        padding: 0;
+        font-size: .75rem;
+        letter-spacing: 1.25px;
+    }
+    .contact img {
+        max-width: 3vw;
+    }
+    /* ////////// end CONTACT */
+
+    /* ++++++++ NAV BAR +++++++++ */
+    .logo-hamburgerbtn a {
+        margin: 5vw 2% 5vw 4%;
+        max-width: 10rem;
+        object-fit: contain;
+    }
+    
+    .logo-hamburgerbtn a img {
+        /* margin: 5vw 2% 5vw 4%; */
+        max-width: 10rem;
+        object-fit: contain;
+    }
+    
+    .logo-hamburgerbtn h1 {
+        align-self: center;
+        margin: 5vw 2%;
+        font-size: 2rem;
+        color: white;
+    }
+    /* ////////// end NAV BAR */
+
+    /* ++++++++++ NAV +++++++++++ */
+    nav ul li {
+        font-size: 3vw;
+    }
+    /* ////////// end NAV */
+
+    /* ++++++++ CURRENT DATE +++++++++ */
+    .date-container {
+        font-size: 2vw;
+    }
+    /* ////////// end CURRENT DATE */
+
+    /* ///////////////////////////////////////// end HEADER */
+
+    /* ======================= MAIN =======================*/
+    main.home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* ------------------ ALL CARDS ------------------*/
+    main.home div {
+        margin: 2vw;
+    }
+
+    main.home div h2 {
+        font-size: 3.75vw;
+    }
+    main.home div h3 {
+        font-size: 3vw;
+        margin: 5vw 5vw;
+    }
+    /* ////////// end ALL CARDS */
+
+    /* ++++++++ HERO CARD +++++++++ */
+    div.hero-card {
+        grid-column: 1/4;
+    }
+
+    .hero-card h1 {
+        font-size: 2.6rem;
+        top: 15vw;
+    }
+
+    main.home div.hero-card h2 {
+        top: 22vw;
+        margin: auto 5vw;
+        padding: .5vw 5vw;
+        font-size: 1.7rem;
+        width: initial;
+    }
+
+    /* WEEK 6 */
+    /* .hero-card picture {
+        width: 100%;
+    } */
+
+    /* WEEK 6 */
+    .hero-card img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .hero-card button {
+        top: initial;
+        bottom: 4vw;
+        margin: 0;
+    }
+    /* ////////// end HERO CARD */
+
+    /* ++++++++ NEWS CARD +++++++++ */
+    .news-card {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .news-card p {
+        margin: 4vw 5vw;
+    }
+    /* ////////// end NEWS CARD */
+
+    /* ++++++++ COMPANY SPOTLIGHT CARD +++++++++ */
+    main.home div.spotlight-container {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 2%;
+    }
+    
+    /* ___All Spotlight Cards___ */
+    main.home div.spotlight-container div {
+        margin: 0.5rem 0;
+        /* height: 100%; */
+    }
+
+    .spotlight-container div h2 {
+        margin: 0 0 auto 0;
+        font-size: 2.5vw;
+    }
+
+    .spotlight-container img {
+        margin: auto 0;
+        object-fit: contain;
+        max-width: 100%;
+    }
+
+    .spotlight-container div h3 {
+        margin: 2vw 0;
+        font-size: 2vw;
+    }
+
+    .spotlight-container div p {
+        margin: 2vw 8vw;
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+    }
+
+    /* ___Spotlight Card 1___ */
+    .spotlight-container div:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .spotlight-container div:nth-child(1) h3 {
+        margin: 2rem 10%;
+    }
+    /* ___Spotlight Card 2___ */
+    .spotlight-container div:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .spotlight-container div:nth-child(2) h3 {
+        margin: 2rem 10%;
+    }
+    /* ////////// end COMPANY SPOTLIGHT CARD */
+
+    /* ++++++++ JOIN CARD +++++++++ */
+    main.home div.join-card {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        display: flex;
+        flex-direction: column;
+        background-color: #132947;
+    }
+
+    .join-card button {
+        width: 80%;
+        box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .join-card p {
+        margin: 3vw 5vw;
+        font-size: 3vw;
+        text-align: justify;
+    }
+    /* ////////// end JOIN CARD */
+
+    /* ++++++++ EVENT CARD +++++++++ */
+    .event-card {
+        grid-column: 1/3;
+        grid-row: 5/6;
+        margin-right: 1vw;
+    }
+    /* ////////// end EVENT CARD */
+
+    /* ++++++++ WEATHER CARD +++++++++ */
+    .weather-card {
+        grid-column: 3/4;
+        grid-row: 5/6;
+        grid-template-columns: 1fr .9fr;
+        margin-left: 1vw;
+    }
+
+    .weather-card img {
+        max-width: 90%;
+        object-fit: contain;
+        margin: 1vw;
+    }
+
+    .temperature {
+        font-size: 5vw;
+    }
+
+    .forecast {
+        font-size: 3vw;
+        margin: 0 2vw 0 0;
+    }
+
+    .weather-card hr {
+        margin: 0;
+    }
+
+    .weather-card table {
+        margin: auto auto .5rem auto;
+    }
+
+    .weather-card td {
+        padding: .1rem .75rem;
+    }
+    /* ////////// end WEATHER CARD */
+
+    /* ///////////////////////////////////////// end MAIN */
+
+
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    /* ====================== DISCOVER PAGE ======================*/
+    main.discover {
+        display: grid;
+        grid-template-columns: 1.75fr 1fr;
+        align-items: start;
+        /* justify-items: start; */
+    }
+
+    main.discover h1 {
+        grid-column: 1/3;
+        margin: 6% 0;
+        font-size: 3rem;
+    }
+
+    div.last-visit-container {
+        grid-column: 1/3;
+        /* grid-row: 2/3; */
+        margin: 5% 15%;
+    }
+
+    div.demographics-container {
+        grid-column: 2/3;
+        margin: .5rem 1%;
+    }
+
+    div.gallery-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: .5rem 1%;
+    }
+
+    .gallery-card picture {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .gallery-card picture img {
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .gallery-card picture:hover img {
+        padding: 5%;
+    }
+
+    /* ====================== JOIN PAGE ======================*/
+    /* ====================== JOIN PAGE ======================*/
+    /* ====================== JOIN PAGE ======================*/
+    form.join-form fieldset {
+        max-width: 35rem;
+    }
+    
+    main.join form.join-form fieldset:nth-of-type(3) div.join-membership-small-view {
+        display: none;
+    }
+
+    main.join form.join-form fieldset:nth-of-type(3) div.join-membership-medium-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+        /* justify-items: center; */
+        align-items: initial;
+        box-shadow: none;
+        border: none;
+    }
+
+    main.join form fieldset:nth-of-type(3) h3 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    main.join form.join-form fieldset:nth-of-type(3) label {
+        grid-column: 1/2;
+        margin: 0;
+        padding: .75rem 0;
+    }
+
+    main.join form.join-form fieldset:nth-of-type(3) .member-benefits-p {
+        display: block;
+        grid-column: 2/3;
+        margin: 0 0 0 5%;
+        padding: .75rem 0;
+    }
+
+    main.join form fieldset:nth-of-type(3) label:nth-of-type(1) {
+        grid-row: 2/3;
+    }
+    main.join form fieldset:nth-of-type(3) label:nth-of-type(2) {
+        grid-row: 3/4;
+    }
+    main.join form fieldset:nth-of-type(3) label:nth-of-type(3) {
+        grid-row: 4/5;
+    }
+    main.join form fieldset:nth-of-type(3) label:nth-of-type(4) {
+        grid-row: 5/6;
+    }
+
+    /* ====================== THANK YOU PAGE ======================*/
+    /* ====================== THANK YOU PAGE ======================*/
+    /* ====================== THANK YOU PAGE ======================*/
+    
+
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    /* ====================== DIRECTORY YOU PAGE ======================*/
+    /* main.directory .list section img {
+        display: block;
+    } */
+
+    /* Moved from base.css; maybe remove it and move to only large depending on how it looks. */
+    /* main.directory .list section {
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: left;
+
+        display: grid;
+        grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr) minmax(140px, 1fr);
+    }
+
+    main.directory .list section a {
+        overflow-wrap: break-word;
+    } */
+
+} /*end medium */
