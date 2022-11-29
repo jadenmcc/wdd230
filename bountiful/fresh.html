@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh - Bountiful Foods</title>
+    <meta name="description" content="Fresh page for Bountiful Foods
+        - a WDD-230 Final Project by Jaden McCarrey at 
+        Brigham Young University-Idaho.">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Fresh</h1>
+        <form class="order-form" method="get" action=""> <!-- Do NOT send the form to a new page upon form submission.  Instead, use a JavaScript event handler to produce a formatted output area on this same page showing: -->
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label class="top">First Name* <input type="text" name="fName" required></label>
+                    <label class="top">Email* <input type="email" name="eMail" placeholder="youremail@domain.com" required></label>
+                    <label class="top">Cell Phone* <input type="tel" name="cellPhone" placeholder="18015551234" required></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Order</legend>
+                <div>
+                    <h3>Your Order</h3>
+                    <label><input type="radio" name="fruitavailable" value="fruit1" required> Fruit 1</label>
+                    <label><input type="radio" name="fruitavailable" value="fruit2" required> Fruit 2</label>
+                    <label><input type="radio" name="fruitavailable" value="fruit3" required> Fruit 3</label>
+                    <label>Special Instructions <textarea name="orderInstructions" rows="4" cols="20" maxlength="150" placeholder="Any special instructions about your order?"></textarea></label>
+                </div>
+            </fieldset>
+            <input type="submit" value="Order Drink(s)" class="submitBtn">
+        </form>
+        <div class="output-area-card">
+            <p>First Name:</p>
+            <p>Email:</p>
+            <p>Phone:</p>
+            <p>Fruit 1:</p>
+            <p>Fruit 2:</p>
+            <p>Fruit 3:</p>
+            <p>Special Instructions:</p>
+            <p>Order Date:</p>
+            <p>Carbohydrates:</p>
+            <p>Protein:</p>
+            <p>Fat:</p>
+            <p>Sugar:</p>
+            <p>Calories:</p>
+        </div>
+    </main>
+    <footer>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p>Last Modified: </p>
+    </footer>
+</body>

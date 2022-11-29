@@ -1,0 +1,62 @@
+CONTRAST GRID - FINDING
+#FFFFFF, White
+#2ECC40
+#01FF70
+#BBF244, Leaf Green Neon
+#ABD94A, Leaf Green Bright
+#FFDC00
+#DDD, Silver
+#AAA
+#e31c3d
+#e56db1
+#85144B
+#001F3F
+#382449, Oxford Blue (purple)
+#303030, Portal Background
+#404040, Charcoal
+#000000, Black
+#CCCCCC
+#A60D36
+
+CONTRAST GRID - FINDING 2
+#FFFFFF, White
+#BBF244, Leaf Green Neon
+#A60D36
+#001F3F
+#DDD, Silver
+#7A9FBF
+#F2DCE2
+#118571
+#85144B
+#382449, Oxford Blue (purple)
+#01FF70
+#303030, Portal Background
+#404040, Charcoal
+#000000, Black
+
+
+
+CONTRAST GRID - "FOR NOW" SWATCH
+Primary:
+#A60D36
+
+Secondary:
+#FFFFFF
+
+Accent 1:
+#BBF244
+
+Accent 2:
+#382449
+
+Background Color:
+#001F3F
+
+
+LINKS
+https://www.azproduce.net/
+https://swigdrinks.com/
+https://jadenmcc.github.io/wdd230/lesson3/typography.html
+https://fonts.google.com/specimen/Montserrat?query=montser
+https://fonts.google.com/noto/specimen/Noto+Sans+Georgian?query=georgia
+https://fonts.google.com/specimen/Roboto?query=roboto
