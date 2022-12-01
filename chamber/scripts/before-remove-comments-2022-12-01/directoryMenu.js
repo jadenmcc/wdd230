@@ -4,6 +4,7 @@ const directoryDisplay = document.querySelector("article");
 
 
 gridbutton.addEventListener("click", () => {
+	// example using arrow function
 	directoryDisplay.classList.add("grid");
 	directoryDisplay.classList.remove("list");
 });

@@ -6,15 +6,18 @@ fetch(requestPath2)
     return response.json();
   })
   .then(function (jsonObject) {
+    // console.table(jsonObject);  // temporary checking for valid response and data parsing
     const companies2 = jsonObject['companies'];
 
     let premiumMembers = companies2.filter(isPremium);
 
     let shuffledPremiums = premiumMembers.sort(shufflePremiums);
 
+    // shuffledPremiums.forEach(displaycompanies2);
 
     for (let i = 0; i < 3; i++) {
       displaycompanies2(shuffledPremiums[i]);
+      // console.log(shuffledPremiums[i]);
     };
   });
 
@@ -31,6 +34,7 @@ fetch(requestPath2)
   };
 
   function displaycompanies2(company) {
+    // Create elements to add to the document
     let cardContainer = document.createElement('div');
     let coNameH2 = document.createElement('h2');
     let logoForCard = document.createElement('img');
@@ -41,6 +45,7 @@ fetch(requestPath2)
   
     coNameH2.textContent = company.name;
   
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     logoForCard.setAttribute('src', company.logopath);
     logoForCard.setAttribute('alt', `${company.name} company logo.`);
     logoForCard.setAttribute('loading', 'lazy');
@@ -52,6 +57,7 @@ fetch(requestPath2)
 
     coContactInfo.textContent = `${company.email} | ${company.phonenumber} | `;
 
+    // Add/append the section(cardContainer) with the coNameH2 element
     cardContainer.appendChild(coNameH2);
     cardContainer.appendChild(logoForCard);
     cardContainer.appendChild(taglineH3);
@@ -60,5 +66,6 @@ fetch(requestPath2)
 
     coContactInfo.appendChild(coWebsiteLink2);
   
+    // Add/append the existing HTML div with the directoryCards class with the section(card)
     document.querySelector('div.spotlight-container').appendChild(cardContainer);
   };
