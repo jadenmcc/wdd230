@@ -616,7 +616,7 @@ form.join-form label.sbs {
     color: white;
 }
 
-form.join-form input.submitBtn {
+form.join-form input.submit-btn {
     border: none;
     background-color: #FCBA03;
     padding: .75rem 1.5rem;
@@ -941,7 +941,7 @@ form.contact-form label.top input.plus-6px {
     width: calc(90% + 6px)
 }
 
-form.contact-form input.submitBtn {
+form.contact-form input.submit-btn {
     border: none;
     background-color: #FCBA03;
     padding: .75rem 1.5rem;

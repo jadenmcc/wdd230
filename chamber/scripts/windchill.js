@@ -40,7 +40,7 @@ function showResults(weatherData) {
         return windChill;
     };
     
-    const windChillCell = document.getElementById('windChillCell');
+    const windChillCell = document.getElementById('wind-chill-cell');
     
     if (windChillStatus == true) {
         const masterWindChill = calculateWindChill(currentTemp, currentWind).toFixed(1);

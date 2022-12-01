@@ -1,5 +1,5 @@
 const requestPath = 'json/data.json';
-const directoryCards = document.querySelector('.directoryCards');
+const directoryCards = document.querySelector('.directory-cards');
 
 fetch(requestPath)
   .then(function (response) {
@@ -83,6 +83,6 @@ fetch(requestPath)
     card.appendChild(membershipPara);
     card.appendChild(coWebsiteLink);
   
-    // Add/append the existing HTML div with the directoryCards class with the section(card)
-    document.querySelector('article.directoryCards').appendChild(card);
+    // Add/append the existing HTML div with the directory-cards class with the section(card)
+    document.querySelector('article.directory-cards').appendChild(card);
   };

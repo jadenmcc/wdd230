@@ -1,5 +1,5 @@
-const gridbutton = document.querySelector("#directoryGrid");
-const listbutton = document.querySelector("#directoryList");
+const gridbutton = document.querySelector("#directory-grid");
+const listbutton = document.querySelector("#directory-list");
 const directoryDisplay = document.querySelector("article");
 
 

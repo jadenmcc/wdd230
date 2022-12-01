@@ -1,7 +1,7 @@
-const newCurrentTemp = document.querySelector('#currentTemp');
-const weatherIcon = document.querySelector('#weatherIcon');
-const captionDesc = document.getElementById('currentForecast');
-const windSpeed = document.getElementById('currentWind');
+const newCurrentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.getElementById('current-forecast');
+const windSpeed = document.getElementById('current-wind');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=40.9804423&lon=-111.8874688&units=imperial&appid=1157f36a52164b93b327dd19914f8b96';
 

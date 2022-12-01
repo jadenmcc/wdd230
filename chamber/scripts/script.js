@@ -4,7 +4,7 @@
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 
 // Access the <p> tag by its ID and insert the date using the formatting created above.
-document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
 
 
 // === CURRENT YEAR FOR FOOTER ===
@@ -37,7 +37,7 @@ if (mainTag.classList.contains('home')) {
 
     const dayOfTheWeek = todaysDate.getDay();
 
-    const meetingBanner = document.getElementById('meetingBanner');
+    const meetingBanner = document.getElementById('meeting-banner');
 
     // Next two lines are for testing the banner condition:
     // const fakeDate = new Date('October 18, 2022 23:15:30');
