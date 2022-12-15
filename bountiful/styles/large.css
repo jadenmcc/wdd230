@@ -1,0 +1,25 @@
+/* LARGE */
+@media only screen and (min-width: 64rem) {
+    /* header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li,
+    nav ul li:nth-of-type(1) {
+        border: none;
+    }
+
+    div.burger-btn-container {
+        display: none;
+    } */
+} /*end LARGE */

@@ -348,9 +348,18 @@ img.current-weather-icon {
 
 }
 
+.weather hr {
+    width: 80%;
+}
+
 .forecast {
     display: flex;
     justify-content: space-evenly;
+}
+
+img.fcast-icon {
+    max-width: 100%;
+    object-fit: contain;
 }
 
 /* +++ DRINK COUNTER CARD +++ */
@@ -565,6 +574,13 @@ input.order-drink-button {
     background-color: #BBF244;
     cursor: pointer;
     line-height: normal;
+}
+
+div.form-contact-container,
+div.form-order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ++++ ORDER SUMMARY CARD +++++ */

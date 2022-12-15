@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/menuToggler.js" defer></script>
     <script src="scripts/script.js" defer></script>
     <script src="scripts/fresh.js" defer></script>
@@ -38,63 +39,69 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="fresh-page">
         <h1>Fresh</h1>
         <div class="quick-info card-fresh">
             <p>Average processing time for an online order: 15 minutes</p>
         </div>
         <h2>Order Here</h2>
-        <form class="order-form" id="order-drink"> <!-- Do NOT send the form to a new page upon form submission.  Instead, use a JavaScript event handler to produce a formatted output area on this same page showing: -->
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label>First Name* 
-                    <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
-                </label>
-                <label>Email* 
-                    <input type="email" name="e-mail" id="e-mail" placeholder="email@domain.com" required>
-                </label>
-                <label>Phone* 
-                    <input type="tel" name="phone" id="phone" placeholder="18185551234" required>
-                </label>
-            </fieldset>
-            <fieldset class="choose-fruits">
-                <legend>Order</legend>
-                <label for="fruits-select-1">Choose Fruit #1*</label>
-                <select name="fruits-selection-1" id="fruits-select-1" required>
-                    <option value="">Please Select An Option</option>
-                    <option class="fruit-option-1" ></option>
-                    <option class="fruit-option-2" ></option>
-                    <option class="fruit-option-3" ></option>
-                    <option class="fruit-option-4" ></option>
-                    <option class="fruit-option-5" ></option>
-                    <option class="fruit-option-6" ></option>
-                </select>
-                <label for="fruits-select-2">Choose Fruit #2*</label>
-                <select name="fruits-selection-2" id="fruits-select-2" required>
-                    <option value="">Please Select An Option</option>
-                    <option class="fruit-option-1" ></option>
-                    <option class="fruit-option-2" ></option>
-                    <option class="fruit-option-3" ></option>
-                    <option class="fruit-option-4" ></option>
-                    <option class="fruit-option-5" ></option>
-                    <option class="fruit-option-6" ></option>
-                </select>
-                <label for="fruits-select-3">Choose Fruit #3*</label>
-                <select name="fruits-selection-3" id="fruits-select-3" required>
-                    <option value="">Please Select An Option</option>
-                    <option class="fruit-option-1" ></option>
-                    <option class="fruit-option-2" ></option>
-                    <option class="fruit-option-3" ></option>
-                    <option class="fruit-option-4" ></option>
-                    <option class="fruit-option-5" ></option>
-                    <option class="fruit-option-6" ></option>
-                </select>
-                <label>Special Instructions 
-                    <textarea name="order-instructions" id="order-instructions" rows="6" cols="20" maxlength="150" placeholder="Any special instructions for your order?"></textarea>
-                </label>
-            </fieldset>
-            <input type="submit" value="Order My Drink" class="order-drink-button" id="submit-button">
-        </form>
+        <div class="form-container">
+            <form class="order-form" id="order-drink">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-contact-container">
+                        <label>First Name*
+                            <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
+                        </label>
+                        <label>Email*
+                            <input type="email" name="e-mail" id="e-mail" placeholder="email@domain.com" required>
+                        </label>
+                        <label>Phone*
+                            <input type="tel" name="phone" id="phone" placeholder="18185551234" required>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="choose-fruits">
+                    <legend>Order</legend>
+                    <div class="form-order-container">
+                        <label for="fruits-select-1">Choose Fruit #1*</label>
+                        <select name="fruits-selection-1" id="fruits-select-1" required>
+                            <option value="">Please Select An Option</option>
+                            <option class="fruit-option-1" ></option>
+                            <option class="fruit-option-2" ></option>
+                            <option class="fruit-option-3" ></option>
+                            <option class="fruit-option-4" ></option>
+                            <option class="fruit-option-5" ></option>
+                            <option class="fruit-option-6" ></option>
+                        </select>
+                        <label for="fruits-select-2">Choose Fruit #2*</label>
+                        <select name="fruits-selection-2" id="fruits-select-2" required>
+                            <option value="">Please Select An Option</option>
+                            <option class="fruit-option-1" ></option>
+                            <option class="fruit-option-2" ></option>
+                            <option class="fruit-option-3" ></option>
+                            <option class="fruit-option-4" ></option>
+                            <option class="fruit-option-5" ></option>
+                            <option class="fruit-option-6" ></option>
+                        </select>
+                        <label for="fruits-select-3">Choose Fruit #3*</label>
+                        <select name="fruits-selection-3" id="fruits-select-3" required>
+                            <option value="">Please Select An Option</option>
+                            <option class="fruit-option-1" ></option>
+                            <option class="fruit-option-2" ></option>
+                            <option class="fruit-option-3" ></option>
+                            <option class="fruit-option-4" ></option>
+                            <option class="fruit-option-5" ></option>
+                            <option class="fruit-option-6" ></option>
+                        </select>
+                        <label>Special Instructions
+                            <textarea name="order-instructions" id="order-instructions" rows="6" cols="20" maxlength="150" placeholder="Any special instructions for your order?"></textarea>
+                        </label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Order My Drink" class="order-drink-button" id="submit-button">
+            </form>
+        </div>
         <div class="output-area-card hidden">
             <h2>Order Summary</h2>
             <div class="sub-summary-card">
