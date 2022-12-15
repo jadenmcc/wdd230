@@ -1,0 +1,79 @@
+CONTRAST GRID - FINDING
+#FFFFFF, White
+#2ECC40
+#01FF70
+#BBF244, Leaf Green Neon
+#ABD94A, Leaf Green Bright
+#FFDC00
+#DDD, Silver
+#AAA
+#e31c3d
+#e56db1
+#85144B
+#001F3F
+#382449, Oxford Blue (purple)
+#303030, Portal Background
+#404040, Charcoal
+#000000, Black
+#CCCCCC
+#A60D36
+
+CONTRAST GRID - FINDING 2
+#FFFFFF, White
+#BBF244, Leaf Green Neon
+#A60D36
+#001F3F
+#DDD, Silver
+#7A9FBF
+#F2DCE2
+#118571
+#85144B
+#382449, Oxford Blue (purple)
+#01FF70
+#303030, Portal Background
+#404040, Charcoal
+#000000, Black
+
+CONTRAST GRID - FINDING 3
+#A60D36
+#FFFFFF, White
+#BBF244, Leaf Green Neon
+#382449, Oxford Blue (purple)
+#001F3F
+#DDD, Silver
+#7A9FBF
+#F2DCE2
+#118571
+#85144B
+#01FF70
+#303030, Portal Background
+#404040, Charcoal
+#000000, Black
+
+
+
+CONTRAST GRID - "FOR NOW" SWATCH
+Primary:
+#A60D36
+
+Secondary:
+#FFFFFF
+
+Accent 1:
+#BBF244
+
+Accent 2:
+#382449
+
+Background Color:
+#001F3F
+
+
+LINKS
+https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23A60D36%0D%0A%23FFFFFF%2C%20White%0D%0A%23BBF244%2C%20Leaf%20Green%20Neon%0D%0A%23382449%2C%20Oxford%20Blue%20(purple)%0D%0A%23001F3F%0D%0A%23DDD%2C%20Silver%0D%0A%237A9FBF%0D%0A%23F2DCE2%0D%0A%23118571%0D%0A%2385144B%0D%0A%2301FF70%0D%0A%23303030%2C%20Portal%20Background%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa
+https://www.azproduce.net/
+https://swigdrinks.com/
+https://jadenmcc.github.io/wdd230/lesson3/typography.html
+https://fonts.google.com/specimen/Montserrat?query=montser
+https://fonts.google.com/noto/specimen/Noto+Sans+Georgian?query=georgia
+https://fonts.google.com/specimen/Roboto?query=roboto

@@ -8,53 +8,146 @@
     <meta name="description" content="Fresh page for Bountiful Foods
         - a WDD-230 Final Project by Jaden McCarrey at 
         Brigham Young University-Idaho.">
-    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:ital,wght@0,400;0,500;0,700;1,700;1,900&family=Noto+Sans+Georgian:wght@200;300;400;600;800&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/menuToggler.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/fresh.js" defer></script>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="header-contact-info-container">
+            <p class="hover"><a href="aboutus.html">Address</a></p>
+            <p>(919) 225-5511</p>
+        </div>
+        <div class="headboard">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+            <div class="burger-btn-container"><button id="burger-button"><span>&#9776;</span></button></div>
+        </div>
+        <nav>
+            <ul id="nav-drawer">
+                <li class="hover"><a href="index.html">Home</a></li>
+                <li class="hover"><a href="fresh.html">Fresh</a></li>
+                <li class="hover"><a href="aboutus.html">About Us</a></li>
+                <li class="hover"><a href="aboutus.html">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>Fresh</h1>
-        <form class="order-form" method="get" action=""> <!-- Do NOT send the form to a new page upon form submission.  Instead, use a JavaScript event handler to produce a formatted output area on this same page showing: -->
+        <div class="quick-info card-fresh">
+            <p>Average processing time for an online order: 15 minutes</p>
+        </div>
+        <h2>Order Here</h2>
+        <form class="order-form" id="order-drink"> <!-- Do NOT send the form to a new page upon form submission.  Instead, use a JavaScript event handler to produce a formatted output area on this same page showing: -->
             <fieldset>
                 <legend>Contact Information</legend>
-                <div>
-                    <label class="top">First Name* <input type="text" name="fName" required></label>
-                    <label class="top">Email* <input type="email" name="eMail" placeholder="youremail@domain.com" required></label>
-                    <label class="top">Cell Phone* <input type="tel" name="cellPhone" placeholder="18015551234" required></label>
-                </div>
+                <label>First Name* 
+                    <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
+                </label>
+                <label>Email* 
+                    <input type="email" name="e-mail" id="e-mail" placeholder="email@domain.com" required>
+                </label>
+                <label>Phone* 
+                    <input type="tel" name="phone" id="phone" placeholder="18185551234" required>
+                </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="choose-fruits">
                 <legend>Order</legend>
-                <div>
-                    <h3>Your Order</h3>
-                    <label><input type="radio" name="fruitavailable" value="fruit1" required> Fruit 1</label>
-                    <label><input type="radio" name="fruitavailable" value="fruit2" required> Fruit 2</label>
-                    <label><input type="radio" name="fruitavailable" value="fruit3" required> Fruit 3</label>
-                    <label>Special Instructions <textarea name="orderInstructions" rows="4" cols="20" maxlength="150" placeholder="Any special instructions about your order?"></textarea></label>
-                </div>
+                <label for="fruits-select-1">Choose Fruit #1*</label>
+                <select name="fruits-selection-1" id="fruits-select-1" required>
+                    <option value="">Please Select An Option</option>
+                    <option class="fruit-option-1" ></option>
+                    <option class="fruit-option-2" ></option>
+                    <option class="fruit-option-3" ></option>
+                    <option class="fruit-option-4" ></option>
+                    <option class="fruit-option-5" ></option>
+                    <option class="fruit-option-6" ></option>
+                </select>
+                <label for="fruits-select-2">Choose Fruit #2*</label>
+                <select name="fruits-selection-2" id="fruits-select-2" required>
+                    <option value="">Please Select An Option</option>
+                    <option class="fruit-option-1" ></option>
+                    <option class="fruit-option-2" ></option>
+                    <option class="fruit-option-3" ></option>
+                    <option class="fruit-option-4" ></option>
+                    <option class="fruit-option-5" ></option>
+                    <option class="fruit-option-6" ></option>
+                </select>
+                <label for="fruits-select-3">Choose Fruit #3*</label>
+                <select name="fruits-selection-3" id="fruits-select-3" required>
+                    <option value="">Please Select An Option</option>
+                    <option class="fruit-option-1" ></option>
+                    <option class="fruit-option-2" ></option>
+                    <option class="fruit-option-3" ></option>
+                    <option class="fruit-option-4" ></option>
+                    <option class="fruit-option-5" ></option>
+                    <option class="fruit-option-6" ></option>
+                </select>
+                <label>Special Instructions 
+                    <textarea name="order-instructions" id="order-instructions" rows="6" cols="20" maxlength="150" placeholder="Any special instructions for your order?"></textarea>
+                </label>
             </fieldset>
-            <input type="submit" value="Order Drink(s)" class="submitBtn">
+            <input type="submit" value="Order My Drink" class="order-drink-button" id="submit-button">
         </form>
-        <div class="output-area-card">
-            <p>First Name:</p>
-            <p>Email:</p>
-            <p>Phone:</p>
-            <p>Fruit 1:</p>
-            <p>Fruit 2:</p>
-            <p>Fruit 3:</p>
-            <p>Special Instructions:</p>
-            <p>Order Date:</p>
-            <p>Carbohydrates:</p>
-            <p>Protein:</p>
-            <p>Fat:</p>
-            <p>Sugar:</p>
-            <p>Calories:</p>
+        <div class="output-area-card hidden">
+            <h2>Order Summary</h2>
+            <div class="sub-summary-card">
+                <h3>Contact Information</h3>
+                <p class="output">First Name: <span id="f-name-output"></span></p>
+                <p class="output">Email: <span id="e-mail-output"></span></p>
+                <p class="output">Phone: <span id="phone-output"></span></p>
+            </div>
+            <hr>
+            <div class="sub-summary-card">
+                <h3>Order Details</h3>
+                <p class="output">Fruit 1: <span id="fr-choice1-output"></span></p>
+                <p class="output">Fruit 2: <span id="fr-choice2-output"></span></p>
+                <p class="output">Fruit 3: <span id="fr-choice3-output"></span></p>
+                <p class="output">Special Instructions: <span id="sp-instructions-output"></span></p>
+                <p>Order Date: <span id="date-ordered-output"></span></p>
+            </div>
+            <hr>
+            <div class="sub-summary-card">
+                <h3>Nutritional Facts</h3>
+                <p>Carbohydrates: <span id="carbs-output"></span></p>
+                <p>Protein: <span id="protein-output"></span></p>
+                <p>Fat: <span id="fat-output"></span></p>
+                <p>Sugar: <span id="sugar-output"></span></p>
+                <p>Calories: <span id="calories-output"></span></p>
+            </div>
         </div>
+        <!-- where to put form title? -->
+        <!-- add "required" back into all required inputs -->
+        <!-- action="" figure out if confirmation page or just page alert -->
+        <!-- consider using google's list of names to help with auto complete (not required)-->
+        <!-- minimum <input> height of 44px tall -->
+        <!-- Order fruits selection options in alphabetical order if possible -->
+        <!-- do i need "required" for select or option elements or both? -->
+        <!-- "for" attribute is only used for <label> and <output> -->
+
+            <!-- Note: <select> element: 'name' attr is the name for the data submitted; 'id' attr associates it with its label -->
     </main>
     <footer>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p>Last Modified: </p>
+        <div class="footer-nav">
+            <p class="hover"><a href="fresh.html">Fresh</a></p>
+            <p class="hover"><a href="aboutus.html">About Us</a></p>
+            <p class="hover"><a href="attributions.html">Attributions</a></p>
+        </div>
+        <div class="footer-sm">
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-facebook-compressed.webp" alt="Facebook." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-instagram-compressed.webp" alt="Instagram." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-youtube-compressed.webp" alt="YouTube." loading="lazy"></a>
+        </div>
+        <div class="footer-logo-container">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+        </div>
+        <div class="fine-print-container">
+            <p id="last-modified"></p>
+            <p><span id="copyright-year">&#169; </span> Bountiful Foods | Jaden D. McCarrey | WDD 230 Final Project</p>
+        </div>
     </footer>
 </body>

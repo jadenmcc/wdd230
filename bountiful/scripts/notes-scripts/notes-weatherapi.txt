@@ -1,0 +1,48 @@
+Time Delivered in:
+1. Unix Timestamp (num)
+2. UTC (date format)
+
+The source data represents PST (GMC???)
+
+Myself and graders are in MT (GMC???)
+
+
+How do I make sure the morrowDate...list[x].dt is always NOT today for my graders?
+
+Function:
+- loop
+- if statement:
+    - creates variable that == to today's day of week
+    - checks if result of secondsToDate == today's day of week;
+    - keeps looping until it finds first result that secondsToDate != today's day of week
+    - adds +1 to today's day of week
+
+
+////////// REFERENCE LINKS
+https://openweathermap.org/current
+
+https://openweathermap.org/forecast5
+
+https://www.google.com/search?q=javascript+change+date+time+code+to+date&rlz=1C1RXQR_enUS956US956&oq=javascript+change+date+time+code+to+date&aqs=chrome..69i57j33i160l2j33i299j33i22i29i30.18453j0j4&sourceid=chrome&ie=UTF-8
+
+https://www.toptal.com/software/definitive-guide-to-datetime-manipulation
+
+https://www.google.com/search?q=javascript+datetime+as+a+number&rlz=1C1RXQR_enUS956US956&oq=javascript+datetime+as+a+number&aqs=chrome..69i57j0i22i30l2j0i390l4.4981j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/how-to-convert-milliseconds-to-date-in-javascript/
+
+https://www.google.com/search?q=openweathermap+api+forecast+date+format&rlz=1C1RXQR_enUS956US956&sxsrf=ALiCzsahAlscFsdi5ry0mRuvDAY-xJD5iw%3A1670706542992&ei=bvWUY-ChPObckPIP7puNaA&ved=0ahUKEwjgkJPw-u_7AhVmLkQIHe5NAw0Q4dUDCBA&uact=5&oq=openweathermap+api+forecast+date+format&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICCEQwwQQoAE6CggAEEcQ1gQQsAM6BwgjELACECc6BQgAEIYDOgUIABCiBDoKCCEQwwQQChCgAUoECEEYAEoECEYYAFDODlijGGC7GmgBcAF4AIABoAGIAYMIkgEDMi43mAEAoAEByAEIwAEB&sclient=gws-wiz-serp#ip=1
+
+https://stackoverflow.com/questions/23576805/what-format-is-this-date-value-in
+
+https://www.google.com/search?q=javascript+convert+unix+timestamp+to+date&rlz=1C1RXQR_enUS956US956&oq=javascript+convert+unix&aqs=chrome.0.0i20i263i512j69i57j0i512l7.4438j0j7&sourceid=chrome&ie=UTF-8
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+
+https://www.timecalculator.net/milliseconds-to-date
+
+https://www.epochconverter.com/

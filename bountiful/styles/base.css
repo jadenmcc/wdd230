@@ -1,0 +1,695 @@
+/* ================== HOME PAGE ==================*/
+/* ================== HOME PAGE ==================*/
+/* ================== HOME PAGE ==================*/
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #001F3F;
+    margin: 0;
+}
+
+header,
+nav,
+footer {
+    margin: 1.25rem auto;
+    max-width: 100%;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #A60D36;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #A60D36;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #A60D36;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.875rem;
+    font-style: italic;
+    color: #BBF244;
+    background-color: #382449;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.625rem;
+    font-style: italic;
+    color: #BBF244;
+    background-color: #A60D36;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    font-style: italic;
+    color: #434343;
+    background-color: #fff;
+}
+
+p {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+
+a,
+a:visited {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: #A60D36;
+    background-color: #BBF244;
+} */
+
+.hover:hover {
+    color: #A60D36;
+    background-color: #BBF244;
+}
+
+/* ============== HEADER ==============*/
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+/* ++++++++ CONTACT +++++++++ */
+.header-contact-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #382449;
+}
+
+.header-contact-info-container p {
+    margin: 0;
+    padding: .5rem;
+}
+
+/* +++++++ HEADBOARD ++++++++ */
+div.headboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+div.headboard.open {
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.headboard a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    padding: 1rem 5%;
+}
+
+.headboard img.logo {
+    max-width: 7rem;
+}
+
+div.burger-btn-container {
+    grid-column: 3/4;
+    justify-self: end;
+    align-self: center;
+    padding: 1rem 15% 1rem 20%;
+}
+
+.burger-btn-container button {
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+/* ++++++++++ NAV +++++++++++ */
+/* __ Drawer Closed __ */
+nav {
+    display: none;
+}
+
+nav ul {
+    display: none;
+}
+
+/* __ Drawer Open __ */
+nav.open {
+    display: block;
+    margin: 0;
+}
+
+nav hr {
+    margin: 0 12.5%;
+    border: .5px solid #fff;
+    width: 75%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: #001F3F;
+}
+
+nav ul li {
+    border-right: 8px solid #640820;
+    border-bottom: 8px solid #640820;
+    border-left: 8px solid #640820;
+    color: #A60D36;
+    background-color: #F2DCE2;
+    width: 90%;
+}
+
+nav ul li:nth-of-type(1) {
+    border-top: 8px solid #640820;
+}
+
+
+nav ul li a {
+    font-size: 1.2rem;
+    font-weight: 800;
+    display: block;
+    padding: 1rem 5%;
+}
+/* /////////////////////// end HEADER */
+
+/* =============== MAIN ===============*/
+.card-home {
+    margin: 2rem 5%;
+    border: 1px solid #fff;
+    box-shadow: 0 .5rem 1rem 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+/* +++++++ HERO CARD ++++++++ */
+div.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+img.subhero-image-home,
+img.hero-image-home {
+    align-self: center;
+    max-width: 100%;
+}
+
+img.subhero-image-home {
+    margin: 1.5rem auto;
+}
+
+.hero-button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero button {
+    margin: 1rem 1%;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* font-size: 1rem; */
+    font-style: italic;
+    color: #A60D36;
+    background-color: #BBF244;
+    cursor: pointer;
+}
+
+/* ++++ COAST INFO CARD +++++ */
+div.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* margin: 0; */
+    /* max-width: 100%; */
+}
+
+.summary h2 {
+    margin-bottom: 0;
+}
+
+img.coastal-image-home {
+    align-self: center;
+    max-width: 100%;
+}
+
+.summary p {
+    margin: 0;
+}
+
+.summary p:nth-of-type(1) {
+    padding: 1rem 5% .5rem 5%;
+}
+
+.summary p:nth-of-type(2) {
+    padding: .5rem 5% 1rem 5%;
+}
+
+.summary button {
+    align-self: center;
+    margin: 1rem 1%;
+    padding: 1rem 2rem;
+    border: none;
+    max-width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* font-size: 1.2rem; */
+    font-size: 1rem;
+    font-style: italic;
+    color: #A60D36;
+    background-color: #BBF244;
+    cursor: pointer;
+}
+
+/* ++++++ WEATHER CARD ++++++ */
+div.current-weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.weather span {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.current-weather p {
+    margin: 0;
+}
+
+p.temperature,
+p.temperature span {
+    font-weight: 700;
+    padding: 0;
+}
+
+p.condition-description {
+    font-weight: 700;
+    font-style: italic;
+    padding: 0;
+}
+
+p.humidity,
+p.humidity span {
+    font-weight: 300;
+    padding: 0;
+}
+
+img.current-weather-icon {
+    grid-row: 1/4;
+    justify-self: center;
+    width: 75%;
+}
+
+.temperature {
+    grid-row: 1/2;
+
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* +++ DRINK COUNTER CARD +++ */
+div.drinks-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.drinks-counter p {
+    align-self: center;
+}
+
+.n-drinks {
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.875rem;
+    font-style: italic;
+    color: #BBF244;
+    background-color: #382449;
+}
+
+.drinks-counter button {
+    align-self: center;
+    margin: 1rem 1%;
+    padding: 1rem 2rem;
+    border: none;
+    max-width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* font-size: 1rem; */
+    font-style: italic;
+    color: #A60D36;
+    background-color: #BBF244;
+    cursor: pointer;
+}
+/* ////////////////////////// end MAIN */
+
+/* ============== FOOTER ==============*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* ++++ FOOTER NAV CARD +++++ */
+div.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.footer-nav p {
+    padding: .5rem 2.5%;
+    margin: 0 2%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer-nav a {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* ++++++++ SM CARD +++++++++ */
+div.footer-sm {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1%;
+}
+
+div a.social-media {
+    margin: 0 5%;
+}
+
+img.social-media {
+    display: block;
+    max-width: 2.5rem;
+}
+
+/* ++++++++ LOGO CARD +++++++ */
+footer img.logo {
+    display: block;
+    margin: 2rem auto;
+    max-width: 10rem;
+}
+
+/* ++++ FINE PRINT CARD +++++ */
+div.fine-print-container {
+    margin: 2rem 1%;
+    text-align: center;
+}
+
+.fine-print-container p {
+    font-weight: 200;
+}
+
+/* //////////////////////// end FOOTER */
+
+
+
+/* ================== FRESH PAGE ==================*/
+/* ================== FRESH PAGE ==================*/
+/* ================== FRESH PAGE ==================*/
+
+/* ++++ QUICK INFO CARD +++++ */
+.quick-info p {
+    margin: 1rem 5%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* ++++ FORM CARD +++++ */
+form.order-form {
+    margin-bottom: 1rem;
+}
+
+form.order-form,
+.form-contact-container,
+.form-contact-container label,
+.fruits-select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+form.order-form,
+.order-form fieldset,
+.order-form legend,
+.order-form label,
+.order-form input,
+.order-form select,
+.order-form option,
+.order-form textarea {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.order-form fieldset {
+    margin: 1rem 5%;
+    padding: 1rem 5%;
+}
+
+.order-form legend {
+    font-size: 1.375rem;
+    color: #fff;
+}
+
+.order-form label,
+.order-form input,
+.order-form select,
+.order-form option,
+.order-form textarea {
+    display: block;
+}
+
+label,
+input,
+select {
+    width: 95%;
+}
+
+.order-form label {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.order-form input,
+.order-form select {
+    line-height: 44px;
+    margin-bottom: 1.5rem;
+}
+
+.order-form input {
+    padding-left: 2%;
+}
+
+.order-form select {
+    padding: 22px .5rem;
+}
+
+.order-form textarea {
+    margin-bottom: 1.5rem;
+    padding: .5rem 3%;
+    width: 93%;
+}
+
+input.order-drink-button {
+    align-self: center;
+    margin: 1rem 1% 2rem 1%;
+    padding: 1rem 2rem;
+    border: none;
+    max-width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #A60D36;
+    background-color: #BBF244;
+    cursor: pointer;
+    line-height: normal;
+}
+
+/* ++++ ORDER SUMMARY CARD +++++ */
+div.output-area-card.hidden {
+    display: none;
+}
+
+div.output-area-card.displayed {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 3rem 5%;
+    padding-bottom: 2rem;
+    background-color: #382449;
+    border: 1px solid #fff;
+    box-shadow: 0 .5rem 1rem 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.output-area-card hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.sub-summary-card h3 {
+    margin: 1rem 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* color: #fff; */
+    /* background-color: transparent; */
+    text-align: center;
+}
+
+.sub-summary-card p {
+    margin: 0;
+    padding: .1rem 5%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.output-area-card span {
+    display: block;
+    padding-bottom: .5rem;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 500;
+    color: #BBF244;
+}
+
+/* //////////////////////// end FRESH */
+
+
+
+/* ================== ABOUT US PAGE ==================*/
+/* ================== ABOUT US PAGE ==================*/
+/* ================== ABOUT US PAGE ==================*/
+.card-aboutus {
+    margin: 3rem 5%;
+    border: 1px solid #fff;
+    box-shadow: 0 .5rem 1rem 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+/* ++++ LOCATIONS CARD +++++ */
+div.locations {
+    border: none;
+    box-shadow: none;
+}
+
+.location-card {
+    margin: 2rem 5%;
+    padding-bottom: 1rem 0;
+    border: 1px solid #fff;
+}
+
+.location-card p {
+    margin: .1rem 5%;
+}
+
+.location-card p:nth-of-type(3) {
+    margin: .1rem 5% 1rem 5%;
+}
+
+/* ++++ OUR STORY CARD +++++ */
+.about-company p {
+    margin: 1rem 5%;
+}
+
+/* ++++ ABOUT AREA CARD +++++ */
+.about-area p {
+    margin: 1rem 5%;
+}
+
+/* ++++ CONTACT US CARD +++++ */
+.contact-info-aboutus p {
+    margin: .1rem 5%;
+}
+
+.contact-info-aboutus p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.contact-info-aboutus p:nth-of-type(5) {
+    margin: .1rem 5% 1rem 5%;
+}
+
+/* ++++ MAP CARD +++++ */
+.map iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+/* //////////////////////// end ABOUT US */
+.attributions-page li {
+    color: #fff;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.attributions-page a {
+    text-decoration: underline;
+}
+/* ================== ATTRIBUTIONS PAGE ==================*/
+/* ================== ATTRIBUTIONS PAGE ==================*/
+/* ================== ATTRIBUTIONS PAGE ==================*/
+
+
+
+
+/* //////////////////////// end ATTRIBUTIONS */

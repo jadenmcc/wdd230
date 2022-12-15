@@ -1,0 +1,138 @@
+////////// Before I combined it with displayDrinkOrder 12/14/2022
+const requestPath = 'json/fruit.json';
+
+fetch(requestPath)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    const fruits = jsonObject;
+
+    let shuffledFruits = fruits.sort(shuffleFruits);
+    // console.log(shuffledFruits); <-- these both work
+    // console.log(shuffledFruits[0].name); <-- these both work
+
+    let optionTagsAll = document.querySelectorAll('option');
+    // console.log(optionTagsAll);
+    optionTagsAll[1].textContent = shuffledFruits[0].name;
+    optionTagsAll[8].textContent = shuffledFruits[0].name;
+    optionTagsAll[15].textContent = shuffledFruits[0].name;
+
+    optionTagsAll[2].textContent = shuffledFruits[1].name;
+    optionTagsAll[9].textContent = shuffledFruits[1].name;
+    optionTagsAll[16].textContent = shuffledFruits[1].name;
+
+    optionTagsAll[3].textContent = shuffledFruits[2].name;
+    optionTagsAll[10].textContent = shuffledFruits[2].name;
+    optionTagsAll[17].textContent = shuffledFruits[2].name;
+
+    optionTagsAll[4].textContent = shuffledFruits[3].name;
+    optionTagsAll[11].textContent = shuffledFruits[3].name;
+    optionTagsAll[18].textContent = shuffledFruits[3].name;
+
+    optionTagsAll[5].textContent = shuffledFruits[4].name;
+    optionTagsAll[12].textContent = shuffledFruits[4].name;
+    optionTagsAll[19].textContent = shuffledFruits[4].name;
+
+    optionTagsAll[6].textContent = shuffledFruits[5].name;
+    optionTagsAll[13].textContent = shuffledFruits[5].name;
+    optionTagsAll[20].textContent = shuffledFruits[5].name;
+
+    // let option1 = document.querySelector('.fruit-option-1'); this works
+    // option1.textContent = shuffledFruits[0].name; this works
+
+    // for (let key in optionTagsAll) {
+      // console.log(optionTagsAll[key]);
+      // console.log(optionTagsAll[key].classList);
+
+      // optionTagsAll[key][1].textContent = 'poop';
+      
+      // if (optionTagsAll[key].classList.contains('fruit-option-1')) {
+      //   optionTagsAll[key].textContent = shuffledFruits[0];
+      //   console.log('it worked');
+      // }
+
+      // optionTagsAll[key].textContent = shuffleFruits[0];
+      // if (optionTagsAll[key] == 'fruit-option-1') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[0].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[0].name;
+      // } else if (optionTagsAll[key] == 'fruit-option-2') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[1].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[1].name;
+      // } else if (optionTagsAll[key] == 'fruit-option-3') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[2].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[2].name;
+      // } else if (optionTagsAll[key] == 'fruit-option-4') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[3].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[3].name;
+      // } else if (optionTagsAll[key] == 'fruit-option-5') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[4].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[4].name;
+      // } else if (optionTagsAll[key] == 'fruit-option-6') {
+      //   optionTagsAll[key].setAttribute('value', shuffledFruits[5].name);
+      //   optionTagsAll[key].textContent = shuffledFruits[5].name;
+      // }
+
+    // };
+
+    // console.log(shuffledFruits);
+    // console.log(shuffledFruits[0].name)
+
+    // This just limits the amount of times displayFruits() is called.
+    // for (let i = 0; i < 6; i++) {
+    //   displayFruits(shuffledFruits[i]);
+    // };
+  });
+
+  // function isPremium(company) {
+  //   if (company["memblevel"] == "Gold" | company["memblevel"] == "Silver") {
+  //     return company;
+  //   } else {
+  //     return false;
+  //   };
+  // };
+
+  function shuffleFruits(fruitA, fruitB) {
+    return 0.5 - Math.random();
+  };
+
+  function displayFruits(company) {
+    // let selectParent = document.getElementById('fruits-select-1');
+
+    // let option = document.createElement('option');
+    // option.setAttribute('value', 'poopoofruit');
+    // option.textContent = company;
+
+    // selectParent.appendChild(option);
+
+    // let cardContainer = document.createElement('div');
+    // let coNameH2 = document.createElement('h2');
+    // let logoForCard = document.createElement('img');
+    // let taglineH3 = document.createElement('h3');
+    // let hr = document.createElement('hr');
+    // let coContactInfo = document.createElement('p');
+    // let coWebsiteLink2 = document.createElement('a');
+  
+    // coNameH2.textContent = company.name;
+  
+    // logoForCard.setAttribute('src', company.logopath);
+    // logoForCard.setAttribute('alt', `${company.name} company logo.`);
+    // logoForCard.setAttribute('loading', 'lazy');
+
+    // taglineH3.textContent = company.tagline;
+    
+    // coWebsiteLink2.textContent = 'Website';
+    // coWebsiteLink2.setAttribute('href', company.websiteurl);
+
+    // coContactInfo.textContent = `${company.email} | ${company.phonenumber} | `;
+
+    // cardContainer.appendChild(coNameH2);
+    // cardContainer.appendChild(logoForCard);
+    // cardContainer.appendChild(taglineH3);
+    // cardContainer.appendChild(hr);
+    // cardContainer.appendChild(coContactInfo);
+
+    // coContactInfo.appendChild(coWebsiteLink2);
+  
+    // document.querySelector('div.spotlight-container').appendChild(cardContainer);
+  };

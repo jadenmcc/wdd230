@@ -8,45 +8,115 @@
     <meta name="description" content="Home page for Bountiful Foods
         - a WDD-230 Final Project by Jaden McCarrey at 
         Brigham Young University-Idaho.">
-    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:ital,wght@0,400;0,500;0,700;1,700;1,900&family=Noto+Sans+Georgian:wght@200;300;400;600;800&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/menuToggler.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/weatherapi.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="contact-home">
-            <p>(919) 225-5511 | info@bountifulfoods.com</p>
-            <a class="social-media" href="" target="_blank"><img class="social-media" src="" alt=""></a>
-            <a class="social-media" href="" target="_blank"><img class="social-media" src="" alt=""></a>
-            <a class="social-media" href="" target="_blank"><img class="social-media" src="" alt=""></a>
+        <div class="header-contact-info-container">
+            <p class="hover"><a href="aboutus.html">Address</a></p>
+            <p>(919) 225-5511</p>
+        </div>
+        <div class="headboard">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+            <div class="burger-btn-container"><button id="burger-button"><span>&#9776;</span></button></div>
         </div>
         <nav>
-            <p><a href="fresh.html">Fresh</a></p>
-            <p><a href="aboutus.html">About Us</a></p>
+            <ul id="nav-drawer">
+                <li class="hover"><a href="index.html">Home</a></li>
+                <li class="hover"><a href="fresh.html">Fresh</a></li>
+                <li class="hover"><a href="aboutus.html">About Us</a></li>
+                <li class="hover"><a href="aboutus.html">Locations</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h1>Bountiful Foods</h1>
-        <div class="hero-card-home">
-            <img class="hero-image-home" src="" alt="">
-            <button onclick="window.location.href='fresh.html';">CTA</button>
+        <div class="hero card-home">
+            <h1>Home</h1>
+            <img class="subhero-image-home" src="images/make-your-own-fruit-drink-mix-749x219-version-2.webp" alt="Home of the Original Fruit Drink.">
+            <!-- <div>
+                <h2>Make Your OWN Fruit Drink Mix:</h2>
+            </div> -->
+            <div class="hero-button-container">
+                <button onclick="window.location.href='fresh.html';">Order Now</button>
+                <!-- <button onclick="window.location.href='aboutus.html';">Find Us</button> -->
+            </div>
+            <img class="hero-image-home" src="images/fruit-drinks-hero-656x617-compressed.webp" alt="Original Fruit Drinks by Bountiful Foods.">
         </div>
-        <div class="summary-card-home">
-            <p>Summary information about any coastal area or areas in the southern California coast of your choosing.</p>
-            <p>Average processing time for an online order: 15 minutes</p>
+        <div class="summary card-home">
+            <h2>&#8212; Soooo Cal &#8212;</h2>
+            <img class="coastal-image-home" src="images/socal-coastline-base-385x217-compressed.webp" alt="The coastline of southern California.">
+            <p>
+                While the Central Valley is known 
+                as California’s “farm belt,” 
+                Southern Californians don’t need 
+                to eat behind a veil of anonymity.
+            </p>
+            <p>
+                Bountiful Foods gives everyone 
+                plenty of opportunity to support 
+                local farmers… and eat fresh.
+            </p>
+            <button id="coastal-info-home-read-more" onclick="window.location.href='aboutus.html#coastal-info-jump-to';">Read More</button>
         </div>
-        <div class="weather-card">
-            <p>Temperature:</p>            
-            <p>Condition:</p>            
-            <p>Humidity:</p>
-            <p>3-Day Temperature Forecast</p>                
+        <div class="weather card-home">
+            <h2>&#8212; Weather &#8212;</h2>
+            <div class="current-weather">
+                <img class="current-weather-icon" id="weather-icon" src="" alt="">
+                <p class="temperature"><span id="current-temp"></span><span>&#8457;</span></p>
+                <p class="condition-description" id="current-condition"></p>
+                <p class="humidity">Humidity: <span id="current-humidity"></span>%</p>
+            </div>
+            <hr>
+            <div class="three-day-forecast">
+                <div class="forecast fcast-1">
+                    <p class="fcast-date" id="morrow-date"></p>
+                    <img class="fcast-icon" src="" alt="" id="morrow-icon">
+                    <p class="fcast-temp"><span id="morrow-high-temp">&#8457;</span> / <span id="morrow-low-temp">&#8457;</span></p>
+                </div>
+                <div class="forecast fcast-2">
+                    <p class="fcast-date" id="overmorrow-date"></p>
+                    <img class="fcast-icon" src="" alt="" id="overmorrow-icon">
+                    <p class="fcast-temp"><span id="overmorrow-high-temp">&#8457;</span> / <span id="overmorrow-low-temp">&#8457;</span></p>
+                </div>
+                <div class="forecast fcast-3">
+                    <p class="fcast-date" id="thirdmorrow-date"></p>
+                    <img class="fcast-icon" src="" alt="" id="thirdmorrow-icon">
+                    <p class="fcast-temp"><span id="thirdmorrow-high-temp">&#8457;</span> / <span id="thirdmorrow-low-temp">&#8457;</span></p>
+                </div>
+                <!-- <p>Note: Forecast dates are relative to Pacific Standard Time (UTC-0800)</p> -->
+            </div>
         </div>
-        <div class="drinks-counter-card">
-            <p>Total # Specialty Drinks Ordered:</p>
+        <div class="drinks-counter card-home">
+            <h2>&#8212; Drink Counter &#8212;</h2>
+            <p>Total Specialty Drinks Ordered:</p>
+            <p class="n-drinks"></p>
+            <button onclick="window.location.href='fresh.html';">Order Again</button>
         </div>
     </main>
     <footer>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p>Last Modified: </p>
+        <div class="footer-nav">
+            <p class="hover"><a href="fresh.html">Fresh</a></p>
+            <p class="hover"><a href="aboutus.html">About Us</a></p>
+            <p class="hover"><a href="attributions.html">Attributions</a></p>
+        </div>
+        <div class="footer-sm">
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-facebook-compressed.webp" alt="Facebook." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-instagram-compressed.webp" alt="Instagram." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-youtube-compressed.webp" alt="YouTube." loading="lazy"></a>
+        </div>
+        <div class="footer-logo-container">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+        </div>
+        <div class="fine-print-container">
+            <p id="last-modified"></p>
+            <p><span id="copyright-year">&#169; </span> Bountiful Foods | Jaden D. McCarrey | WDD 230 Final Project</p>
+        </div>
     </footer>
 </body>

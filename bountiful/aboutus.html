@@ -8,35 +8,163 @@
     <meta name="description" content="About Us page for Bountiful Foods
         - a WDD-230 Final Project by Jaden McCarrey at 
         Brigham Young University-Idaho.">
-    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:ital,wght@0,400;0,500;0,700;1,700;1,900&family=Noto+Sans+Georgian:wght@200;300;400;600;800&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/menuToggler.js" defer></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="header-contact-info-container">
+            <p class="hover"><a href="aboutus.html">Address</a></p>
+            <p>(919) 225-5511</p>
+        </div>
+        <div class="headboard">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+            <div class="burger-btn-container"><button id="burger-button"><span>&#9776;</span></button></div>
+        </div>
+        <nav>
+            <ul id="nav-drawer">
+                <li class="hover"><a href="index.html">Home</a></li>
+                <li class="hover"><a href="fresh.html">Fresh</a></li>
+                <li class="hover"><a href="aboutus.html">About Us</a></li>
+                <li class="hover"><a href="aboutus.html">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>About Us</h1>
-        <div class="about-company-card">
-            <p>Historical information about the company.</p>
-            
+        <div class="locations card-aboutus" id="address-jump-to">
+            <h2>Locations</h2>
+            <div class="location-card">
+                <h3>Headquarters</h3>
+                <p>5704 Paseo Del Norte</p>
+                <p>Carlsbad, CA 92008</p>
+                <p>Hours: 8:00am to 7pm Daily</p>
+            </div>
+            <div class="location-card">
+                <h3>San Diego</h3>
+                <p>8302 Camino Del Oro</p>
+                <p>La Jolla, CA 92037</p>
+                <p>Hours: 8:00am to 7pm Daily</p>
+            </div>
+            <div class="location-card">
+                <h3>Dana Point</h3>
+                <p>34558 Scenic Dr</p>
+                <p>Dana Point, CA 92629</p>
+                <p>Hours: 8:00am to 7pm Daily</p>
+            </div>
+            <div class="location-card">
+                <h3>Malibu</h3>
+                <p>22706 E Pacific Coast Hwy</p>
+                <p>Malibu, CA 90265</p>
+                <p>Hours: 8:00am to 7pm Daily</p>
+            </div>
         </div>
-        <div class="about-area-card">
-            <p>Historical information about the area.</p>
+        <div class="about-company card-aboutus">
+            <h2>Our Story</h2>
+            <p>One of 13 children in a family raised 
+                during the Depression, Cliff Clark 
+                got his first job in Carlsbad, California 
+                at age five harvesting pickling 
+                onions. By the age of 12, he was 
+                driving a truck for a local farmer 
+                delivering produce to market.
+            </p>
+            <p>Extremely resourceful and incredibly 
+                creative, Cliff spent the years after 
+                high school graduation (in 1936) 
+                making a variety of runs to 
+                neighboring states for loads of 
+                saleable, available produce. He 
+                built a network of contacts along 
+                the way and always found willing 
+                buyers when he returned.
+            </p>                
+            <p>After almost four years in the Army 
+                during WWII, Cliff returned home and
+                founded Bountiful Foods co. 
+                His reputation still alive with 
+                suppliers and customers alike, Cliff 
+                established Bountiful Foods as one 
+                of the largest wholesale produce 
+                suppliers in southern California.
+            </p>                
+            <p>Cliff brought on his three sons, 
+                Jay Dee, Steve, and Scott as 
+                partners in the early 1970s, 
+                helping to develop the company into 
+                the industry leader it is today. Now 
+                in its third generation of family 
+                ownership, with grandsons Jeff and 
+                Ryan taking the lead, the Clark 
+                family remains committed to sourcing 
+                premium quality produce, as well as 
+                delivering the highest standards of 
+                personal service, exceptional value, 
+                and unmatched integrity.
+            </p>                    
         </div>
-        <div class="contact-about-card">
-            <p>Contact information.</p>
+        <div class="about-area card-aboutus" id="coastal-info-jump-to">
+            <h2>About the Area</h2>
+            <p>California is the top producing 
+                agricultural state in the country, 
+                providing almost all of the U.S. 
+                supply of certain nuts (almonds, 
+                walnuts, and pistachios) as well as 
+                tropical fruits (like kiwi and 
+                nectarines) and Mediterranean 
+                delights (olives, dates and figs).
+            </p>
+            <p>Out of the top ten agricultural 
+                counties in the entire U.S., nine 
+                of them are in California.
+            </p>
+            <p>And while the Central Valley is known 
+                as California’s “farm belt,” 
+                Southern Californians don’t need to 
+                eat behind a veil of anonymity.
+            </p>
+            <p>Because while we may not be raking 
+                in the dough when it comes to 
+                commercial crops, we’ve got plenty 
+                of opportunity to meet your local 
+                farmers… and eat local.
+            </p>
         </div>
-        <div class="map-card">
-            <p>Embedded Google map.</p>
         </div>
-        <div class="about-miscellaneous-card">
-            <p>Other relevant conent...?</p>
-            <p>What local farms they source their produce from.</p>
-            <p>Hours of operation by location.</p>
+        <div class="contact-info-aboutus card-aboutus">
+            <h2>Contact Us</h2>
+            <p>Bountiful Foods</p>
+            <p>5704 Paseo Del Norte</p>
+            <p>Carlsbad, CA 92008</p>
+            <p>(919) 225-5511</p>
+            <p>info@bountifulfoods.com</p>
+        </div>
+        <div class="map card-aboutus">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9898.754477827693!2d-117.25390498411019!3d32.86216864413511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0152f304cdc9%3A0xf86a9dbe70028681!2sLa%20Jolla%20Shores%20Beach!5e0!3m2!1sen!2sus!4v1671061947612!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p>Last Modified: </p>
+        <div class="footer-nav">
+            <p class="hover"><a href="fresh.html">Fresh</a></p>
+            <p class="hover"><a href="aboutus.html">About Us</a></p>
+            <p class="hover"><a href="attributions.html">Attributions</a></p>
+        </div>
+        <div class="footer-sm">
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-facebook-compressed.webp" alt="Facebook." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-instagram-compressed.webp" alt="Instagram." loading="lazy"></a>
+            <a class="social-media" href="" target="_blank"><img class="social-media" src="images/sm-icons-100x100-youtube-compressed.webp" alt="YouTube." loading="lazy"></a>
+        </div>
+        <div class="footer-logo-container">
+            <a href="index.html"><img class="logo" src="images/bountiful-foods-logo-625x625-compressed.webp" alt="Bountiful Foods logo." loading="lazy"></a>
+        </div>
+        <div class="fine-print-container">
+            <p id="last-modified"></p>
+            <p><span id="copyright-year">&#169; </span> Bountiful Foods | Jaden D. McCarrey | WDD 230 Final Project</p>
+        </div>
     </footer>
 </body>

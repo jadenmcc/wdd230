@@ -1,0 +1,72 @@
+////////// Tried to do the hero title
+            using Grid. Didn't have time to keep 
+            trying to make it work.
+    <div class="hero card-home">
+        <h1>Bountiful Foods</h1>
+        <h2>Home of the Original Fruit Drink</h2>
+        <div class="hero-subtitle">
+            <p>Home of the</p>
+            <p>ORIGINAL</p>
+            <p>Fruit Drink</p>
+        </div>
+        <button onclick="window.location.href='fresh.html';">Order Now</button>
+        <button onclick="window.location.href='aboutus.html';">Locations</button>
+        <img class="hero-image-home" src="" alt="">
+    </div>
+
+    div.hero-subtitle {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1.75fr;
+    justify-items: center;
+    align-items: center;
+    }
+
+    .hero-subtitle p {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.625rem;
+        font-style: italic;
+        text-align: center;
+        color: #BBF244;
+        background-color: #A60D36;
+    }
+
+    .hero-subtitle p:nth-of-type(1) {
+        font-size: 1rem;
+    }
+
+    .hero-subtitle p:nth-of-type(2) {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle p:nth-of-type(3) {
+        grid-column: 1/3;
+        font-size: 2.75rem;
+    }
+
+////////// Coastal Info Card Images
+    https://unsplash.com/photos/DJoobS2myYs
+
+    https://unsplash.com/photos/_t110x4RJjE
+
+////////// Original Weather 3-Day Forecast
+    <div class="forecast fcast-1">
+        <p class="fcast-date" id="morrow-date"></p>
+        <img class="fcast-icon" src="" alt="" id="morrow-icon">
+        <p class="fcast-temp-high" id="morrow-high-temp">&#8457;</p>
+        <p class="fcast-temp-low" id="morrow-low-temp">&#8457;</p>
+    </div>
+    <div class="forecast fcast-2">
+        <p class="fcast-date" id="overmorrow-date"></p>
+        <img class="fcast-icon" src="" alt="" id="overmorrow-icon">
+        <p class="fcast-temp-high" id="overmorrow-high-temp">&#8457;</p>
+        <p class="fcast-temp-low" id="overmorrow-low-temp">&#8457;</p>
+    </div>
+    <div class="forecast fcast-3">
+        <p class="fcast-date" id="thirdmorrow-date"></p>
+        <img class="fcast-icon" src="" alt="" id="thirdmorrow-icon">
+        <p class="fcast-temp-high" id="thirdmorrow-high-temp">&#8457;</p>
+        <p class="fcast-temp-low" id="thirdmorrow-low-temp">&#8457;</p>
+    </div> -->

@@ -1,0 +1,5 @@
+I.   Remove comments from all HTML, CSS, JS, JSON
+II.  Make sure all images are optimized (compressed, webp, no bigger than need be, lazy loading)
+III. Update site planning document and wireframes to match final styles and layout
+IV.  Remove all unused files (ex: testScript.js) and unused lines of code
+V.   Make sure form validates and required attrib. put back in
