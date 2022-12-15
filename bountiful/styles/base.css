@@ -94,11 +94,6 @@ a:visited {
     text-decoration: none;
 }
 
-/* a:hover {
-    color: #A60D36;
-    background-color: #BBF244;
-} */
-
 .hover:hover {
     color: #A60D36;
     background-color: #BBF244;
@@ -255,11 +250,11 @@ img.subhero-image-home {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
-    /* font-size: 1rem; */
     font-style: italic;
     color: #A60D36;
     background-color: #BBF244;
     cursor: pointer;
+    width: 65%;
 }
 
 /* ++++ COAST INFO CARD +++++ */
@@ -267,8 +262,6 @@ div.summary {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    /* margin: 0; */
-    /* max-width: 100%; */
 }
 
 .summary h2 {
@@ -300,12 +293,12 @@ img.coastal-image-home {
     max-width: 50%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    /* font-size: 1.2rem; */
     font-size: 1rem;
     font-style: italic;
     color: #A60D36;
     background-color: #BBF244;
     cursor: pointer;
+    width: 65%;
 }
 
 /* ++++++ WEATHER CARD ++++++ */
@@ -367,8 +360,16 @@ div.drinks-counter {
     align-items: stretch;
 }
 
+.drinks-counter p:nth-of-type(1) {
+    align-self: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .drinks-counter p {
     align-self: center;
+    text-align: center;
 }
 
 .n-drinks {
@@ -390,11 +391,11 @@ div.drinks-counter {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
-    /* font-size: 1rem; */
     font-style: italic;
     color: #A60D36;
     background-color: #BBF244;
     cursor: pointer;
+    width: 65%;
 }
 /* ////////////////////////// end MAIN */
 
@@ -467,7 +468,7 @@ div.fine-print-container {
 
 /* ++++ QUICK INFO CARD +++++ */
 .quick-info p {
-    margin: 1rem 5%;
+    margin: 1rem 5% 3rem 5%;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 600;
@@ -554,7 +555,8 @@ input.order-drink-button {
     margin: 1rem 1% 2rem 1%;
     padding: 1rem 2rem;
     border: none;
-    max-width: 80%;
+    width: 75%;
+    max-width: 20rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
@@ -669,6 +671,11 @@ div.locations {
 }
 
 /* ++++ MAP CARD +++++ */
+div.map {
+    border: none;
+    box-shadow: none;
+}
+
 .map iframe {
     display: block;
     margin: 0 auto;

@@ -1,0 +1,58 @@
+/* MEDIUM */
+@media only screen and (min-width: 48rem) {
+    /* ================== HOME PAGE ==================*/
+    /* ================== HOME PAGE ==================*/
+    /* ================== HOME PAGE ==================*/
+    .card-home {
+        margin: 4rem 5%;
+    }
+
+    /* +++++++ HERO CARD ++++++++ */
+    div.hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3rem;
+    }
+
+    .hero h1 {
+        grid-column: 1/3;
+    }
+
+    img.subhero-image-home,
+    img.hero-image-home {
+        align-self: center;
+        max-width: 100%;
+    }
+
+    img.subhero-image-home {
+        grid-column: 1/2;
+        margin: 1.5rem auto;
+    }
+
+    img.hero-image-home {
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    .hero-button-container {
+        grid-column: 1/2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hero button {
+        margin: 1rem 1%;
+        padding: 1rem 2rem;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+        font-style: italic;
+        color: #A60D36;
+        background-color: #BBF244;
+        cursor: pointer;
+        /* width: 65%; */
+        max-width: 20rem;
+    }
+
+} /*end MEDIUM */
